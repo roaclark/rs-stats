@@ -34,7 +34,7 @@ def get_actions(name):
 def get_experience():
   global experience
   if experience is None:
-    experience = get_csv('experience', lambda x: int(x[1]))
+    experience = [0] + get_csv('experience', lambda x: int(x[1]))
   return experience
 
 
@@ -46,12 +46,12 @@ class StatsServer(BaseHTTPRequestHandler):
 
   def do_GET(self):
     data = None
-    path_parts = '/'.split(self.path)
-    if path_parts[0] == '/rewards/':
+    path_parts = self.path[1:].split('/')
+    if path_parts[0] == 'rewards':
       data = get_rewards(path_parts[1])
-    if path_parts[0] == '/actions/':
+    if path_parts[0] == 'actions':
       data = get_actions(path_parts[1])
-    if path_parts[0] == '/experience':
+    if path_parts[0] == 'experience':
       data = get_experience()
     self._set_headers()
     self.wfile.write(bytes(json.dumps(data), "utf-8"))
