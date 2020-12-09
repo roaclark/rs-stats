@@ -112,23 +112,28 @@ const StatInner = (props) => {
   const currentLevel = 12; // TODO
   const currentExperience = experienceData[currentLevel]; // TODO
 
-  // Current stats (lvl, exp)
-  // Action + action exp
   return (
     <>
       <SkillName>{name}</SkillName>
-      <select
-        value={actionIndex}
-        onChange={(e) => {
-          setActionIndex(e.target.value);
-        }}
-      >
-        {actionData.map((act, i) => (
-          <option id={i} key={i} value={i}>
-            {act.name}
-          </option>
-        ))}
-      </select>
+      <div>
+        <p>Current level: {currentLevel}</p>
+        <p>Current exp: {currentExperience}</p>
+      </div>
+      <div>
+        <select
+          value={actionIndex}
+          onChange={(e) => {
+            setActionIndex(e.target.value);
+          }}
+        >
+          {actionData.map((act, i) => (
+            <option id={i} key={i} value={i}>
+              {act.name}
+            </option>
+          ))}
+        </select>
+        <p>Exp: {action.exp}</p>
+      </div>
       <TargetTable
         {...props}
         action={action}
