@@ -3,8 +3,8 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
 import csv
 
+rewards = {}
 actions = {}
-training = {}
 experience = None
 
 def get_csv(filename, parser):
@@ -13,23 +13,23 @@ def get_csv(filename, parser):
     next(reader)
     return [parser(line) for line in reader]
 
+def get_rewards(name):
+  global rewards
+  if name not in rewards:
+    rewards[name] = get_csv(
+      'rewards/' + name,
+      lambda line: {'name': line[0], "level": int(line[1]), "members": bool(line[2])}
+    )
+  return rewards[name]
+
 def get_actions(name):
   global actions
   if name not in actions:
     actions[name] = get_csv(
       'actions/' + name,
-      lambda line: {'name': line[0], "level": int(line[1]), "members": bool(line[2])}
-    )
-  return actions[name]
-
-def get_training(name):
-  global training
-  if name not in training:
-    training[name] = get_csv(
-      'training/' + name,
       lambda line: {'name': line[0], "exp": int(line[1]), "members": bool(line[2])}
     )
-  return training[name]
+  return actions[name]
 
 def get_experience():
   global experience
@@ -46,11 +46,12 @@ class StatsServer(BaseHTTPRequestHandler):
 
   def do_GET(self):
     data = None
-    if self.path.startswith('/actions/'):
-      data = get_actions(self.path[11:])
-    if self.path.startswith('/training/'):
-      data = get_training(self.path[10:])
-    if self.path.startswith('/experience'):
+    path_parts = '/'.split(self.path)
+    if path_parts[0] == '/rewards/':
+      data = get_rewards(path_parts[1])
+    if path_parts[0] == '/actions/':
+      data = get_actions(path_parts[1])
+    if path_parts[0] == '/experience':
       data = get_experience()
     self._set_headers()
     self.wfile.write(bytes(json.dumps(data), "utf-8"))

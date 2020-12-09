@@ -1,9 +1,2 @@
-action,level,members
-Bronze,1,
-Iron,1,
-Machetes,1,
-Steel,5,
-Black,10,
-Mithril,20,
-Adamant,30,
-Rune,40,
+action,exp,members
+Hit,4,
