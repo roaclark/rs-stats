@@ -57,13 +57,15 @@ const rewardRow = ({
   ];
 };
 
-const StatInner = ({ name, experienceData, actionData, rewardData }) => {
-  const [actionIndex, setActionIndex] = React.useState(0);
-
-  const action = actionData[actionIndex];
-  const currentLevel = 12; // TODO
-  const currentExperience = experienceData[currentLevel]; // TODO
-
+const TargetTable = ({
+  name,
+  experienceData,
+  actionData,
+  rewardData,
+  action,
+  currentExperience,
+  currentLevel,
+}) => {
   const nextReward = rewardData.find((re) => re.level > currentLevel);
   const maxReward = rewardData[rewardData.length - 1];
 
@@ -91,8 +93,25 @@ const StatInner = ({ name, experienceData, actionData, rewardData }) => {
       label: () => "Max level",
     }),
   ];
+  return <Table header={header} data={data} />;
+};
 
-  // Rewards (lvl, status)
+const RewardTable = ({ rewardData, currentLevel }) => {
+  const header = ["Reward", "Level"];
+  const data = rewardData
+    .filter((r) => r.level > currentLevel)
+    .map((r) => [r.name, r.level]);
+  return <Table header={header} data={data} />;
+};
+
+const StatInner = (props) => {
+  const { name, experienceData, actionData, rewardData } = props;
+  const [actionIndex, setActionIndex] = React.useState(0);
+
+  const action = actionData[actionIndex];
+  const currentLevel = 12; // TODO
+  const currentExperience = experienceData[currentLevel]; // TODO
+
   // Current stats (lvl, exp)
   // Action + action exp
   return (
@@ -110,7 +129,13 @@ const StatInner = ({ name, experienceData, actionData, rewardData }) => {
           </option>
         ))}
       </select>
-      <Table header={header} data={data} />
+      <TargetTable
+        {...props}
+        action={action}
+        currentLevel={currentLevel}
+        currentExperience={currentExperience}
+      />
+      <RewardTable rewardData={rewardData} currentLevel={currentLevel} />
     </>
   );
 };
