@@ -89,21 +89,23 @@ const StatInner = (props) => {
         <p>Current level: {currentLevel}</p>
         <p>Current exp: {currentExperience}</p>
       </div>
-      <div>
-        <select
-          value={actionIndex}
-          onChange={(e) => {
-            setActionIndex(e.target.value);
-          }}
-        >
-          {actionData.map((act, i) => (
-            <option id={i} key={i} value={i}>
-              {act.name}
-            </option>
-          ))}
-        </select>
-        <p>Exp: {action.exp}</p>
-      </div>
+      {actionData.length > 0 && (
+        <div>
+          <select
+            value={actionIndex}
+            onChange={(e) => {
+              setActionIndex(e.target.value);
+            }}
+          >
+            {actionData.map((act, i) => (
+              <option id={i} key={i} value={i}>
+                {act.name}
+              </option>
+            ))}
+          </select>
+          <p>Exp: {action.exp}</p>
+        </div>
+      )}
       <RewardTable
         {...props}
         action={action}

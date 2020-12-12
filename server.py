@@ -7,6 +7,7 @@ rewards = {}
 actions = {}
 experience = None
 stats = None
+skills = None
 
 def get_csv(filename, parser):
   with open('./data/' + filename + '.csv', 'r', newline='') as csvfile:
@@ -17,19 +18,25 @@ def get_csv(filename, parser):
 def get_rewards(name):
   global rewards
   if name not in rewards:
-    rewards[name] = get_csv(
-      'rewards/' + name,
-      lambda line: {'name': line[0], "level": int(line[1]), "members": bool(line[2])}
-    ) + [{'name': 'Max', "level": 99, "members": False}]
+    try:
+      rewards[name] = get_csv(
+        'rewards/' + name,
+        lambda line: {'name': line[0], "level": int(line[1]), "members": bool(line[2])}
+      ) + [{'name': 'Max', "level": 99, "members": False}]
+    except:
+      return []
   return rewards[name]
 
 def get_actions(name):
   global actions
   if name not in actions:
-    actions[name] = get_csv(
-      'actions/' + name,
-      lambda line: {'name': line[0], "exp": int(line[1]), "members": bool(line[2])}
-    )
+    try:
+      actions[name] = get_csv(
+        'actions/' + name,
+        lambda line: {'name': line[0], "exp": int(line[1]), "members": bool(line[2])}
+      )
+    except:
+      return []
   return actions[name]
 
 def get_experience():
@@ -41,8 +48,14 @@ def get_experience():
 def get_stats():
   global stats
   if stats is None:
-    stats = {stat: exp for stat, exp in get_csv('stats', lambda x: (x[0], int(x[1])))}
+    stats = {skill: exp for skill, exp in get_csv('stats', lambda x: (x[0], int(x[1])))}
   return stats
+
+def get_skills():
+  global skills
+  if skills is None:
+    skills = get_csv('skills', lambda x: (x[0], bool(x[1])))
+  return skills
 
 class StatsServer(BaseHTTPRequestHandler):
   def _set_headers(self):
@@ -61,6 +74,8 @@ class StatsServer(BaseHTTPRequestHandler):
       data = get_experience()
     if path_parts[0] == 'stats':
       data = get_stats()
+    if path_parts[0] == 'skills':
+      data = get_skills()
     self._set_headers()
     self.wfile.write(bytes(json.dumps(data), "utf-8"))
 
