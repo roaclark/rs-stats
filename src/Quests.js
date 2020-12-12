@@ -47,7 +47,9 @@ const QuestReqs = ({ reqs, completedQuests }) => {
   return (
     <ReqList>
       {reqs.map((req) => (
-        <ReqItem complete={completedQuests.includes(req)}>{req}</ReqItem>
+        <ReqItem key={req} complete={completedQuests.includes(req)}>
+          {req}
+        </ReqItem>
       ))}
     </ReqList>
   );
@@ -59,7 +61,7 @@ const SkillReqs = ({ reqs, statsData, getLevel }) => {
       {_.map(reqs, (v, k) => {
         const complete = getLevel(statsData[k]) >= v;
         return (
-          <ReqItem complete={complete}>
+          <ReqItem key={k} complete={complete}>
             <SkillName>{k}</SkillName> ({v})
           </ReqItem>
         );

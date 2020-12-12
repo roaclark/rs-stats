@@ -36,8 +36,7 @@ const NavHeader = styled.div`
 `;
 
 const AppInner = ({ experienceData, skillsData, statsData, members }) => {
-  // const [selected, setSelected] = React.useState(skillsData[0]);
-  const [selected, setSelected] = React.useState({ name: "quests" });
+  const [selected, setSelected] = React.useState(skillsData[0]);
   const getLevel = (exp) =>
     _.findLastIndex(experienceData, (lvlExp) => lvlExp <= exp);
 
