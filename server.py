@@ -54,7 +54,7 @@ def get_stats():
 def get_skills():
   global skills
   if skills is None:
-    skills = get_csv('skills', lambda x: (x[0], bool(x[1])))
+    skills = get_csv('skills', lambda line: {'name': line[0], "members": bool(line[1])})
   return skills
 
 class StatsServer(BaseHTTPRequestHandler):
