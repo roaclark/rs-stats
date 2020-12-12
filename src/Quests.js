@@ -89,6 +89,7 @@ const Quests = ({ statsData, members, getLevel }) => {
   const sortedQuests = _.sortBy(filteredQuests, (quest) => [
     quest.available ? 0 : 1,
     difficultyOrder[quest.difficulty],
+    quest.name,
   ]);
 
   const headers = ["Name", "Difficulty", "Skills", "Prerequisites"];
