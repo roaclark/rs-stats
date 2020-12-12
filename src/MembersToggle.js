@@ -1,5 +1,4 @@
 import React from "react";
-import _ from "lodash";
 import styled from "styled-components";
 
 const HiddenCheckbox = styled.input`

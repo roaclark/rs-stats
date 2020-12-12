@@ -31,13 +31,7 @@ const Table = ({ data, header }) => {
   );
 };
 
-const rewardRow = ({
-  reward,
-  currentExperience,
-  label,
-  action,
-  experienceData,
-}) => {
+const rewardRow = ({ reward, currentExperience, action, experienceData }) => {
   if (!reward) {
     return ["--", "--", "--", "--"];
   }
@@ -78,6 +72,12 @@ const StatInner = (props) => {
   const { name, actionData, statsData, getLevel } = props;
   const [actionIndex, setActionIndex] = React.useState(0);
 
+  React.useEffect(() => {
+    if (actionIndex >= actionData.length) {
+      setActionIndex(0);
+    }
+  }, [actionData]);
+
   const action = actionData[actionIndex];
   const currentExperience = statsData[name];
   const currentLevel = getLevel(currentExperience);
@@ -103,7 +103,7 @@ const StatInner = (props) => {
               </option>
             ))}
           </select>
-          <p>Exp: {action.exp}</p>
+          {action && <p>Exp: {action.exp}</p>}
         </div>
       )}
       <RewardTable
@@ -117,7 +117,7 @@ const StatInner = (props) => {
 };
 
 const Stat = (props) => {
-  const { name } = props;
+  const { name, members } = props;
   const actions = useServer(`/actions/${name}`, [name]);
   const rewards = useServer(`/rewards/${name}`, [name]);
 
@@ -125,8 +125,15 @@ const Stat = (props) => {
     return null;
   }
 
+  const actionData = members
+    ? actions.data
+    : actions.data.filter((a) => !a.members);
+  const rewardData = members
+    ? rewards.data
+    : rewards.data.filter((r) => !r.members);
+
   return (
-    <StatInner {...props} actionData={actions.data} rewardData={rewards.data} />
+    <StatInner {...props} actionData={actionData} rewardData={rewardData} />
   );
 };
 

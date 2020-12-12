@@ -44,20 +44,24 @@ const AppInner = ({ experienceData, skillsData, statsData, members }) => {
     : skillsData.filter((sk) => !sk.members);
 
   React.useEffect(() => {
-    if (selected.members) {
-      setSelected(filteredSkillsData[0]);
-    }
-  }, [members]);
+    setSelected((selected) =>
+      selected.members && !members
+        ? skillsData.find((sk) => !sk.members)
+        : selected
+    );
+  }, [skillsData, members]);
 
   return (
     <>
       <NavHeader>
         {filteredSkillsData.map((skill) => (
-          <NavLabel onClick={() => setSelected(skill)}>{skill.name}</NavLabel>
+          <NavLabel key={skill.name} onClick={() => setSelected(skill)}>
+            {skill.name}
+          </NavLabel>
         ))}
       </NavHeader>
       {filteredSkillsData.map(({ name }) => (
-        <Hidable show={name === selected.name}>
+        <Hidable show={name === selected.name} key={name}>
           <Stat
             name={name}
             experienceData={experienceData}
