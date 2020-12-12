@@ -63,7 +63,7 @@ def parse_quest(line):
   skill_reqs = {skill: int(req) for skill, req in zip(quest_headers[2:-2], line[2:-2]) if req}
   return {
     'name': line[0],
-    'skill': line[1],
+    'difficulty': line[1],
     'skillReqs': skill_reqs,
     'questReqs': line[-1].split('|') if line[-1] else [],
   }
