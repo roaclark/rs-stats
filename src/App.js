@@ -2,6 +2,7 @@ import React from "react";
 import _ from "lodash";
 import styled from "styled-components";
 import Stat from "./Stat.js";
+import Quests from "./Quests.js";
 import MembersToggle from "./MembersToggle.js";
 import { useServer } from "./hooks.js";
 import "./App.css";
@@ -35,7 +36,8 @@ const NavHeader = styled.div`
 `;
 
 const AppInner = ({ experienceData, skillsData, statsData, members }) => {
-  const [selected, setSelected] = React.useState(skillsData[0]);
+  // const [selected, setSelected] = React.useState(skillsData[0]);
+  const [selected, setSelected] = React.useState({ name: "quests" });
   const getLevel = (exp) =>
     _.findLastIndex(experienceData, (lvlExp) => lvlExp <= exp);
 
@@ -59,6 +61,9 @@ const AppInner = ({ experienceData, skillsData, statsData, members }) => {
             {skill.name}
           </NavLabel>
         ))}
+        <NavLabel onClick={() => setSelected({ name: "quests" })}>
+          Quests
+        </NavLabel>
       </NavHeader>
       {filteredSkillsData.map(({ name }) => (
         <Hidable show={name === selected.name} key={name}>
@@ -71,6 +76,9 @@ const AppInner = ({ experienceData, skillsData, statsData, members }) => {
           />
         </Hidable>
       ))}
+      <Hidable show={"quests" === selected.name}>
+        <Quests statsData={statsData} members={members} getLevel={getLevel} />
+      </Hidable>
     </>
   );
 };

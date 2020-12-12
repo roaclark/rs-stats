@@ -18,7 +18,7 @@ const TableBody = styled.tbody`
   }
 `;
 
-const Table = ({ data, header }) => {
+const Table = ({ data, header, rowStyles = () => ({}) }) => {
   return (
     <table>
       {header && (
@@ -32,7 +32,7 @@ const Table = ({ data, header }) => {
       )}
       <TableBody>
         {data.map((row, i) => (
-          <tr key={i}>
+          <tr key={i} style={rowStyles(row, i)}>
             {row.map((val, i) => (
               <Cell key={i}>{val}</Cell>
             ))}
