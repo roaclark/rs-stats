@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Table from "./Table.js";
 import { useServer } from "./hooks.js";
 
 const SkillName = styled.h1`
@@ -33,31 +34,6 @@ const StyledSelect = styled.select`
   padding: 3px;
   color: white;
 `;
-
-const Table = ({ data, header }) => {
-  return (
-    <table>
-      {header && (
-        <thead>
-          <tr>
-            {header.map((d, i) => (
-              <th key={i}>{d}</th>
-            ))}
-          </tr>
-        </thead>
-      )}
-      <tbody>
-        {data.map((row, i) => (
-          <tr key={i}>
-            {row.map((val, i) => (
-              <td key={i}>{val}</td>
-            ))}
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  );
-};
 
 const rewardRow = ({ reward, currentExperience, action, experienceData }) => {
   if (!reward) {
