@@ -11,6 +11,14 @@ const difficultyOrder = {
   Grandmaster: 4,
 };
 
+const Title = styled.h1`
+  margin-bottom: 30px;
+`;
+
+const TableContainer = styled.div`
+  margin-bottom: 50px;
+`;
+
 const ReqList = styled.ul`
   list-style-type: none;
   margin: 0;
@@ -96,15 +104,20 @@ const Quests = ({ statsData, members, getLevel }) => {
   });
 
   return (
-    <Table
-      header={headers}
-      data={data}
-      rowStyles={(_row, i) => ({
-        background: sortedQuests[i].available
-          ? "rgba(0, 255, 0, 0.05)"
-          : "rgba(255, 0, 0, 0.05)",
-      })}
-    />
+    <>
+      <Title>Quests</Title>
+      <TableContainer>
+        <Table
+          header={headers}
+          data={data}
+          rowStyles={(_row, i) => ({
+            background: sortedQuests[i].available
+              ? "rgba(0, 255, 0, 0.05)"
+              : "rgba(255, 0, 0, 0.05)",
+          })}
+        />
+      </TableContainer>
+    </>
   );
 };
 
