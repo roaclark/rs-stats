@@ -1,1 +1,56 @@
 action,exp,members
+Potato,98,true
+Onion,114.5,true
+Cabbage,125,true
+Tomato,152.5,true
+Sweetcorn,207,true
+Strawberry,316,true
+Watermelon,593.5,true
+Snape grass,902,true
+Marigold,55.5,true
+Rosemary,78.5,true
+Nasturtium,130.5,true
+Woad seed,136,true
+Limpwurt,141.5,true
+White lily,292,tru
+Guam leaf,98.5,true
+Marrentill,118.5,true
+Tarromin,142,true
+Harralander,189.5,true
+Gout tuber,420,true
+Ranarr seed,240.5,true
+Toadflax,303.5,true
+Irit leaf,382.5,true
+Avantoe,485,true
+Kwuarm,615,true
+Snapdragon,777,true
+Cadantine,946.5,true
+Lantadyme,1195,true
+Dwarf weed,1514.5,true
+Torstol,1771,true
+Barley,103.5,true
+Hammerstone,109,true
+Asgarnian,130.9,true
+Jute,158,true
+Yanillian,174.5,true
+Krandorian,212.5,true
+Wildblood,283,true
+Redberry,93.5,true
+Cadavaberry,148.5,true
+Dwellberry,257,true
+Jangerberry,411,true
+Whiteberry,631.5,true
+Poison ivy berry,975,true
+Acorn tree,481.3,true
+Willow tree,1481.5,true
+Maple tree,3448.4,true
+Yew tree,7150.9,true
+Magic tree,13913.8,true
+Apple,1272.5,true
+Banana,1841.5,true
+Orange,2586.7,true
+Curry,3036.9,true
+Pineapple,4791.7,true
+Papaya,6380.4,true
+Palm tree,10509.6,true
+Dragonfruit,17895,true
