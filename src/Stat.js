@@ -1,4 +1,5 @@
 import React from "react";
+import _ from "lodash";
 import styled from "styled-components";
 import Table from "./Table.js";
 import { useServer } from "./hooks.js";
@@ -134,12 +135,14 @@ const Stat = (props) => {
     return null;
   }
 
-  const actionData = members
-    ? actions.data
-    : actions.data.filter((a) => !a.members);
-  const rewardData = members
-    ? rewards.data
-    : rewards.data.filter((r) => !r.members);
+  const actionData = _.sortBy(
+    members ? actions.data : actions.data.filter((a) => !a.members).sort,
+    (a) => a.exp
+  );
+  const rewardData = _.sortBy(
+    members ? rewards.data : rewards.data.filter((r) => !r.members),
+    (r) => r.level
+  );
 
   return (
     <StatInner {...props} actionData={actionData} rewardData={rewardData} />
