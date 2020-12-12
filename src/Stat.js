@@ -4,6 +4,34 @@ import { useServer } from "./hooks.js";
 
 const SkillName = styled.h1`
   text-transform: capitalize;
+  margin-bottom: 15px;
+`;
+
+const CurrentContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+
+  & > p {
+    margin: 0 10px;
+  }
+`;
+
+const ActionContainer = styled.div`
+  margin: 20px;
+
+  & > p {
+    margin: 5px;
+  }
+`;
+
+const StyledSelect = styled.select`
+  background: transparent;
+  font-size: 20px;
+  border-radius: 3px;
+  padding: 3px;
+  color: white;
 `;
 
 const Table = ({ data, header }) => {
@@ -85,26 +113,31 @@ const StatInner = (props) => {
   return (
     <>
       <SkillName>{name}</SkillName>
-      <div>
-        <p>Current level: {currentLevel}</p>
-        <p>Current exp: {currentExperience}</p>
-      </div>
+      <CurrentContainer>
+        <p>Level: {currentLevel}</p>
+        <p>Exp: {currentExperience.toLocaleString()}</p>
+      </CurrentContainer>
       {actionData.length > 0 && (
-        <div>
-          <select
-            value={action.name}
-            onChange={(e) => {
-              setAction(actionData.find((act) => act.name === e.target.value));
-            }}
-          >
-            {actionData.map((act, i) => (
-              <option id={i} key={i} value={act.name}>
-                {act.name}
-              </option>
-            ))}
-          </select>
+        <ActionContainer>
+          <label>
+            Action:{" "}
+            <StyledSelect
+              value={action.name}
+              onChange={(e) => {
+                setAction(
+                  actionData.find((act) => act.name === e.target.value)
+                );
+              }}
+            >
+              {actionData.map((act, i) => (
+                <option id={i} key={i} value={act.name}>
+                  {act.name}
+                </option>
+              ))}
+            </StyledSelect>
+          </label>
           {action && <p>Exp: {action.exp}</p>}
-        </div>
+        </ActionContainer>
       )}
       <RewardTable
         {...props}
