@@ -33,7 +33,7 @@ def get_actions(name):
     try:
       actions[name] = get_csv(
         'actions/' + name,
-        lambda line: {'name': line[0], "exp": int(line[1]), "members": bool(line[2])}
+        lambda line: {'name': line[0], "exp": float(line[1]), "members": bool(line[2])}
       )
     except:
       return []
