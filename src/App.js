@@ -12,13 +12,18 @@ const Hidable = styled.div`
 const NavLabel = styled.p`
   text-transform: capitalize;
   margin: 0px;
-  margin-left: 10px;
+
+  :not(:first-child):before {
+    margin: 0 10px;
+    content: "•";
+  }
 `;
 
 const NavHeader = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 800px;
 `;
 
 const AppInner = ({ experienceData, skillsData, statsData }) => {
@@ -58,13 +63,11 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <AppInner
-          experienceData={experience.data}
-          skillsData={skills.data}
-          statsData={stats.data}
-        />
-      </header>
+      <AppInner
+        experienceData={experience.data}
+        skillsData={skills.data}
+        statsData={stats.data}
+      />
     </div>
   );
 }
