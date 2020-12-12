@@ -25,17 +25,21 @@ const SkillName = styled.span`
   text-transform: capitalize;
 `;
 
-const questAvailable = (quest, statsData, getLevel) => {
-  return _.every(quest.skillReqs, (lvl, skill) => {
+const questAvailable = (quest, statsData, completedQuests, getLevel) => {
+  const skillsComplete = _.every(quest.skillReqs, (lvl, skill) => {
     return getLevel(statsData[skill]) >= lvl;
   });
+  const questsComplete = _.every(quest.questReqs, (req) =>
+    completedQuests.includes(req)
+  );
+  return skillsComplete && questsComplete;
 };
 
-const QuestReqs = ({ reqs }) => {
+const QuestReqs = ({ reqs, completedQuests }) => {
   return (
     <ReqList>
       {reqs.map((req) => (
-        <ReqItem>{req}</ReqItem>
+        <ReqItem complete={completedQuests.includes(req)}>{req}</ReqItem>
       ))}
     </ReqList>
   );
@@ -58,15 +62,20 @@ const SkillReqs = ({ reqs, statsData, getLevel }) => {
 
 const Quests = ({ statsData, members, getLevel }) => {
   const quests = useServer("/quests");
+  const completed = useServer("/completed");
 
-  if (quests.loading) {
+  if (quests.loading || completed.loading) {
     return null;
   }
 
-  const filteredQuests = _.map(quests.data, (quest) => ({
-    ...quest,
-    available: questAvailable(quest, statsData, getLevel),
-  })); // TODO members filter
+  const completedQuests = completed.data;
+  const filteredQuests = _.map(
+    quests.data.filter((quest) => !completedQuests.includes(quest.name)),
+    (quest) => ({
+      ...quest,
+      available: questAvailable(quest, statsData, completedQuests, getLevel),
+    })
+  ); // TODO members filter
   const sortedQuests = _.sortBy(filteredQuests, (quest) => [
     quest.available ? 0 : 1,
     difficultyOrder[quest.difficulty],
@@ -82,7 +91,7 @@ const Quests = ({ statsData, members, getLevel }) => {
         statsData={statsData}
         getLevel={getLevel}
       />,
-      <QuestReqs reqs={quest.questReqs} />,
+      <QuestReqs reqs={quest.questReqs} completedQuests={completedQuests} />,
     ];
   });
 
