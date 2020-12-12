@@ -92,9 +92,10 @@ const Quests = ({ statsData, members, getLevel }) => {
     quest.name,
   ]);
 
-  const headers = ["Name", "Difficulty", "Skills", "Prerequisites"];
-  const data = sortedQuests.map((quest) => {
+  const headers = ["", "Name", "Difficulty", "Skills", "Prerequisites"];
+  const data = sortedQuests.map((quest, i) => {
     return [
+      i + 1,
       quest.name,
       quest.difficulty,
       <SkillReqs
