@@ -20,25 +20,19 @@ def get_csv(filename, parser):
 def get_rewards(name):
   global rewards
   if name not in rewards:
-    try:
-      rewards[name] = get_csv(
-        'rewards/' + name,
-        lambda line: {'name': line[0], "level": int(line[1]), "members": bool(line[2])}
-      ) + [{'name': 'Max', "level": 99, "members": False}]
-    except:
-      return []
+    rewards[name] = get_csv(
+      'rewards/' + name,
+      lambda line: {'name': line[0], "level": int(line[1]), "members": bool(line[2])}
+    ) + [{'name': 'Max', "level": 99, "members": False}]
   return rewards[name]
 
 def get_actions(name):
   global actions
   if name not in actions:
-    try:
-      actions[name] = get_csv(
-        'actions/' + name,
-        lambda line: {'name': line[0], "exp": float(line[1]), "members": bool(line[2])}
-      )
-    except:
-      return []
+    actions[name] = get_csv(
+      'actions/' + name,
+      lambda line: {'name': line[0], "exp": float(line[1]), "members": bool(line[2])}
+    )
   return actions[name]
 
 def get_experience():
