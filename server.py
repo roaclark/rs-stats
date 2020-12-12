@@ -9,6 +9,7 @@ experience = None
 stats = None
 skills = None
 quests = None
+completed_quests = None
 
 def get_csv(filename, parser):
   with open('./data/' + filename + '.csv', 'r', newline='') as csvfile:
@@ -74,6 +75,12 @@ def get_quests():
     quests = get_csv('quests', parse_quest)
   return quests
 
+def get_completed_quests():
+  global completed_quests
+  if completed_quests is None:
+    completed_quests = get_csv('completed_quests', lambda x: x[0])
+  return completed_quests
+
 class StatsServer(BaseHTTPRequestHandler):
   def _set_headers(self):
     self.send_response(200)
@@ -95,6 +102,8 @@ class StatsServer(BaseHTTPRequestHandler):
       data = get_skills()
     if path_parts[0] == 'quests':
       data = get_quests()
+    if path_parts[0] == 'completed':
+      data = get_completed_quests()
     self._set_headers()
     self.wfile.write(bytes(json.dumps(data), "utf-8"))
 
