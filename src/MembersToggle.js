@@ -34,18 +34,16 @@ const ToggleContainer = styled.div`
   align-items: center;
 `;
 
-const MembersToggle = () => {
-  const [checked, setChecked] = React.useState(true);
-
+const MembersToggle = ({ members, setMembers }) => {
   return (
     <label>
       <ToggleContainer>
         <HiddenCheckbox
           type="checkbox"
-          checked={checked}
-          onChange={(e) => setChecked(e.target.checked)}
+          checked={members}
+          onChange={(e) => setMembers(e.target.checked)}
         />
-        <ToggleBackground checked={checked} />
+        <ToggleBackground checked={members} />
         <span>Members</span>
       </ToggleContainer>
     </label>

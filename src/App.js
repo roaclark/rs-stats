@@ -34,25 +34,36 @@ const NavHeader = styled.div`
   max-width: 800px;
 `;
 
-const AppInner = ({ experienceData, skillsData, statsData }) => {
-  const [selected, setSelected] = React.useState(skillsData[0].name);
+const AppInner = ({ experienceData, skillsData, statsData, members }) => {
+  const [selected, setSelected] = React.useState(skillsData[0]);
   const getLevel = (exp) =>
     _.findLastIndex(experienceData, (lvlExp) => lvlExp <= exp);
+
+  const filteredSkillsData = members
+    ? skillsData
+    : skillsData.filter((sk) => !sk.members);
+
+  React.useEffect(() => {
+    if (selected.members) {
+      setSelected(filteredSkillsData[0]);
+    }
+  }, [members]);
 
   return (
     <>
       <NavHeader>
-        {skillsData.map(({ name }) => (
-          <NavLabel onClick={() => setSelected(name)}>{name}</NavLabel>
+        {filteredSkillsData.map((skill) => (
+          <NavLabel onClick={() => setSelected(skill)}>{skill.name}</NavLabel>
         ))}
       </NavHeader>
-      {skillsData.map(({ name }) => (
-        <Hidable show={name === selected}>
+      {filteredSkillsData.map(({ name }) => (
+        <Hidable show={name === selected.name}>
           <Stat
             name={name}
             experienceData={experienceData}
             statsData={statsData}
             getLevel={getLevel}
+            members={members}
           />
         </Hidable>
       ))}
@@ -61,6 +72,7 @@ const AppInner = ({ experienceData, skillsData, statsData }) => {
 };
 
 function App() {
+  const [members, setMembers] = React.useState(true);
   const experience = useServer("/experience");
   const stats = useServer("/stats");
   const skills = useServer("/skills");
@@ -75,9 +87,10 @@ function App() {
         experienceData={experience.data}
         skillsData={skills.data}
         statsData={stats.data}
+        members={members}
       />
       <Toggle>
-        <MembersToggle />
+        <MembersToggle members={members} setMembers={setMembers} />
       </Toggle>
     </div>
   );
