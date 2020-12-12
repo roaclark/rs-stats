@@ -39,78 +39,48 @@ const rewardRow = ({
   experienceData,
 }) => {
   if (!reward) {
-    return [label(), "--", "--", "--"];
+    return ["--", "--", "--", "--"];
   }
   const expNeeded = experienceData[reward.level] - currentExperience;
   if (expNeeded <= 0) {
-    return [label(), "--", "--", "--"];
+    return ["--", "--", "--", "--"];
   }
   const actionsNeeded = action
     ? Math.ceil(expNeeded / action.exp).toLocaleString()
     : "--";
 
-  return [
-    label(reward.name),
-    reward.level,
-    expNeeded.toLocaleString(),
-    actionsNeeded,
-  ];
+  return [reward.name, reward.level, expNeeded.toLocaleString(), actionsNeeded];
 };
 
-const TargetTable = ({
-  name,
-  experienceData,
-  actionData,
+const RewardTable = ({
   rewardData,
-  action,
-  currentExperience,
   currentLevel,
+  currentExperience,
+  action,
+  experienceData,
 }) => {
-  const nextReward = rewardData.find((re) => re.level > currentLevel);
-  const maxReward = rewardData[rewardData.length - 1];
+  const header = ["Reward", "Level", "Exp needed", "Actions"];
 
-  const row = ({ reward, label }) =>
+  const row = ({ reward }) =>
     rewardRow({
       currentExperience,
       action,
       experienceData,
       reward,
-      label,
     });
-
-  const header = ["", "Level", "Exp needed", "Actions"];
-  const data = [
-    row({
-      reward: nextReward,
-      label: (name) => `Next reward (${name || ""})`,
-    }),
-    row({
-      reward: maxReward,
-      label: (name) => `Max reward (${name || ""})`,
-    }),
-    row({
-      reward: { level: 99 },
-      label: () => "Max level",
-    }),
-  ];
-  return <Table header={header} data={data} />;
-};
-
-const RewardTable = ({ rewardData, currentLevel }) => {
-  const header = ["Reward", "Level"];
   const data = rewardData
     .filter((r) => r.level > currentLevel)
-    .map((r) => [r.name, r.level]);
+    .map((reward) => row({ reward }));
   return <Table header={header} data={data} />;
 };
 
 const StatInner = (props) => {
-  const { name, experienceData, actionData, rewardData } = props;
+  const { name, actionData, statsData, getLevel } = props;
   const [actionIndex, setActionIndex] = React.useState(0);
 
   const action = actionData[actionIndex];
-  const currentLevel = 12; // TODO
-  const currentExperience = experienceData[currentLevel]; // TODO
+  const currentExperience = statsData[name];
+  const currentLevel = getLevel(currentExperience);
 
   return (
     <>
@@ -134,18 +104,18 @@ const StatInner = (props) => {
         </select>
         <p>Exp: {action.exp}</p>
       </div>
-      <TargetTable
+      <RewardTable
         {...props}
         action={action}
         currentLevel={currentLevel}
         currentExperience={currentExperience}
       />
-      <RewardTable rewardData={rewardData} currentLevel={currentLevel} />
     </>
   );
 };
 
-const Stat = ({ name, experienceData }) => {
+const Stat = (props) => {
+  const { name } = props;
   const actions = useServer(`/actions/${name}`, [name]);
   const rewards = useServer(`/rewards/${name}`, [name]);
 
@@ -154,12 +124,7 @@ const Stat = ({ name, experienceData }) => {
   }
 
   return (
-    <StatInner
-      actionData={actions.data}
-      rewardData={rewards.data}
-      name={name}
-      experienceData={experienceData}
-    />
+    <StatInner {...props} actionData={actions.data} rewardData={rewards.data} />
   );
 };
 

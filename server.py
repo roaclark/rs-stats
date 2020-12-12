@@ -6,6 +6,7 @@ import csv
 rewards = {}
 actions = {}
 experience = None
+stats = None
 
 def get_csv(filename, parser):
   with open('./data/' + filename + '.csv', 'r', newline='') as csvfile:
@@ -19,7 +20,7 @@ def get_rewards(name):
     rewards[name] = get_csv(
       'rewards/' + name,
       lambda line: {'name': line[0], "level": int(line[1]), "members": bool(line[2])}
-    )
+    ) + [{'name': 'Max', "level": 99, "members": False}]
   return rewards[name]
 
 def get_actions(name):
@@ -37,6 +38,11 @@ def get_experience():
     experience = [0] + get_csv('experience', lambda x: int(x[1]))
   return experience
 
+def get_stats():
+  global stats
+  if stats is None:
+    stats = {stat: exp for stat, exp in get_csv('stats', lambda x: (x[0], int(x[1])))}
+  return stats
 
 class StatsServer(BaseHTTPRequestHandler):
   def _set_headers(self):
@@ -53,6 +59,8 @@ class StatsServer(BaseHTTPRequestHandler):
       data = get_actions(path_parts[1])
     if path_parts[0] == 'experience':
       data = get_experience()
+    if path_parts[0] == 'stats':
+      data = get_stats()
     self._set_headers()
     self.wfile.write(bytes(json.dumps(data), "utf-8"))
 
