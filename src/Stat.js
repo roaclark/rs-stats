@@ -70,15 +70,15 @@ const RewardTable = ({
 
 const StatInner = (props) => {
   const { name, actionData, statsData, getLevel } = props;
-  const [actionIndex, setActionIndex] = React.useState(0);
+  const [action, setAction] = React.useState(actionData[0]);
 
   React.useEffect(() => {
-    if (actionIndex >= actionData.length) {
-      setActionIndex(0);
-    }
+    setAction(
+      (action) =>
+        actionData.find((act) => act.name === action.name) || actionData[0]
+    );
   }, [actionData]);
 
-  const action = actionData[actionIndex];
   const currentExperience = statsData[name];
   const currentLevel = getLevel(currentExperience);
 
@@ -92,13 +92,13 @@ const StatInner = (props) => {
       {actionData.length > 0 && (
         <div>
           <select
-            value={actionIndex}
+            value={action.name}
             onChange={(e) => {
-              setActionIndex(e.target.value);
+              setAction(actionData.find((act) => act.name === e.target.value));
             }}
           >
             {actionData.map((act, i) => (
-              <option id={i} key={i} value={i}>
+              <option id={i} key={i} value={act.name}>
                 {act.name}
               </option>
             ))}
