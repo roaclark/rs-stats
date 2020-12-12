@@ -2,8 +2,16 @@ import React from "react";
 import _ from "lodash";
 import styled from "styled-components";
 import Stat from "./Stat.js";
+import MembersToggle from "./MembersToggle.js";
 import { useServer } from "./hooks.js";
 import "./App.css";
+
+const Toggle = styled.div`
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 15px;
+`;
 
 const Hidable = styled.div`
   display: ${(props) => (props.show ? "block" : "none")};
@@ -68,6 +76,9 @@ function App() {
         skillsData={skills.data}
         statsData={stats.data}
       />
+      <Toggle>
+        <MembersToggle />
+      </Toggle>
     </div>
   );
 }
