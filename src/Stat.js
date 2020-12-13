@@ -28,6 +28,10 @@ const ActionContainer = styled.div`
   }
 `;
 
+const TableContainer = styled.div`
+  margin-bottom: 50px;
+`;
+
 const StyledSelect = styled.select`
   background: transparent;
   font-size: 20px;
@@ -116,12 +120,14 @@ const StatInner = (props) => {
           {action && <p>Exp: {action.exp}</p>}
         </ActionContainer>
       )}
-      <RewardTable
-        {...props}
-        action={action}
-        currentLevel={currentLevel}
-        currentExperience={currentExperience}
-      />
+      <TableContainer>
+        <RewardTable
+          {...props}
+          action={action}
+          currentLevel={currentLevel}
+          currentExperience={currentExperience}
+        />
+      </TableContainer>
     </>
   );
 };
