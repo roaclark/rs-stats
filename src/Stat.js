@@ -82,10 +82,14 @@ const StatInner = (props) => {
   const [action, setAction] = React.useState(actionData[0]);
 
   React.useEffect(() => {
-    setAction(
-      (action) =>
+    setAction((action) => {
+      if (!action) {
+        return actionData[0];
+      }
+      return (
         actionData.find((act) => act.name === action.name) || actionData[0]
-    );
+      );
+    });
   }, [actionData]);
 
   const currentExperience = statsData[name];
@@ -103,7 +107,7 @@ const StatInner = (props) => {
           <label>
             Action:{" "}
             <StyledSelect
-              value={action.name}
+              value={action?.name}
               onChange={(e) => {
                 setAction(
                   actionData.find((act) => act.name === e.target.value)
