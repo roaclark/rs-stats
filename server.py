@@ -3,14 +3,6 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
 import csv
 
-rewards = {}
-actions = {}
-experience = None
-stats = None
-skills = None
-quests = None
-completed_quests = None
-
 def get_csv(filename, parser):
   with open('./data/' + filename + '.csv', 'r', newline='') as csvfile:
     reader = csv.reader(csvfile)
@@ -18,40 +10,25 @@ def get_csv(filename, parser):
     return [parser(line) for line in reader]
 
 def get_rewards(name):
-  global rewards
-  if name not in rewards:
-    rewards[name] = get_csv(
-      'rewards/' + name,
-      lambda line: {'name': line[0], "level": int(line[1]), "members": bool(line[2])}
-    ) + [{'name': 'Max', "level": 99, "members": False}]
-  return rewards[name]
+  return get_csv(
+    'rewards/' + name,
+    lambda line: {'name': line[0], "level": int(line[1]), "members": bool(line[2])}
+  ) + [{'name': 'Max', "level": 99, "members": False}]
 
 def get_actions(name):
-  global actions
-  if name not in actions:
-    actions[name] = get_csv(
-      'actions/' + name,
-      lambda line: {'name': line[0], "exp": float(line[1]), "members": bool(line[2])}
-    )
-  return actions[name]
+  return get_csv(
+    'actions/' + name,
+    lambda line: {'name': line[0], "exp": float(line[1]), "members": bool(line[2])}
+  )
 
 def get_experience():
-  global experience
-  if experience is None:
-    experience = [0] + get_csv('experience', lambda x: int(x[1]))
-  return experience
+  return [0] + get_csv('experience', lambda x: int(x[1]))
 
 def get_stats():
-  global stats
-  if stats is None:
-    stats = {skill: exp for skill, exp in get_csv('stats', lambda x: (x[0], int(x[1])))}
-  return stats
+  return {skill: exp for skill, exp in get_csv('stats', lambda x: (x[0], int(x[1])))}
 
 def get_skills():
-  global skills
-  if skills is None:
-    skills = get_csv('skills', lambda line: {'name': line[0], "members": bool(line[1])})
-  return skills
+  return get_csv('skills', lambda line: {'name': line[0], "members": bool(line[1])})
 
 quest_headers = ['name','skill','agility','attack','construction','crafting','cooking','defense','firemaking','fishing','fletching','gardening','herblore','hitpoints','hunting','magic','mining','prayer','ranged','runecrafting','slayer','smithing','strength','thieving','woodcutting','combat','quest_points','pre_reqs']
 def parse_quest(line):
@@ -64,16 +41,10 @@ def parse_quest(line):
   }
 
 def get_quests():
-  global quests
-  if quests is None:
-    quests = get_csv('quests', parse_quest)
-  return quests
+  return get_csv('quests', parse_quest)
 
 def get_completed_quests():
-  global completed_quests
-  if completed_quests is None:
-    completed_quests = get_csv('completed_quests', lambda x: x[0])
-  return completed_quests
+  return get_csv('completed_quests', lambda x: x[0])
 
 class StatsServer(BaseHTTPRequestHandler):
   def _set_headers(self):
