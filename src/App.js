@@ -1,6 +1,13 @@
 import React from "react";
 import _ from "lodash";
 import styled from "styled-components";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useParams,
+} from "react-router-dom";
 import Stat from "./Stat.js";
 import Quests from "./Quests.js";
 import MembersToggle from "./MembersToggle.js";
@@ -18,9 +25,11 @@ const Hidable = styled.div`
   display: ${(props) => (props.show ? "block" : "none")};
 `;
 
-const NavLabel = styled.p`
+const NavLabel = styled(Link)`
   text-transform: capitalize;
   margin: 0px;
+  color: white;
+  text-decoration: none;
 
   :not(:first-child):before {
     margin: 0 10px;
@@ -35,37 +44,19 @@ const NavHeader = styled.div`
   max-width: 800px;
 `;
 
-const AppInner = ({ experienceData, skillsData, statsData, members }) => {
-  const [selected, setSelected] = React.useState(skillsData[0]);
-  const getLevel = (exp) =>
-    _.findLastIndex(experienceData, (lvlExp) => lvlExp <= exp);
-
-  const filteredSkillsData = members
-    ? skillsData
-    : skillsData.filter((sk) => !sk.members);
-
-  React.useEffect(() => {
-    setSelected((selected) =>
-      selected.members && !members
-        ? skillsData.find((sk) => !sk.members)
-        : selected
-    );
-  }, [skillsData, members]);
+const TabData = ({
+  skillsData,
+  experienceData,
+  statsData,
+  getLevel,
+  members,
+}) => {
+  const { selected } = useParams();
 
   return (
     <>
-      <NavHeader>
-        {filteredSkillsData.map((skill) => (
-          <NavLabel key={skill.name} onClick={() => setSelected(skill)}>
-            {skill.name}
-          </NavLabel>
-        ))}
-        <NavLabel onClick={() => setSelected({ name: "quests" })}>
-          Quests
-        </NavLabel>
-      </NavHeader>
-      {filteredSkillsData.map(({ name }) => (
-        <Hidable show={name === selected.name} key={name}>
+      {skillsData.map(({ name }) => (
+        <Hidable show={name === selected} key={name}>
           <Stat
             name={name}
             experienceData={experienceData}
@@ -75,10 +66,43 @@ const AppInner = ({ experienceData, skillsData, statsData, members }) => {
           />
         </Hidable>
       ))}
-      <Hidable show={"quests" === selected.name}>
+      <Hidable show={"quests" === selected}>
         <Quests statsData={statsData} members={members} getLevel={getLevel} />
       </Hidable>
     </>
+  );
+};
+
+const AppInner = ({ experienceData, skillsData, statsData, members }) => {
+  const getLevel = (exp) =>
+    _.findLastIndex(experienceData, (lvlExp) => lvlExp <= exp);
+
+  const filteredSkillsData = members
+    ? skillsData
+    : skillsData.filter((sk) => !sk.members);
+
+  return (
+    <Router>
+      <NavHeader>
+        {filteredSkillsData.map((skill) => (
+          <NavLabel key={skill.name} to={`/${skill.name}`}>
+            {skill.name}
+          </NavLabel>
+        ))}
+        <NavLabel to="/quests">Quests</NavLabel>
+      </NavHeader>
+      <Switch>
+        <Route path="/:selected">
+          <TabData
+            skillsData={skillsData}
+            experienceData={experienceData}
+            statsData={statsData}
+            getLevel={getLevel}
+            members={members}
+          />
+        </Route>
+      </Switch>
+    </Router>
   );
 };
 
