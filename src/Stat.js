@@ -146,7 +146,7 @@ const Stat = (props) => {
   }
 
   const actionData = _.sortBy(
-    members ? actions.data : actions.data.filter((a) => !a.members).sort,
+    members ? actions.data : actions.data.filter((a) => !a.members),
     (a) => a.exp
   );
   const rewardData = _.sortBy(
