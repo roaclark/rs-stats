@@ -1,52 +1,52 @@
-action,exp,members
-Pickpocket Man/Woman,8,true
-Pickpocket Farmer,14.5,true
-Pickpocket Female H.A.M. member,18.5,true
-Pickpocket Male H.A.M. member,22.5,true
-Pickpocket Warrior woman/Al-Kharid warrior,26,true
-Pickpocket Rogue,35.5,true
-Pickpocket Cave goblin,40,true
-Pickpocket Master Farmer,43,true
-Pickpocket Guard,46.8,true
-Pickpocket Fremennik Citizen,65,true
-Pickpocket Bearded Pollnivnian Bandit,65,true
-Pickpocket Desert Bandit,79.5,true
-Pickpocket Knight of Ardougne,84.3,true
-Pickpocket Pollnivian Bandit,84.3,true
-Pickpocket Yanille Watchman,137.5,true
-Pickpocket Menaphite Thug,137.5,true
-Pickpocket Paladin,151.7,true
-Pickpocket Gnome,198.5,true
-Pickpocket Hero,275,true
-Pickpocket Vyre,306.9,true
-Pickpocket Elf,353,true
-Pickpocket TzHaar-Hur,103.4,true
-Vegetable stall,10,true
-Bakery stall,16,true
-Crafting stall,16,true
-Monkey food stall,16,true
-Monkey general stall,16,true
-Tea stall,16,true
-Silk stall,24,true
-Wine stall,27,true
-Fruit Stall,28.2,true
-Seed stall,10,true
-Fur stall,36,true
-Fish stall,42,true
-Crossbow stall,52,true
-Silver stall,54,true
-Spice stall,81,true
-Magic stall,100,true
-Scimitar stall,160,true
-Gem stall,160,true
-Ore stall,180,true
-10 coin chest,7.8,true
-Nature rune chest,25,true
-50 coin chest,125,true
-Steel arrowtips chest,150,true
-Dorgesh-Kaan average chest,200,true
-Blood runes chest,250,true
-Stone chest,280,true
-Ardougne Castle chest,500,true
-Dorgesh-Kaan rich chest,650,true
-Rogues' Castle chest,100,true
+action,exp,members,cost
+Pickpocket Man/Woman,8,true,
+Pickpocket Farmer,14.5,true,
+Pickpocket Female H.A.M. member,18.5,true,
+Pickpocket Male H.A.M. member,22.5,true,
+Pickpocket Warrior woman/Al-Kharid warrior,26,true,
+Pickpocket Rogue,35.5,true,
+Pickpocket Cave goblin,40,true,
+Pickpocket Master Farmer,43,true,
+Pickpocket Guard,46.8,true,
+Pickpocket Fremennik Citizen,65,true,
+Pickpocket Bearded Pollnivnian Bandit,65,true,
+Pickpocket Desert Bandit,79.5,true,
+Pickpocket Knight of Ardougne,84.3,true,
+Pickpocket Pollnivian Bandit,84.3,true,
+Pickpocket Yanille Watchman,137.5,true,
+Pickpocket Menaphite Thug,137.5,true,
+Pickpocket Paladin,151.7,true,
+Pickpocket Gnome,198.5,true,
+Pickpocket Hero,275,true,
+Pickpocket Vyre,306.9,true,
+Pickpocket Elf,353,true,
+Pickpocket TzHaar-Hur,103.4,true,
+Vegetable stall,10,true,
+Bakery stall,16,true,
+Crafting stall,16,true,
+Monkey food stall,16,true,
+Monkey general stall,16,true,
+Tea stall,16,true,
+Silk stall,24,true,
+Wine stall,27,true,
+Fruit Stall,28.2,true,
+Seed stall,10,true,
+Fur stall,36,true,
+Fish stall,42,true,
+Crossbow stall,52,true,
+Silver stall,54,true,
+Spice stall,81,true,
+Magic stall,100,true,
+Scimitar stall,160,true,
+Gem stall,160,true,
+Ore stall,180,true,
+10 coin chest,7.8,true,
+Nature rune chest,25,true,
+50 coin chest,125,true,
+Steel arrowtips chest,150,true,
+Dorgesh-Kaan average chest,200,true,
+Blood runes chest,250,true,
+Stone chest,280,true,
+Ardougne Castle chest,500,true,
+Dorgesh-Kaan rich chest,650,true,
+Rogues' Castle chest,100,true,

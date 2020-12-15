@@ -1,69 +1,69 @@
-action,exp,members
-Imp repellent,5,true
-Attack potion,25,true
-Antipoison,37.5,true
-Relicym's balm,40,true
-Strength potion,50,true
-Serum 207,50,true
-Guthix rest tea,59,true
-Compost potion,60,true
-Restore potion,62.5,true
-Guthix balance,50,true
-Blamish oil,80,true
-Energy potion,67.5,true
-Defence potion,75,true
-Agility potion,80,true
-Combat potion,84,true
-Prayer potion,87.5,true
-Super attack,100,true
-Superantipoison,106.3,true
-Fishing potion,112.5,true
-Super energy,117.5,true
-Shrink-me-quick,6,true
-Hunter potion,120,true
-Super strength,125,true
-Magic essence,130,true
-Weapon poison,137.5,true
-Super restore,142.5,true
-Sanfew serum,160,true
-Super defence,150,true
-Antidote+,155,true
-Antifire potion,157.5,true
-Divine super attack potion,2,true
-Divine super defence potion,2,true
-Divine super strength potion,2,true
-Ranging potion,162.5,true
-Weapon poison+,165,true
-Divine ranging potion,2,true
-Magic potion,172.5,true
-Stamina potion,102,true
-Zamorak brew,175,true
-Divine magic potion,2,true
-Antidote++,177.5,true
-Bastion potion,155,true
-Battlemage potion,155,true
-Saradomin brew,180,true
-Weapon poison++,190,true
-Extended antifire,110,true
-Divine bastion potion,2,true
-Divine battlemage potion,2,true
-Anti-venom,120,true
-Super combat potion,150,true
-Super antifire potion,130,true
-Anti-venom+,125,true
-Divine super combat potion,2,true
-Extended super antifire,160,true
-Grimy guam leaf,2.5,true
-Grimy marrentill,3.8,true
-Grimy tarromin,5,true
-Grimy harralander,6.3,true
-Grimy ranarr weed,7.5,true
-Grimy toadflax,8,true
-Grimy irit leaf,8.8,true
-Grimy avantoe,10,true
-Grimy kwuarm,11.3,true
-Grimy snapdragon,11.8,true
-Grimy cadantine,12.5,true
-Grimy lantadyme,13.1,true
-Grimy dwarf weed,13.8,true
-Grimy torstol,15,true
+action,exp,members,cost
+Imp repellent,5,true,
+Attack potion,25,true,
+Antipoison,37.5,true,
+Relicym's balm,40,true,
+Strength potion,50,true,
+Serum 207,50,true,
+Guthix rest tea,59,true,
+Compost potion,60,true,
+Restore potion,62.5,true,
+Guthix balance,50,true,
+Blamish oil,80,true,
+Energy potion,67.5,true,
+Defence potion,75,true,
+Agility potion,80,true,
+Combat potion,84,true,
+Prayer potion,87.5,true,
+Super attack,100,true,
+Superantipoison,106.3,true,
+Fishing potion,112.5,true,
+Super energy,117.5,true,
+Shrink-me-quick,6,true,
+Hunter potion,120,true,
+Super strength,125,true,
+Magic essence,130,true,
+Weapon poison,137.5,true,
+Super restore,142.5,true,
+Sanfew serum,160,true,
+Super defence,150,true,
+Antidote+,155,true,
+Antifire potion,157.5,true,
+Divine super attack potion,2,true,
+Divine super defence potion,2,true,
+Divine super strength potion,2,true,
+Ranging potion,162.5,true,
+Weapon poison+,165,true,
+Divine ranging potion,2,true,
+Magic potion,172.5,true,
+Stamina potion,102,true,
+Zamorak brew,175,true,
+Divine magic potion,2,true,
+Antidote++,177.5,true,
+Bastion potion,155,true,
+Battlemage potion,155,true,
+Saradomin brew,180,true,
+Weapon poison++,190,true,
+Extended antifire,110,true,
+Divine bastion potion,2,true,
+Divine battlemage potion,2,true,
+Anti-venom,120,true,
+Super combat potion,150,true,
+Super antifire potion,130,true,
+Anti-venom+,125,true,
+Divine super combat potion,2,true,
+Extended super antifire,160,true,
+Grimy guam leaf,2.5,true,
+Grimy marrentill,3.8,true,
+Grimy tarromin,5,true,
+Grimy harralander,6.3,true,
+Grimy ranarr weed,7.5,true,
+Grimy toadflax,8,true,
+Grimy irit leaf,8.8,true,
+Grimy avantoe,10,true,
+Grimy kwuarm,11.3,true,
+Grimy snapdragon,11.8,true,
+Grimy cadantine,12.5,true,
+Grimy lantadyme,13.1,true,
+Grimy dwarf weed,13.8,true,
+Grimy torstol,15,true,

@@ -1,10 +1,10 @@
-action,exp,members
-Crude wooden chair,58,true
-Wooden bookcase,115,true
-Oak chair,120,true
-Oak dining table,240,true
-Oak larder,480,true
-Mythical cape,370,true
-Mahogany table,840,true
-Teak garden bench,540,true
-Oak door,500,true
+action,exp,members,cost
+Crude wooden chair,58,true,
+Wooden bookcase,115,true,
+Oak chair,120,true,
+Oak dining table,240,true,
+Oak larder,480,true,
+Mythical cape,370,true,
+Mahogany table,840,true,
+Teak garden bench,540,true,
+Oak door,500,true,

@@ -18,7 +18,7 @@ def get_rewards(name):
 def get_actions(name):
   return get_csv(
     'actions/' + name,
-    lambda line: {'name': line[0], "exp": float(line[1]), "members": bool(line[2])}
+    lambda line: {'name': line[0], "exp": float(line[1]), "members": bool(line[2]), "cost": int(line[3] or 0)}
   )
 
 def get_experience():

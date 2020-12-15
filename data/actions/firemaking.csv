@@ -1,12 +1,12 @@
-action,exp,members
-Normal,40,
-Oak,60,
-Willow,90,
-Maple,135,
-Yew,202.5,
-Teak,105,true
-Arctic pine,125,true
-Mahogany,157.5,true
-Blisterwood,96,true
-Magic,303.8,true
-Redwood,350,true
+action,exp,members,cost
+Normal,40,,
+Oak,60,,
+Willow,90,,
+Maple,135,,
+Yew,202.5,,
+Teak,105,true,
+Arctic pine,125,true,
+Mahogany,157.5,true,
+Blisterwood,96,true,
+Magic,303.8,true,
+Redwood,350,true,

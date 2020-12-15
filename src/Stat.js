@@ -42,17 +42,23 @@ const StyledSelect = styled.select`
 
 const rewardRow = ({ reward, currentExperience, action, experienceData }) => {
   if (!reward) {
-    return ["--", "--", "--", "--"];
+    return ["--", "--", "--", "--", "--"];
   }
   const expNeeded = experienceData[reward.level] - currentExperience;
   if (expNeeded <= 0) {
-    return ["--", "--", "--", "--"];
+    return ["--", "--", "--", "--", "--"];
   }
-  const actionsNeeded = action
-    ? Math.ceil(expNeeded / action.exp).toLocaleString()
-    : "--";
+  const actionsNeeded = action ? expNeeded / action.exp : null;
+  const cost =
+    action && actionsNeeded && action.cost ? actionsNeeded * action.cost : null;
 
-  return [reward.name, reward.level, expNeeded.toLocaleString(), actionsNeeded];
+  return [
+    reward.name,
+    reward.level,
+    expNeeded.toLocaleString(),
+    actionsNeeded ? Math.ceil(actionsNeeded).toLocaleString() : "--",
+    cost ? Math.ceil(cost).toLocaleString() : "--",
+  ];
 };
 
 const RewardTable = ({
@@ -62,7 +68,7 @@ const RewardTable = ({
   action,
   experienceData,
 }) => {
-  const header = ["Reward", "Level", "Exp needed", "Actions"];
+  const header = ["Reward", "Level", "Exp needed", "Actions", "Cost"];
 
   const row = ({ reward }) =>
     rewardRow({

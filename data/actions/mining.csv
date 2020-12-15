@@ -1,31 +1,31 @@
-action,exp,members
-Clay,5,
-Rune essence,5,
-Copper,17.5,
-Tin,17.5,
-Blurite,17.5,
-Iron,35,
-Silver,40,
-Coal,50,
-Gold,65,
-Mithril,80,
-Adamantite,95,
-Runite,125,
-Elemental rock,1,true
-Limestone,26.5,true
-Elemental,0,true
-Daeyalt,17,true
-Volcanic ash,10,true
-Pure essence,5,true
-Pay-dirt,60,true
-Sandstone,30,true
-Dense essence block,12,true
-Gem rock,65,true
-Volcanic sulphur,25,true
-Granite,50,true
-Lunar,0,true
-Daeyalt shard,5,true
-Lovakite,10,true
-Soft clay,5,true
-Salts,5,true
-Amethyst,240,true
+action,exp,members,cost
+Clay,5,,
+Rune essence,5,,
+Copper,17.5,,
+Tin,17.5,,
+Blurite,17.5,,
+Iron,35,,
+Silver,40,,
+Coal,50,,
+Gold,65,,
+Mithril,80,,
+Adamantite,95,,
+Runite,125,,
+Elemental rock,1,true,
+Limestone,26.5,true,
+Elemental,0,true,
+Daeyalt,17,true,
+Volcanic ash,10,true,
+Pure essence,5,true,
+Pay-dirt,60,true,
+Sandstone,30,true,
+Dense essence block,12,true,
+Gem rock,65,true,
+Volcanic sulphur,25,true,
+Granite,50,true,
+Lunar,0,true,
+Daeyalt shard,5,true,
+Lovakite,10,true,
+Soft clay,5,true,
+Salts,5,true,
+Amethyst,240,true,
