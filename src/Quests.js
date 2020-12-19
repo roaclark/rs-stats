@@ -78,7 +78,10 @@ const SkillReqs = ({ reqs, statsData, getLevel }) => {
 const QuestName = ({ name }) => {
   return (
     <QuestNameStyled
-      href={`https://oldschool.runescape.wiki/w/${name.replace(" ", "_")}`}
+      href={`https://oldschool.runescape.wiki/w/${name.replace(
+        " ",
+        "_"
+      )}/Quick_guide`}
       target="_blank"
     >
       {name}
