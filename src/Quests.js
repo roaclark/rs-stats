@@ -33,6 +33,11 @@ const SkillName = styled.span`
   text-transform: capitalize;
 `;
 
+const QuestNameStyled = styled.a`
+  color: white;
+  text-decoration: none;
+`;
+
 const questAvailable = (quest, statsData, completedQuests, getLevel) => {
   const skillsComplete = _.every(quest.skillReqs, (lvl, skill) => {
     return getLevel(statsData[skill]) >= lvl;
@@ -70,6 +75,17 @@ const SkillReqs = ({ reqs, statsData, getLevel }) => {
   );
 };
 
+const QuestName = ({ name }) => {
+  return (
+    <QuestNameStyled
+      href={`https://oldschool.runescape.wiki/w/${name.replace(" ", "_")}`}
+      target="_blank"
+    >
+      {name}
+    </QuestNameStyled>
+  );
+};
+
 const Quests = ({ statsData, members, getLevel }) => {
   const quests = useServer("/quests");
   const completed = useServer("/completed");
@@ -96,7 +112,7 @@ const Quests = ({ statsData, members, getLevel }) => {
   const data = sortedQuests.map((quest, i) => {
     return [
       i + 1,
-      quest.name,
+      <QuestName name={quest.name} />,
       quest.difficulty,
       <SkillReqs
         reqs={quest.skillReqs}
