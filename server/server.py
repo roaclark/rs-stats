@@ -2,6 +2,7 @@ from sys import argv
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
 import csv
+from fetch_stats import fetch_stats
 
 def get_csv(filename, parser):
   with open('./data/' + filename + '.csv', 'r', newline='') as csvfile:
@@ -69,6 +70,13 @@ class StatsServer(BaseHTTPRequestHandler):
       data = get_quests()
     if path_parts[0] == 'completed':
       data = get_completed_quests()
+    if path_parts[0] == 'update_stats':
+      old_stats = get_stats()
+      try:
+        data = fetch_stats(old_stats=old_stats, persist=True)
+      except:
+        print('Failed to fetch stats')
+        data = old_stats
     self._set_headers()
     self.wfile.write(bytes(json.dumps(data), "utf-8"))
 
