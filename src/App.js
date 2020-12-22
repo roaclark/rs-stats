@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import Stat from "./Stat.js";
 import Quests from "./Quests.js";
+import Summary from "./Summary.js";
 import MembersToggle from "./MembersToggle.js";
 import { useServer } from "./hooks.js";
 import "./App.css";
@@ -55,6 +56,14 @@ const TabData = ({
 
   return (
     <>
+      {!selected && (
+        <Summary
+          statsData={statsData}
+          skillsData={skillsData}
+          getLevel={getLevel}
+          members={members}
+        />
+      )}
       {skillsData.map(({ name }) => (
         <Hidable show={name === selected} key={name}>
           <Stat
@@ -93,6 +102,15 @@ const AppInner = ({ experienceData, skillsData, statsData, members }) => {
       </NavHeader>
       <Switch>
         <Route path="/:selected">
+          <TabData
+            skillsData={skillsData}
+            experienceData={experienceData}
+            statsData={statsData}
+            getLevel={getLevel}
+            members={members}
+          />
+        </Route>
+        <Route path="/">
           <TabData
             skillsData={skillsData}
             experienceData={experienceData}
