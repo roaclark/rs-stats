@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import _ from "lodash";
 
@@ -73,7 +74,30 @@ const SkillImage = styled.img`
 
 const SkillLevel = styled.div``;
 
+const LevelInput = styled.input`
+  width: 25px;
+  text-align: center;
+  font-size: calc(6px + 2vmin);
+  padding: 5px;
+  border-radius: 5px;
+`;
+
+const LevelForm = ({ oldLevel, updateLevel }) => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const newLevel = e.target.name.value;
+    updateLevel(newLevel);
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <LevelInput type="text" name="name" defaultValue={oldLevel} />
+    </form>
+  );
+};
+
 const Stat = ({ stat, experience, getLevel, filtered }) => {
+  const [editting, setEditting] = React.useState(false);
   if (!experience) {
     return "Failure" + stat;
   }
@@ -82,7 +106,19 @@ const Stat = ({ stat, experience, getLevel, filtered }) => {
   return (
     <StyledStat filtered={filtered}>
       {icon ? <SkillImage src={icon} /> : <SkillName>{stat}</SkillName>}
-      <SkillLevel filtered={filtered}>{statLevel}</SkillLevel>
+      {editting ? (
+        <LevelForm
+          oldLevel={statLevel}
+          updateLevel={(level) => {
+            setEditting(false);
+            console.log(level);
+          }}
+        />
+      ) : (
+        <SkillLevel filtered={filtered} onClick={() => setEditting(true)}>
+          {statLevel}
+        </SkillLevel>
+      )}
     </StyledStat>
   );
 };
