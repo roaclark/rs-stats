@@ -32,6 +32,14 @@ def write_stats(stats):
   with open('./data/stats.csv','w') as f:
     f.write('skill,exp\n' + '\n'.join([','.join([k, str(stats[k])]) for k in stats]))
 
+def update_level(stats, exp, stat, level):
+  new_exp = exp[level]
+  if new_exp > stats[stat]:
+    print('Updating experience for {} ({} => {})'.format(stat, stats[stat], new_exp))
+    stats[stat] = new_exp
+    write_stats(stats)
+  return stats
+
 def get_skills():
   return get_csv('skills', lambda line: {'name': line[0], "members": bool(line[1])})
 
@@ -73,9 +81,7 @@ class StatsServer(BaseHTTPRequestHandler):
     if path_parts[0] == 'update_level':
       exp = get_experience()
       old_stats = get_stats()
-      # TODO write stats
-      print('Received:', post_body)
-      data = old_stats
+      data = update_level(old_stats, exp, post_body['stat'], post_body['level'])
     self._set_headers()
     self.wfile.write(bytes(json.dumps(data), "utf-8"))
 
