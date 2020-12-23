@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import _ from "lodash";
+import { serverPost } from "./hooks";
 
 const icons = {
   attack: "https://oldschool.runescape.wiki/images/f/fe/Attack_icon.png",
@@ -80,18 +81,44 @@ const LevelInput = styled.input`
   font-size: calc(6px + 2vmin);
   padding: 5px;
   border-radius: 5px;
+  background: ${(props) => (props.error ? "rgb(255, 180, 180)" : "white")};
 `;
 
-const LevelForm = ({ oldLevel, updateLevel }) => {
+const LevelForm = ({ oldLevel, updateLevel, cancel }) => {
+  const [error, setError] = React.useState(false);
   const handleSubmit = (e) => {
     e.preventDefault();
-    const newLevel = e.target.name.value;
+    const levelInput = e.target.name.value;
+    if (!levelInput) {
+      setError(false);
+      cancel();
+      return;
+    }
+    if (!levelInput.match(/^[0-9]+$/)) {
+      setError(true);
+      return;
+    }
+    const newLevel = parseInt(levelInput, 10);
+    if (newLevel < oldLevel || newLevel > 99) {
+      setError(true);
+      return;
+    }
+    setError(false);
+    if (newLevel === oldLevel) {
+      cancel();
+      return;
+    }
     updateLevel(newLevel);
   };
 
   return (
     <form onSubmit={handleSubmit}>
-      <LevelInput type="text" name="name" defaultValue={oldLevel} />
+      <LevelInput
+        error={error}
+        type="text"
+        name="name"
+        defaultValue={oldLevel}
+      />
     </form>
   );
 };
@@ -111,7 +138,10 @@ const Stat = ({ stat, experience, getLevel, filtered }) => {
           oldLevel={statLevel}
           updateLevel={(level) => {
             setEditting(false);
-            console.log(level);
+            serverPost("/update_level", { stat, level });
+          }}
+          cancel={() => {
+            setEditting(false);
           }}
         />
       ) : (

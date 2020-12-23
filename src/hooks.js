@@ -14,3 +14,11 @@ export const useServer = (endpoint) => {
 
   return { loading, data };
 };
+
+export const serverPost = (endpoint, postData) => {
+  fetch(endpoint, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(postData || {}),
+  }).then((c) => c.json());
+};
