@@ -28,6 +28,10 @@ def get_experience():
 def get_stats():
   return {skill: exp for skill, exp in get_csv('stats', lambda x: (x[0], int(x[1])))}
 
+def write_stats(stats):
+  with open('./data/stats.csv','w') as f:
+    f.write('skill,exp\n' + '\n'.join([','.join([k, str(stats[k])]) for k in stats]))
+
 def get_skills():
   return get_csv('skills', lambda line: {'name': line[0], "members": bool(line[1])})
 
@@ -53,6 +57,28 @@ class StatsServer(BaseHTTPRequestHandler):
     self.send_header('Content-type', 'application/json')
     self.end_headers()
 
+  def do_POST(self):
+    content_len = int(self.headers.get('Content-Length'))
+    post_body = json.loads(self.rfile.read(content_len))
+    data = None
+    path_parts = self.path[1:].split('/')
+    if path_parts[0] == 'refresh_stats':
+      old_stats = get_stats()
+      try:
+        data = fetch_stats(old_stats=old_stats)
+        write_stats(data)
+      except Exception as e:
+        print('Failed to fetch stats (Error:', e, ')')
+        data = old_stats
+    if path_parts[0] == 'update_level':
+      exp = get_experience()
+      old_stats = get_stats()
+      # TODO write stats
+      print('Received:', post_body)
+      data = old_stats
+    self._set_headers()
+    self.wfile.write(bytes(json.dumps(data), "utf-8"))
+
   def do_GET(self):
     data = None
     path_parts = self.path[1:].split('/')
@@ -70,13 +96,6 @@ class StatsServer(BaseHTTPRequestHandler):
       data = get_quests()
     if path_parts[0] == 'completed':
       data = get_completed_quests()
-    if path_parts[0] == 'update_stats':
-      old_stats = get_stats()
-      try:
-        data = fetch_stats(old_stats=old_stats, persist=True)
-      except:
-        print('Failed to fetch stats')
-        data = old_stats
     self._set_headers()
     self.wfile.write(bytes(json.dumps(data), "utf-8"))
 
