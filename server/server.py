@@ -66,8 +66,10 @@ class StatsServer(BaseHTTPRequestHandler):
     self.end_headers()
 
   def do_POST(self):
-    content_len = int(self.headers.get('Content-Length'))
-    post_body = json.loads(self.rfile.read(content_len))
+    content_len = int(self.headers.get('Content-Length') or 0)
+    post_body = None
+    if content_len:
+      post_body = json.loads(self.rfile.read(content_len))
     data = None
     path_parts = self.path[1:].split('/')
     if path_parts[0] == 'refresh_stats':
