@@ -21,9 +21,10 @@ const TableContainer = styled.div`
 const ReqList = styled.ul`
   list-style-type: none;
   margin: 0;
+  padding: 0;
 `;
 
-const ReqItem = styled.ul`
+const ReqItem = styled.li`
   text-decoration: ${(props) => (props.complete ? "line-through" : "inherit")};
   color: ${(props) => (props.complete ? "#555" : "white")};
 `;

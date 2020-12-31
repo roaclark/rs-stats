@@ -103,6 +103,7 @@ const AppInner = ({ experienceData, skillsData, statsData, members }) => {
           </NavLabel>
         ))}
         <NavLabel to="/quests">Quests</NavLabel>
+        <NavLabel to="/achievements">Achievements</NavLabel>
       </NavHeader>
       <Switch>
         <Route path="/:selected">
