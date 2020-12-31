@@ -9,6 +9,7 @@ const difficultyOrder = {
   Experienced: 2,
   Master: 3,
   Grandmaster: 4,
+  Miniquest: 5,
 };
 
 const Title = styled.h1`
