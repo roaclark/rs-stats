@@ -15,6 +15,7 @@ const areas = {
   lumbridge_draynor: "Lumbridge and Draynor",
   varrock: "Varrock",
   ardougne: "Ardougne",
+  desert: "Desert",
 };
 
 const Hidable = styled.div`
