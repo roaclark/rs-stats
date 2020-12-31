@@ -1,15 +1,15 @@
-Easy,Complete a lap of the Draynor Village Rooftop Course,,agility:10,
-Easy,Slay a cave bug in the Lumbridge Swamp Caves,,slayer:7,
-Easy,Have Sedridor teleport you to the Rune essence mine,Rune Mysteries,,
-Easy,Craft some water runes,,runecrafting:5,
-Easy,Learn your age from Hans in Lumbridge,,,
-Easy,Pickpocket a man or woman in Lumbridge,,,
-Easy,Chop and burn some oak logs in Lumbridge,,woodcutting:15|firemaking:15,
-Easy,Kill a zombie in the Draynor Sewers,,,
-Easy,Catch some anchovies in Al-Kharid,,fishing:15,
-Easy,Bake some bread on the Lumbridge castle kitchen range,Cook's Assistant,,
-Easy,Mine some iron ore at the Al-Kharid mine,,mining:15,
-Easy,Enter the H.A.M. Hideout,,,
+Easy,Complete a lap of the Draynor Village Rooftop Course,,agility:10,true
+Easy,Slay a cave bug in the Lumbridge Swamp Caves,,slayer:7,true
+Easy,Have Sedridor teleport you to the Rune essence mine,Rune Mysteries,,true
+Easy,Craft some water runes,,runecrafting:5,true
+Easy,Learn your age from Hans in Lumbridge,,,true
+Easy,Pickpocket a man or woman in Lumbridge,,,true
+Easy,Chop and burn some oak logs in Lumbridge,,woodcutting:15|firemaking:15,true
+Easy,Kill a zombie in the Draynor Sewers,,,true
+Easy,Catch some anchovies in Al-Kharid,,fishing:15,true
+Easy,Bake some bread on the Lumbridge castle kitchen range,Cook's Assistant,,true
+Easy,Mine some iron ore at the Al-Kharid mine,,mining:15,true
+Easy,Enter the H.A.M. Hideout,,,true
 Medium,Complete a lap of the Al Kharid Rooftop Course,,agility:20,
 Medium,Grapple across the River Lum,,agility:8|strength:19|ranged:37,
 Medium,Purchase an upgraded device from Ava,Animal Magnetism,ranged:50,
