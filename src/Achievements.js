@@ -13,6 +13,7 @@ const difficultyOrder = {
 
 const areas = {
   lumbridge_draynor: "Lumbridge and Draynor",
+  varrock: "Varrock",
 };
 
 const Hidable = styled.div`

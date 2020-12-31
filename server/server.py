@@ -57,15 +57,19 @@ def get_quests():
   return get_csv('quests', parse_quest)
 
 def parse_achievement(line):
-  difficulty, name, quests, skills, complete = line
-  skill_reqs = dict((sk.split(':')[0], int(sk.split(':')[1])) for sk in skills.split('|')) if skills else {}
-  return {
-    'name': name,
-    'difficulty': difficulty,
-    'skillReqs': skill_reqs,
-    'questReqs': quests.split('|') if quests else [],
-    'complete': bool(complete),
-  }
+  try:
+    difficulty, name, quests, skills, complete = line
+    skill_reqs = dict((sk.split(':')[0], int(sk.split(':')[1])) for sk in skills.split('|')) if skills else {}
+    return {
+      'name': name,
+      'difficulty': difficulty,
+      'skillReqs': skill_reqs,
+      'questReqs': quests.split('|') if quests else [],
+      'complete': bool(complete),
+    }
+  except Exception as err:
+    print(err)
+    print('Failed to parse achievement:', line)
 
 def get_achievements(name):
   return get_csv('achievements/' + name, parse_achievement)
