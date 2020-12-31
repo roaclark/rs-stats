@@ -66,6 +66,9 @@ const SkillReqs = ({ reqs, statsData, getLevel }) => {
   return (
     <ReqList>
       {_.map(reqs, (v, k) => {
+        if (!statsData[k]) {
+          console.log("Unexpected achievement skill:", k);
+        }
         const complete = getLevel(statsData[k]) >= v;
         return (
           <ReqItem key={k} complete={complete}>

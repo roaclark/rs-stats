@@ -105,7 +105,7 @@ const SkillReqs = ({ reqs, statsData, getLevel }) => {
     <ReqList>
       {_.map(reqs, (v, k) => {
         if (!statsData[k]) {
-          console.log("Unexpected skill:", k);
+          console.log("Unexpected achievement skill:", k);
         }
         const complete = getLevel(statsData[k]) >= v;
         return (
@@ -186,13 +186,15 @@ const Achievements = ({ statsData, getLevel }) => {
       <Title>Achievements</Title>
       <AreaBar>
         {_.map(areas, (name, id) => (
-          <AreaSelect onClick={() => setSelected(id)}>{name}</AreaSelect>
+          <AreaSelect key={id} onClick={() => setSelected(id)}>
+            {name}
+          </AreaSelect>
         ))}
       </AreaBar>
       <TableContainer>
         {_.map(areas, (_name, id) => {
           return (
-            <Hidable show={id === selected}>
+            <Hidable key={id} show={id === selected}>
               <AchivementsTable
                 statsData={statsData}
                 getLevel={getLevel}
