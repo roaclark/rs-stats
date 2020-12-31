@@ -56,6 +56,20 @@ def parse_quest(line):
 def get_quests():
   return get_csv('quests', parse_quest)
 
+def parse_achievement(line):
+  difficulty, name, quests, skills, complete = line
+  skill_reqs = dict((sk.split(':')[0], int(sk.split(':')[1])) for sk in skills.split('|')) if skills else {}
+  return {
+    'name': name,
+    'difficulty': difficulty,
+    'skillReqs': skill_reqs,
+    'questReqs': quests.split('|') if quests else [],
+    'complete': bool(complete),
+  }
+
+def get_achievements(name):
+  return get_csv('achievements/' + name, parse_achievement)
+
 def get_completed_quests():
   return get_csv('completed_quests', lambda x: x[0])
 
@@ -104,6 +118,8 @@ class StatsServer(BaseHTTPRequestHandler):
       data = get_quests()
     if path_parts[0] == 'completed':
       data = get_completed_quests()
+    if path_parts[0] == 'achievements':
+      data = get_achievements(path_parts[1])
     self._set_headers()
     self.wfile.write(bytes(json.dumps(data), "utf-8"))
 
