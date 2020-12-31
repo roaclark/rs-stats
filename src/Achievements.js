@@ -16,6 +16,7 @@ const areas = {
   varrock: "Varrock",
   ardougne: "Ardougne",
   desert: "Desert",
+  falador: "Falador",
 };
 
 const Hidable = styled.div`
