@@ -1,3 +1,4 @@
+import React from "react";
 import _ from "lodash";
 import styled from "styled-components";
 import Table from "./Table.js";
@@ -9,6 +10,14 @@ const difficultyOrder = {
   Hard: 2,
   Elite: 3,
 };
+
+const areas = {
+  lumbridge_draynor: "Lumbridge and Draynor",
+};
+
+const Hidable = styled.div`
+  display: ${(props) => (props.show ? "block" : "none")};
+`;
 
 const Title = styled.h1`
   margin-bottom: 30px;
@@ -75,15 +84,13 @@ const SkillReqs = ({ reqs, statsData, getLevel }) => {
   );
 };
 
-const Achievements = ({ statsData, getLevel }) => {
-  const achievements = useServer("/achievements/lumbridge_draynor");
-  const completed = useServer("/completed");
+const AchivementsTable = ({ statsData, getLevel, area, completedQuests }) => {
+  const achievements = useServer("/achievements/" + area);
 
-  if (achievements.loading || completed.loading) {
+  if (achievements.loading) {
     return null;
   }
 
-  const completedQuests = completed.data;
   const filteredAchievements = _.map(
     achievements.data.filter((a) => !a.complete),
     (achievement) => ({
@@ -120,18 +127,42 @@ const Achievements = ({ statsData, getLevel }) => {
   });
 
   return (
+    <Table
+      header={headers}
+      data={data}
+      rowStyles={(_row, i) => ({
+        background: sortedAchievements[i].available
+          ? "rgba(0, 255, 0, 0.05)"
+          : "rgba(255, 0, 0, 0.05)",
+      })}
+    />
+  );
+};
+
+const Achievements = ({ statsData, getLevel }) => {
+  const completedQuests = useServer("/completed");
+  const [selected, setSelected] = React.useState("lumbridge_draynor");
+
+  if (completedQuests.loading) {
+    return null;
+  }
+
+  return (
     <>
       <Title>Achievements</Title>
       <TableContainer>
-        <Table
-          header={headers}
-          data={data}
-          rowStyles={(_row, i) => ({
-            background: sortedAchievements[i].available
-              ? "rgba(0, 255, 0, 0.05)"
-              : "rgba(255, 0, 0, 0.05)",
-          })}
-        />
+        {_.map(areas, (_name, id) => {
+          return (
+            <Hidable show={id === selected}>
+              <AchivementsTable
+                statsData={statsData}
+                getLevel={getLevel}
+                area={id}
+                completedQuests={completedQuests.data}
+              />
+            </Hidable>
+          );
+        })}
       </TableContainer>
     </>
   );
