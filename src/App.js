@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import Stat from "./Stat.js";
 import Quests from "./Quests.js";
+import Achievements from "./Achievements.js";
 import Summary from "./Summary.js";
 import MembersToggle from "./MembersToggle.js";
 import { useServer } from "./hooks.js";
@@ -77,6 +78,9 @@ const TabData = ({
       ))}
       <Hidable show={"quests" === selected}>
         <Quests statsData={statsData} members={members} getLevel={getLevel} />
+      </Hidable>
+      <Hidable show={"achievements" === selected}>
+        <Achievements statsData={statsData} getLevel={getLevel} />
       </Hidable>
     </>
   );
