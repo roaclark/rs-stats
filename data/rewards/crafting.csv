@@ -42,7 +42,7 @@ Drift net,26,true
 Basket,36,true
 Empty plant pot,19,true
 Pot lid,25,true
-Spiky vambraces [1],32,true
+Spiky vambraces,32,true
 Coif,38,true
 Hard leather shield,41,true
 Studded body,41,true
@@ -123,7 +123,7 @@ Dragonstone ring,55,true
 Dragon necklace,72,true
 Dragonstone bracelet,74,true
 Dragonstone amulet (u),80,true
-Slayer ring[1],75,true
+Slayer ring,75,true
 Onyx ring,67,true
 Onyx necklace,82,true
 Onyx bracelet,84,true

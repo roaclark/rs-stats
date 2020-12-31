@@ -20,6 +20,10 @@ const areas = {
   kandarin: "Kandarin",
   karamja: "Karamja",
   fremennik: "Fremennik",
+  kourend_kebos: "Kourend and Kebos",
+  morytania: "Morytania",
+  western_provinces: "Western Provinces",
+  wilderness: "Wilderness",
 };
 
 const Hidable = styled.div`
