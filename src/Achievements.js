@@ -20,7 +20,7 @@ const Hidable = styled.div`
 `;
 
 const Title = styled.h1`
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 `;
 
 const TableContainer = styled.div`
@@ -40,6 +40,26 @@ const ReqItem = styled.li`
 
 const SkillName = styled.span`
   text-transform: capitalize;
+`;
+
+const AreaSelect = styled.a`
+  margin: 0px;
+  color: white;
+  text-decoration: none;
+
+  :not(:first-child):before {
+    margin: 0 10px;
+    content: "•";
+  }
+`;
+
+const AreaBar = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 25px;
 `;
 
 const achievementAvailable = (
@@ -150,6 +170,11 @@ const Achievements = ({ statsData, getLevel }) => {
   return (
     <>
       <Title>Achievements</Title>
+      <AreaBar>
+        {_.map(areas, (name, id) => (
+          <AreaSelect onClick={() => setSelected(id)}>{name}</AreaSelect>
+        ))}
+      </AreaBar>
       <TableContainer>
         {_.map(areas, (_name, id) => {
           return (
