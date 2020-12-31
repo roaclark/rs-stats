@@ -17,6 +17,9 @@ const areas = {
   ardougne: "Ardougne",
   desert: "Desert",
   falador: "Falador",
+  kandarin: "Kandarin",
+  karamja: "Karamja",
+  fremennik: "Fremennik",
 };
 
 const Hidable = styled.div`
@@ -97,6 +100,9 @@ const SkillReqs = ({ reqs, statsData, getLevel }) => {
   return (
     <ReqList>
       {_.map(reqs, (v, k) => {
+        if (!statsData[k]) {
+          console.log("Unexpected skill:", k);
+        }
         const complete = getLevel(statsData[k]) >= v;
         return (
           <ReqItem key={k} complete={complete}>
