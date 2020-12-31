@@ -34,6 +34,10 @@ const Title = styled.h1`
   margin-bottom: 15px;
 `;
 
+const Subtitle = styled.h2`
+  margin-bottom: 15px;
+`;
+
 const TableContainer = styled.div`
   margin-bottom: 50px;
 `;
@@ -195,6 +199,7 @@ const Achievements = ({ statsData, getLevel }) => {
         {_.map(areas, (_name, id) => {
           return (
             <Hidable key={id} show={id === selected}>
+              <Subtitle>{areas[id]}</Subtitle>
               <AchivementsTable
                 statsData={statsData}
                 getLevel={getLevel}
