@@ -56,6 +56,10 @@ def parse_quest(line):
 def get_quests():
   return get_csv('quests', parse_quest)
 
+def write_completed_quest(quest):
+  with open('./data/completed_quests.csv','a') as f:
+    f.write('\n' + quest)
+
 def parse_achievement(line):
   try:
     difficulty, name, quests, skills, complete = line
@@ -102,6 +106,9 @@ class StatsServer(BaseHTTPRequestHandler):
       exp = get_experience()
       old_stats = get_stats()
       data = update_level(old_stats, exp, post_body['stat'], post_body['level'])
+    if path_parts[0] == 'complete_quest':
+      write_completed_quest(post_body['quest'])
+      data = get_completed_quests()
     self._set_headers()
     self.wfile.write(bytes(json.dumps(data), "utf-8"))
 

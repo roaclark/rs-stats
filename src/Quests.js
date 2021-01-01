@@ -1,7 +1,7 @@
 import _ from "lodash";
 import styled from "styled-components";
 import Table from "./Table.js";
-import { useServer } from "./hooks.js";
+import { useServer, serverPost } from "./hooks.js";
 
 const difficultyOrder = {
   Novice: 0,
@@ -38,6 +38,19 @@ const SkillName = styled.span`
 const QuestNameStyled = styled.a`
   color: white;
   text-decoration: none;
+`;
+
+const CompleteButton = styled.button`
+  color: white;
+  background: none;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin: 3px;
+  font-size: 20px;
+
+  :hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
 `;
 
 const skillReqMet = (skill, req, statsData, getLevel) => {
@@ -130,7 +143,7 @@ const Quests = ({ statsData, members, getLevel }) => {
     quest.name,
   ]);
 
-  const headers = ["", "Name", "Difficulty", "Skills", "Prerequisites"];
+  const headers = ["", "Name", "Difficulty", "Skills", "Prerequisites", ""];
   const data = sortedQuests.map((quest, i) => {
     return [
       i + 1,
@@ -142,6 +155,11 @@ const Quests = ({ statsData, members, getLevel }) => {
         getLevel={getLevel}
       />,
       <QuestReqs reqs={quest.questReqs} completedQuests={completedQuests} />,
+      <CompleteButton
+        onClick={() => serverPost("/complete_quest", { quest: quest.name })}
+      >
+        ✓
+      </CompleteButton>,
     ];
   });
 
