@@ -12,16 +12,16 @@ const difficultyOrder = {
 };
 
 const areas = {
-  lumbridge_draynor: "Lumbridge and Draynor",
-  varrock: "Varrock",
   ardougne: "Ardougne",
   desert: "Desert",
   falador: "Falador",
+  fremennik: "Fremennik",
   kandarin: "Kandarin",
   karamja: "Karamja",
-  fremennik: "Fremennik",
   kourend_kebos: "Kourend and Kebos",
+  lumbridge_draynor: "Lumbridge and Draynor",
   morytania: "Morytania",
+  varrock: "Varrock",
   western_provinces: "Western Provinces",
   wilderness: "Wilderness",
 };
@@ -224,7 +224,7 @@ const Achievements = ({ statsData, getLevel }) => {
     <>
       <Title>Achievements</Title>
       <AreaBar>
-        {_.map(areas, (name, id) => (
+        {_.map(_.sortBy(_.entries(areas)), ([id, name]) => (
           <AreaSelect key={id} onClick={() => setSelected(id)}>
             {name}
           </AreaSelect>
