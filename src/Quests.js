@@ -40,9 +40,23 @@ const QuestNameStyled = styled.a`
   text-decoration: none;
 `;
 
+const skillReqMet = (skill, req, statsData, getLevel) => {
+  if (skill !== "combat") {
+    return getLevel(statsData[skill]) >= req;
+  }
+  const combatLevel = _.floor(
+    0.325 * getLevel(statsData["attack"]) +
+      0.325 * getLevel(statsData["strength"]) +
+      0.25 * getLevel(statsData["defence"]) +
+      0.25 * getLevel(statsData["hitpoints"]) +
+      0.125 * getLevel(statsData["prayer"])
+  );
+  return combatLevel >= req;
+};
+
 const questAvailable = (quest, statsData, completedQuests, getLevel) => {
   const skillsComplete = _.every(quest.skillReqs, (lvl, skill) => {
-    return getLevel(statsData[skill]) >= lvl;
+    return skillReqMet(skill, lvl, statsData, getLevel);
   });
   const questsComplete = _.every(quest.questReqs, (req) =>
     completedQuests.includes(req)
@@ -66,10 +80,10 @@ const SkillReqs = ({ reqs, statsData, getLevel }) => {
   return (
     <ReqList>
       {_.map(reqs, (v, k) => {
-        if (!statsData[k]) {
-          console.log("Unexpected achievement skill:", k);
+        if (!statsData[k] && k !== "combat") {
+          console.log("Unexpected quest skill:", k);
         }
-        const complete = getLevel(statsData[k]) >= v;
+        const complete = skillReqMet(k, v, statsData, getLevel);
         return (
           <ReqItem key={k} complete={complete}>
             <SkillName>{k}</SkillName> ({v})
