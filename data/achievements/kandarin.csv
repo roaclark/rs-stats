@@ -1,24 +1,24 @@
 difficulty,name,quests,skills,complete
-Easy,Catch a mackerel at Catherby,,fishing:16,
-Easy,Buy a candle from the candle maker in Catherby,,,
-Easy,Collect 5 flax from the Seers' Village flax field,,,
-Easy,Play the Church organ in the Seer's Village church,,,
+Easy,Catch a mackerel at Catherby,,fishing:16,true
+Easy,Buy a candle from the candle maker in Catherby,,,true
+Easy,Collect 5 flax from the Seers' Village flax field,,,true
+Easy,Play the Church organ in the Seer's Village church,,,true
 Easy,Plant jute seeds in the farming patch north of McGrubor's Wood,,farming:13,
-Easy,Have Galahad make you a cup of tea,,,
-Easy,Defeat one of each elemental in the Elemental workshop,Elemental Workshop I,,
+Easy,Have Galahad make you a cup of tea,,,true
+Easy,Defeat one of each elemental in the Elemental workshop,Elemental Workshop I,,true
 Easy,Get a pet fish from Harry in Catherby,,crafting:42,
-Easy,Buy a stew from the Seers' Village pub,,,
-Easy,Speak to Sherlock between the Sorcerer's Tower and Keep Le Faye,,,
+Easy,Buy a stew from the Seers' Village pub,,,true
+Easy,Speak to Sherlock between the Sorcerer's Tower and Keep Le Faye,,,true
 Easy,Cross the Coal truck log shortcut,,agility:20,
 Medium,Complete a lap of the Barbarian agility course,Alfred Grimhand's Barcrawl,agility:35,
 Medium,Create a Superantipoison potion from scratch in the Seers/Catherby area,,herblore:48,
-Medium,Enter the Ranging Guild,,ranged:40,
+Medium,Enter the Ranging Guild,,ranged:40,true
 Medium,Use the grapple shortcut to get from the water obelisk to Catherby shore,,agility:36|strength:22|ranged:39,
-Medium,Catch and cook a bass in Catherby,,fishing:46|cooking:43,
+Medium,Catch and cook a bass in Catherby,,fishing:46|cooking:43,true
 Medium,Teleport to Camelot,,magic:45,
 Medium,String a maple shortbow in Seers' Village bank,,fletching:50,
 Medium,Pick some limpwurt root from the farming patch in Catherby,,farming:26,
-Medium,Create a mind helmet,Elemental Workshop II,,
+Medium,Create a mind helmet,Elemental Workshop II,,true
 Medium,Kill a fire giant in the Waterfall Dungeon,Waterfall Quest,,
 Medium,Complete a wave of Barbarian Assault,,,
 Medium,Steal from the chest in Hemenster,,thieving:47,

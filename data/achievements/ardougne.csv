@@ -1,20 +1,20 @@
 difficulty,name,quests,skills,complete
-Easy,Have Wizard Cromperty teleport you to the Rune essence mine,Rune Mysteries,,
-Easy,Steal a cake from the East Ardougne market stalls,,thieving:5,
+Easy,Have Wizard Cromperty teleport you to the Rune essence mine,Rune Mysteries,,true
+Easy,Steal a cake from the East Ardougne market stalls,,thieving:5,true
 Easy,Sell silk to the Silk trader in East Ardougne for 60 coins each,,,
-Easy,Use the altar in East Ardougne's church,,,
+Easy,Use the altar in East Ardougne's church,,,true
 Easy,Go out fishing on the Fishing Trawler,,fishing:15,
 Easy,Enter the Combat Training Camp north of West Ardougne,Biohazard,,
 Easy,Have Tindel Marchant identify a rusty sword for you,,,
 Easy,Use the Ardougne lever to teleport to the Wilderness,,,
-Easy,View Aleck's Hunter Emporium shop in Yanille,,,
+Easy,View Aleck's Hunter Emporium shop in Yanille,,,true
 Easy,Check what pets you have insured with Probita in East Ardougne,,,
 Medium,Enter the unicorn pen in Ardougne Zoo using Fairy rings,Started Fairytale II - Cure a Queen,,
 Medium,Grapple over Yanille's south wall and jump off,,agility:39|strength:38|ranged:21,
 Medium,Harvest some strawberries from the Ardougne farming patch,,farming:31,
 Medium,Cast the Ardougne Teleport spell,Plague City,magic:51,
 Medium,Travel to Castle Wars by Hot Air Balloon,Enlightened Journey,firemaking:50,
-Medium,Claim buckets of sand from Bert in Yanille,The Hand in the Sand,crafting:49,
+Medium,Claim buckets of sand from Bert in Yanille,The Hand in the Sand,crafting:49,true
 Medium,Catch any fish on the Fishing Platform,Started Sea Slug,,
 Medium,Pickpocket the master farmer north of East Ardougne,,thieving:38,
 Medium,Collect some cave nightshade from the Skavid caves,Watchtower,,

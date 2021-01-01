@@ -2,14 +2,14 @@ difficulty,name,quests,skills,complete
 Easy,Catch a golden warbler,,hunter:5,
 Easy,Mine five clay in the north-eastern desert,,,
 Easy,Enter the Kalphite Hive,,,
-Easy,Enter the Desert with a set of desert robes equipped,,,
-Easy,Kill a vulture,,,
+Easy,Enter the Desert with a set of desert robes equipped,,,true
+Easy,Kill a vulture,,,true
 Easy,Have the Nardah herbalist clean a herb for you,,,
 Easy,Collect 5 potato cacti from the Kalphite Hive,,,
 Easy,Sell some artefacts to Simon Templeton,,,
 Easy,Open the sarcophagus in the first room of Pyramid Plunder,Icthlarin's Little Helper,thieving:21,
-Easy,Cut a desert cactus open to fill a waterskin,,,
-Easy,Travel from the Shantay Pass to Pollnivneach by magic carpet,,,
+Easy,Cut a desert cactus open to fill a waterskin,,,true
+Easy,Travel from the Shantay Pass to Pollnivneach by magic carpet,,,true
 Medium,Climb to the summit of the Agility Pyramid,,agility:30,
 Medium,Slay a desert lizard,,slayer:22,
 Medium,Catch an orange salamander,,hunter:47,
@@ -23,7 +23,7 @@ Medium,Visit the genie,Spirits of the Elid,,
 Medium,Teleport to Pollnivneach with a redirected teleport to house tablet,,construction:20,
 Medium,Chop some teak logs near Uzer,,woodcutting:35,
 Hard,Knock out and pickpocket a Menaphite Thug,The Feud,thieving:65,
-Hard,Mine some granite,,mining:45,
+Hard,Mine some granite,,mining:45,true
 Hard,Refill your waterskins in the Desert using Lunar spells,Dream Mentor,magic:68,
 Hard,Kill the Kalphite Queen,,,
 Hard,Complete a lap of the Pollnivneach Rooftop Course,,agility:70,

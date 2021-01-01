@@ -4,11 +4,11 @@ Easy,Cook a thin snail on the Port Phasmatys range,Ghosts Ahoy,cooking:12,
 Easy,Get a Slayer task from Mazchna,,combat:20,
 Easy,Kill a banshee in the Slayer Tower,,slayer:15,
 Easy,Have Sbott tan something for you,,,
-Easy,Enter Mort Myre Swamp,Nature Spirit,,
-Easy,Kill a ghoul,,,
+Easy,Enter Mort Myre Swamp,Nature Spirit,,true
+Easy,Kill a ghoul,,,true
 Easy,Place a Scarecrow in the Morytania Flower patch,,farming:23,
 Easy,Offer some Bonemeal at the Ectofuntus,,,
-Easy,Kill a Werewolf in its human form using the Wolfbane dagger,,,
+Easy,Kill a Werewolf in its human form using the Wolfbane dagger,,,true
 Easy,Restore your prayer points at the Nature Grotto,Nature Spirit,,
 Medium,Catch a swamp lizard,,hunter:29,
 Medium,Complete a lap of the Canifis Rooftop Agility Course,,agility:40,

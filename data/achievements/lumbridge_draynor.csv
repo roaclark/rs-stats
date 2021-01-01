@@ -11,7 +11,7 @@ Easy,Catch some anchovies in Al-Kharid,,fishing:15,true
 Easy,Bake some bread on the Lumbridge castle kitchen range,Cook's Assistant,,true
 Easy,Mine some iron ore at the Al-Kharid mine,,mining:15,true
 Easy,Enter the H.A.M. Hideout,,,true
-Medium,Complete a lap of the Al Kharid Rooftop Course,,agility:20,
+Medium,Complete a lap of the Al Kharid Rooftop Course,,agility:20,true
 Medium,Grapple across the River Lum,,agility:8|strength:19|ranged:37,
 Medium,Purchase an upgraded device from Ava,Animal Magnetism,ranged:50,
 Medium,Travel to the Wizards' Tower by Fairy ring,Fairytale II - Cure a Queen,,
@@ -26,7 +26,7 @@ Medium,Craft some lava runes at the fire altar in Al Kharid,,runecrafting:23,
 Hard,Cast Bones to Peaches in Al Kharid Palace,,magic:60,
 Hard,Squeeze past the jutting wall on your way to the cosmic altar,Lost City,agility:46,
 Hard,Craft 56 cosmic runes simultaneously,Lost City,runecrafting:59,
-Hard,Travel from Lumbridge to Edgeville on a waka canoe,,woodcutting:57,
+Hard,Travel from Lumbridge to Edgeville on a waka canoe,,woodcutting:57,true
 Hard,Collect at least 100 Tears of Guthix in one visit,Tears of Guthix,,
 Hard,Take the train from Dorgesh-Kaan to Keldagrim,Another Slice of H.A.M,,
 Hard,Purchase some Barrows gloves from the Culinaromancer's Chest,Recipe for Disaster,,

@@ -1,14 +1,14 @@
 difficulty,name,quests,skills,complete
 Easy,Catch a cerulean twitch,,hunter:11,
 Easy,Change your boots at Yrsa's Shoe Store,The Fremennik Trials,,
-Easy,Kill 5 Rock Crabs,,,
+Easy,Kill 5 Rock Crabs,,,true
 Easy,Craft a tiara from scratch in Rellekka,The Fremennik Trials,crafting:23|mining:20|smithing:20,
 Easy,Browse the Stonemason's shop,The Giant Dwarf,,
 Easy,Collect 5 snape grass on Waterbirth Island,The Fremennik Trials,,
 Easy,Steal from the Keldagrim crafting or baker's stall,The Giant Dwarf,thieving:5,
 Easy,Fill a bucket with water at the Rellekka well,,,
 Easy,Enter the Troll Stronghold,Troll Stronghold|Death Plateau,,
-Easy,Chop and burn some oak logs in the Fremennik Province,,woodcutting:15|firemaking:15,
+Easy,Chop and burn some oak logs in the Fremennik Province,,woodcutting:15|firemaking:15,true
 Medium,Slay a brine rat,Olaf's Quest,slayer:47,
 Medium,Travel to the Snowy Hunter Area via Eagle,Eagles' Peak,,
 Medium,Mine some coal in Rellekka,The Fremennik Trials,mining:30,
@@ -17,7 +17,7 @@ Medium,Travel to Miscellania by fairy ring,The Fremennik Trials|Fairytale II - C
 Medium,Catch a Snowy knight,,hunter:35,
 Medium,Pick up your pet rock from your POH menagerie,The Fremennik Trials,construction:37,
 Medium,Visit the Lighthouse from Waterbirth Island,Horror from the Deep|The Fremennik Trials,,
-Medium,Mine some gold at the Arzinian Mine,Between a Rock...,mining:40,
+Medium,Mine some gold at the Arzinian Mine,Between a Rock...,mining:40,true
 Hard,Teleport to Trollheim,Eadgar's Ruse,magic:61,
 Hard,Catch a Sabre-toothed kyatt,,hunter:55,
 Hard,Mix a Super defence potion in the Fremennik Province,,herblore:66,

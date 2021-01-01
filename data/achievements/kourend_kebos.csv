@@ -1,23 +1,23 @@
 difficulty,name,quests,skills,complete
 Easy,Mine some iron ore at the Mount Karuulm mine,,mining:15,
-Easy,Kill a Sand Crab,,,
-Easy,Hand in a book at the Arceuus Library,,,
-Easy,Steal from a Hosidius Fruit Stall,15% Hosidius favour,thieving:25,
-Easy,Browse the Warrens General Store,The Queen of Thieves,,
-Easy,Take a boat to Land's End,,,
-Easy,Pray at the altar on the top floor of the Kourend Castle,,,
-Easy,Dig up some saltpetre. West of the Hosidius House Portal,,,
+Easy,Kill a Sand Crab,,,true
+Easy,Hand in a book at the Arceuus Library,,,true
+Easy,Steal from a Hosidius Fruit Stall,15% Hosidius favour,thieving:25,true
+Easy,Browse the Warrens General Store,The Queen of Thieves,,true
+Easy,Take a boat to Land's End,,,true
+Easy,Pray at the altar on the top floor of the Kourend Castle,,,true
+Easy,Dig up some saltpetre. West of the Hosidius House Portal,,,true
 Easy,Enter your player-owned house from Hosidius,,construction:25,
-Easy,Heal a wounded Shayzien soldier,,,
+Easy,Heal a wounded Shayzien soldier,,,true
 Easy,Create a strength potion in the The Deeper Lode pub in Lovakengj,Druidic Ritual,herblore:12,
 Easy,Fish a Trout from the River Molch. Spot located south-east of Farming Guild,,fishing:20,
 Medium,Travel to the fairy ring south of Mount Karuulm,Fairytale II - Cure a Queen,,
-Medium,Kill a lizardman,,,
+Medium,Kill a lizardman,,,true
 Medium,Use Kharedst's memoirs to teleport to all five cities in Great Kourend,The Depths of Despair|The Queen of Thieves|Tale of the Righteous|The Forsaken Tower|The Ascent of Arceuus,,
-Medium,Mine some volcanic sulphur,,mining:42,
+Medium,Mine some volcanic sulphur,,mining:42,true
 Medium,Enter the Farming Guild,60% Hosidius favour,farming:45,
 Medium,Switch to the Arceuus spellbook via Tyss,60% Arceuus favour,,
-Medium,Repair a crane within Port Piscarilius,,crafting:30,
+Medium,Repair a crane within Port Piscarilius,,crafting:30,true
 Medium,Deliver some intelligence to Captain Ginea,40% Shayzien favour,,
 Medium,Catch a Bluegill on Lake Molch,,fishing:43|hunter:35,
 Medium,Use the boulder leap shortcut in the Arceuus essence mine,,agility:49,
