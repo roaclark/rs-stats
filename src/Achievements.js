@@ -2,7 +2,7 @@ import React from "react";
 import _ from "lodash";
 import styled from "styled-components";
 import Table from "./Table.js";
-import { useServer } from "./hooks.js";
+import { useServer, serverPost } from "./hooks.js";
 
 const difficultyOrder = {
   Easy: 0,
@@ -75,6 +75,19 @@ const AreaBar = styled.div`
   max-width: 800px;
   margin: auto;
   margin-bottom: 25px;
+`;
+
+const CompleteButton = styled.button`
+  color: white;
+  background: none;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin: 3px;
+  font-size: 20px;
+
+  :hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
 `;
 
 const skillReqMet = (skill, req, statsData, getLevel) => {
@@ -162,9 +175,16 @@ const AchivementsTable = ({ statsData, getLevel, area, completedQuests }) => {
     achievement.name,
   ]);
 
-  const headers = ["Difficulty", "Task", "Skills", "Quests"];
+  const headers = ["", "Difficulty", "Task", "Skills", "Quests"];
   const data = sortedAchievements.map((achievement) => {
     return [
+      <CompleteButton
+        onClick={() =>
+          serverPost("/complete_achievement", { name: achievement.name, area })
+        }
+      >
+        ✓
+      </CompleteButton>,
       achievement.difficulty,
       achievement.name,
       <SkillReqs

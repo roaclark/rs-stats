@@ -75,8 +75,19 @@ def parse_achievement(line):
     print(err)
     print('Failed to parse achievement:', line)
 
-def get_achievements(name):
-  return get_csv('achievements/' + name, parse_achievement)
+def get_achievements(area):
+  return get_csv('achievements/' + area, parse_achievement)
+
+def write_completed_achievement(area, name):
+  lines = []
+  with open('./data/achievements/' + area + '.csv','r') as f:
+    lines = f.readlines()
+  with open('./data/achievements/' + area + '.csv','w') as f:
+    for line in lines:
+      if line.split(',')[1] == name:
+        f.write(line.strip() + 'true\n')
+      else:
+        f.write(line)
 
 def get_completed_quests():
   return get_csv('completed_quests', lambda x: x[0])
@@ -109,6 +120,9 @@ class StatsServer(BaseHTTPRequestHandler):
     if path_parts[0] == 'complete_quest':
       write_completed_quest(post_body['quest'])
       data = get_completed_quests()
+    if path_parts[0] == 'complete_achievement':
+      write_completed_achievement(post_body['area'], post_body['name'])
+      data = get_achievements(post_body['area'])
     self._set_headers()
     self.wfile.write(bytes(json.dumps(data), "utf-8"))
 
