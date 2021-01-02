@@ -1,9 +1,9 @@
 difficulty,name,quests,skills,complete
-Easy,Craft any snelm from scratch in Morytania,,crafting:15,
+Easy,Craft any snelm from scratch in Morytania,,crafting:15,true
 Easy,Cook a thin snail on the Port Phasmatys range,Ghosts Ahoy,cooking:12,
 Easy,Get a Slayer task from Mazchna,,combat:20,true
-Easy,Kill a banshee in the Slayer Tower,,slayer:15,
-Easy,Have Sbott tan something for you,,,
+Easy,Kill a banshee in the Slayer Tower,,slayer:15,true
+Easy,Have Sbott tan something for you,,,true
 Easy,Enter Mort Myre Swamp,Nature Spirit,,true
 Easy,Kill a ghoul,,,true
 Easy,Place a Scarecrow in the Morytania Flower patch,,farming:23,
@@ -16,7 +16,7 @@ Medium,Obtain some bark from a hollow tree,,woodcutting:45,
 Medium,Travel to Dragontooth Island,,,
 Medium,Kill a terror dog,Haunted Mine|Lair of Tarn Razorlor,slayer:40,
 Medium,Complete a game of Trouble Brewing,Cabin Fever,cooking:40,
-Medium,Board the Swamp boaty at the Hollows,,,
+Medium,Board the Swamp boaty at the Hollows,,,true
 Medium,Make a batch of cannonballs at the Port Phasmatys furnace,Dwarf Cannon,smithing:35,
 Medium,Kill a fever spider on Braindeath Island,Rum Deal,slayer:42,
 Medium,Use an ectophial to return to Port Phasmatys,Ghosts Ahoy,,
