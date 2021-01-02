@@ -53,7 +53,7 @@ const TabData = ({
   getLevel,
   members,
 }) => {
-  const { selected } = useParams();
+  const { selected, area } = useParams();
 
   return (
     <>
@@ -80,7 +80,11 @@ const TabData = ({
         <Quests statsData={statsData} members={members} getLevel={getLevel} />
       </Hidable>
       <Hidable show={"achievements" === selected}>
-        <Achievements statsData={statsData} getLevel={getLevel} />
+        <Achievements
+          statsData={statsData}
+          getLevel={getLevel}
+          selectedArea={area}
+        />
       </Hidable>
     </>
   );
@@ -106,16 +110,7 @@ const AppInner = ({ experienceData, skillsData, statsData, members }) => {
         {members && <NavLabel to="/achievements">Achievements</NavLabel>}
       </NavHeader>
       <Switch>
-        <Route path="/:selected">
-          <TabData
-            skillsData={skillsData}
-            experienceData={experienceData}
-            statsData={statsData}
-            getLevel={getLevel}
-            members={members}
-          />
-        </Route>
-        <Route path="/">
+        <Route path={["/:selected/:area", "/:selected", "/"]}>
           <TabData
             skillsData={skillsData}
             experienceData={experienceData}

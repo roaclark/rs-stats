@@ -1,6 +1,7 @@
 import React from "react";
 import _ from "lodash";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 import Table from "./Table.js";
 import { useServer, serverPost } from "./hooks.js";
 
@@ -57,7 +58,7 @@ const SkillName = styled.span`
   text-transform: capitalize;
 `;
 
-const AreaSelect = styled.a`
+const AreaSelect = styled(Link)`
   margin: 0px;
   color: white;
   text-decoration: none;
@@ -212,9 +213,12 @@ const AchivementsTable = ({ statsData, getLevel, area, completedQuests }) => {
   );
 };
 
-const Achievements = ({ statsData, getLevel }) => {
+const Achievements = ({
+  statsData,
+  getLevel,
+  selectedArea = "lumbridge_draynor",
+}) => {
   const completedQuests = useServer("/completed");
-  const [selected, setSelected] = React.useState("lumbridge_draynor");
 
   if (completedQuests.loading) {
     return null;
@@ -225,7 +229,7 @@ const Achievements = ({ statsData, getLevel }) => {
       <Title>Achievements</Title>
       <AreaBar>
         {_.map(_.sortBy(_.entries(areas)), ([id, name]) => (
-          <AreaSelect key={id} onClick={() => setSelected(id)}>
+          <AreaSelect key={id} to={`/achievements/${id}`}>
             {name}
           </AreaSelect>
         ))}
@@ -233,7 +237,7 @@ const Achievements = ({ statsData, getLevel }) => {
       <TableContainer>
         {_.map(areas, (_name, id) => {
           return (
-            <Hidable key={id} show={id === selected}>
+            <Hidable key={id} show={id === selectedArea}>
               <Subtitle>{areas[id]}</Subtitle>
               <AchivementsTable
                 statsData={statsData}
