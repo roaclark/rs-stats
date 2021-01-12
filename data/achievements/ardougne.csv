@@ -1,15 +1,15 @@
 difficulty,name,quests,skills,complete
 Easy,Have Wizard Cromperty teleport you to the Rune essence mine,Rune Mysteries,,true
 Easy,Steal a cake from the East Ardougne market stalls,,thieving:5,true
-Easy,Sell silk to the Silk trader in East Ardougne for 60 coins each,,,
+Easy,Sell silk to the Silk trader in East Ardougne for 60 coins each,,,true
 Easy,Use the altar in East Ardougne's church,,,true
-Easy,Go out fishing on the Fishing Trawler,,fishing:15,
-Easy,Enter the Combat Training Camp north of West Ardougne,Biohazard,,
-Easy,Have Tindel Marchant identify a rusty sword for you,,,
-Easy,Use the Ardougne lever to teleport to the Wilderness,,,
+Easy,Go out fishing on the Fishing Trawler,,fishing:15,true
+Easy,Enter the Combat Training Camp north of West Ardougne,Biohazard,,true
+Easy,Have Tindel Marchant identify a rusty sword for you,,,true
+Easy,Use the Ardougne lever to teleport to the Wilderness,,,true
 Easy,View Aleck's Hunter Emporium shop in Yanille,,,true
-Easy,Check what pets you have insured with Probita in East Ardougne,,,
-Medium,Enter the unicorn pen in Ardougne Zoo using Fairy rings,Started Fairytale II - Cure a Queen,,
+Easy,Check what pets you have insured with Probita in East Ardougne,,,true
+Medium,Enter the unicorn pen in Ardougne Zoo using Fairy rings,Started Fairytale II - Cure a Queen,,true
 Medium,Grapple over Yanille's south wall and jump off,,agility:39|strength:38|ranged:21,
 Medium,Harvest some strawberries from the Ardougne farming patch,,farming:31,
 Medium,Cast the Ardougne Teleport spell,Plague City,magic:51,
@@ -20,7 +20,7 @@ Medium,Pickpocket the master farmer north of East Ardougne,,thieving:38,
 Medium,Collect some cave nightshade from the Skavid caves,Watchtower,,
 Medium,Kill a swordchick in the Tower of Life,Tower of Life,,
 Medium,Equip an Iban's upgraded staff or upgrade an Iban's staff,Underground Pass,magic:50|attack:50,
-Medium,Visit the island east of the Necromancer Tower,Started Fairytale II - Cure a Queen,,
+Medium,Visit the island east of the Necromancer Tower,Started Fairytale II - Cure a Queen,,true
 Hard,Recharge some jewellery at the Totem pole in the Legends' Guild,Legends' Quest,,
 Hard,Enter the Magic Guild,,magic:66,
 Hard,Attempt to steal from a chest in Ardougne Castle,,thieving:72,

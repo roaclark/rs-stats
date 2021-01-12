@@ -14,7 +14,7 @@ Easy,Enter the H.A.M. Hideout,,,true
 Medium,Complete a lap of the Al Kharid Rooftop Course,,agility:20,true
 Medium,Grapple across the River Lum,,agility:8|strength:19|ranged:37,
 Medium,Purchase an upgraded device from Ava,Animal Magnetism,ranged:50,
-Medium,Travel to the Wizards' Tower by Fairy ring,Fairytale II - Cure a Queen,,
+Medium,Travel to the Wizards' Tower by Fairy ring,Fairytale II - Cure a Queen,,true
 Medium,Cast the Lumbridge Teleport spell,,magic:31,
 Medium,Catch some salmon in Lumbridge,,fishing:30,
 Medium,Craft a coif in the Lumbridge cow pen,,crafting:38,

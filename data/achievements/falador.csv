@@ -1,15 +1,15 @@
 difficulty,name,quests,skills,complete
-Easy,Find out what your family crest is from Sir Renitee,,construction:16,
+Easy,Find out what your family crest is from Sir Renitee,,construction:16,true
 Easy,Climb over the western Falador wall,,agility:5,true
 Easy,Browse Sarah's Farming Shop,,,true
-Easy,Get a haircut from the Falador hairdresser,,,
-Easy,Fill a bucket from the pump north of Falador West Bank,,,
-Easy,Kill a duck in Falador Park,,,
-Easy,Make a mind tiara,,,
+Easy,Get a haircut from the Falador hairdresser,,,true
+Easy,Fill a bucket from the pump north of Falador West Bank,,,true
+Easy,Kill a duck in Falador Park,,,true
+Easy,Make a mind tiara,,,true
 Easy,Take the boat to Entrana,,,true
-Easy,Repair a broken strut in the Motherlode Mine,,,
-Easy,Claim a security book from the Security Guard upstairs at Port Sarim jail,,,
-Easy,Smith some Blurite limbs on Doric's anvil,The Knight's Sword|Doric's Quest,mining:10|smithing:13,
+Easy,Repair a broken strut in the Motherlode Mine,,,true
+Easy,Claim a security book from the Security Guard upstairs at Port Sarim jail,,,true
+Easy,Smith some Blurite limbs on Doric's anvil,The Knight's Sword|Doric's Quest,mining:10|smithing:13,true
 Medium,Light a bullseye lantern at the Chemist's in Rimmington,,firemaking:49,
 Medium,Telegrab some Wine of zamorak at the Chaos Temple by the Wilderness,,magic:33,
 Medium,Unlock the crystal chest in Taverley,,,

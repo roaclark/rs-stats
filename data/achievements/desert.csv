@@ -1,19 +1,19 @@
 difficulty,name,quests,skills,complete
-Easy,Catch a golden warbler,,hunter:5,
-Easy,Mine five clay in the north-eastern desert,,,
-Easy,Enter the Kalphite Hive,,,
+Easy,Catch a golden warbler,,hunter:5,true
+Easy,Mine five clay in the north-eastern desert,,,true
+Easy,Enter the Kalphite Hive,,,true
 Easy,Enter the Desert with a set of desert robes equipped,,,true
 Easy,Kill a vulture,,,true
-Easy,Have the Nardah herbalist clean a herb for you,,,
-Easy,Collect 5 potato cacti from the Kalphite Hive,,,
-Easy,Sell some artefacts to Simon Templeton,,,
-Easy,Open the sarcophagus in the first room of Pyramid Plunder,Icthlarin's Little Helper,thieving:21,
+Easy,Have the Nardah herbalist clean a herb for you,,,true
+Easy,Collect 5 potato cacti from the Kalphite Hive,,,true
+Easy,Sell some artefacts to Simon Templeton,,,true
+Easy,Open the sarcophagus in the first room of Pyramid Plunder,Icthlarin's Little Helper,thieving:21,true
 Easy,Cut a desert cactus open to fill a waterskin,,,true
 Easy,Travel from the Shantay Pass to Pollnivneach by magic carpet,,,true
 Medium,Climb to the summit of the Agility Pyramid,,agility:30,
-Medium,Slay a desert lizard,,slayer:22,
+Medium,Slay a desert lizard,,slayer:22,true
 Medium,Catch an orange salamander,,hunter:47,
-Medium,Steal a Phoenix feather from the Desert phoenix,,thieving:25,
+Medium,Steal a Phoenix feather from the Desert phoenix,,thieving:25,true
 Medium,Travel to Uzer via magic carpet,The Golem,,
 Medium,Travel to the desert via the Eagle transport system,Eagles' Peak,,
 Medium,Pray at the Elidinis Statuette in Nardah,Spirits of the Elid,,

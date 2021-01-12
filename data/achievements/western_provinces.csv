@@ -1,15 +1,15 @@
 difficulty,name,quests,skills,complete
-Easy,Catch a copper longtail,,hunter:9,
-Easy,Complete a novice game of Pest Control,,combat:40,
-Easy,Mine some iron ore near Piscatoris,,mining:15,
+Easy,Catch a copper longtail,,hunter:9,true
+Easy,Complete a novice game of Pest Control,,combat:40,true
+Easy,Mine some iron ore near Piscatoris,,mining:15,true
 Easy,Complete a lap of the Gnome Agility Course,,,true
 Easy,Score a goal in a Gnome Ball match,,,true
-Easy,Claim any Chompy bird hat from Rantz,Big Chompy Bird Hunting,fletching:5|ranged:30,
-Easy,Teleport to Pest Control using the Minigame teleports,,combat:40,
-Easy,Collect a swamp toad at the Gnome Stronghold,,,
+Easy,Claim any Chompy bird hat from Rantz,Big Chompy Bird Hunting,fletching:5|ranged:30,true
+Easy,Teleport to Pest Control using the Minigame teleports,,combat:40,true
+Easy,Collect a swamp toad at the Gnome Stronghold,,,true
 Easy,Have Brimstail teleport you to the Essence mine,Rune Mysteries,,true
-Easy,Fletch an oak shortbow in the Gnome Stronghold,,fletching:20,
-Easy,Kill a terrorbird in the terrorbird enclosure,,,
+Easy,Fletch an oak shortbow in the Gnome Stronghold,,fletching:20,true
+Easy,Kill a terrorbird in the terrorbird enclosure,,,true
 Medium,Take the agility shortcut from the Grand Tree to Otto's Grotto,Tree Gnome Village|The Grand Tree,agility:37,
 Medium,Travel to the Tree Gnome Stronghold by Spirit tree,Tree Gnome Village,,true
 Medium,Trap a Spined larupia,,hunter:31,
