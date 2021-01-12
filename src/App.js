@@ -101,6 +101,7 @@ const AppInner = ({ experienceData, skillsData, statsData, members }) => {
   return (
     <Router>
       <NavHeader>
+        <NavLabel to="/">All</NavLabel>
         {filteredSkillsData.map((skill) => (
           <NavLabel key={skill.name} to={`/${skill.name}`}>
             {skill.name}
