@@ -1,16 +1,16 @@
 difficulty,name,quests,skills,complete
-Easy,Cast Low Alchemy at the Fountain of Rune,,magic:21,
-Easy,Enter the Wilderness from the Ardougne or Edgeville lever,,,
-Easy,Pray at the Chaos Altar in level 38 Western Wilderness,,,
-Easy,Enter the Chaos Runecrafting temple,,,
-Easy,Kill a mammoth,,,
-Easy,Kill an earth warrior in the Wilderness beneath Edgeville,,agility:15,
-Easy,Restore some Prayer points at the Demonic Ruins,,,
-Easy,Enter the King Black Dragon Lair,,,
-Easy,Collect 5 red spider's eggs from the Wilderness,,,
-Easy,Mine some iron ore in the Wilderness,,mining:15,
-Easy,Have the Mage of Zamorak teleport you to the Abyss,Enter the Abyss,,
-Easy,Equip any team cape in the Wilderness,,,
+Easy,Cast Low Alchemy at the Fountain of Rune,,magic:21,true
+Easy,Enter the Wilderness from the Ardougne or Edgeville lever,,,true
+Easy,Pray at the Chaos Altar in level 38 Western Wilderness,,,true
+Easy,Enter the Chaos Runecrafting temple,,,true
+Easy,Kill a mammoth,,,true
+Easy,Kill an earth warrior in the Wilderness beneath Edgeville,,agility:15,true
+Easy,Restore some Prayer points at the Demonic Ruins,,,true
+Easy,Enter the King Black Dragon Lair,,,true
+Easy,Collect 5 red spider's eggs from the Wilderness,,,true
+Easy,Mine some iron ore in the Wilderness,,mining:15,true
+Easy,Have the Mage of Zamorak teleport you to the Abyss,Enter the Abyss,,true
+Easy,Equip any team cape in the Wilderness,,,true
 Medium,Mine some mithril ore in the Wilderness,,mining:55,
 Medium,Chop some yew logs from an ent,,woodcutting:61,
 Medium,Enter the Wilderness God Wars Dungeon,,strength:60,
@@ -19,7 +19,7 @@ Medium,Kill a green dragon,,,
 Medium,Kill an ankou in the Wilderness,,,
 Medium,Charge an earth orb,,magic:60,
 Medium,Kill a bloodveld in the Wilderness God Wars Dungeon,,slayer:50,
-Medium,Talk to the Emblem Trader in Edgeville about emblems,,,
+Medium,Talk to the Emblem Trader in Edgeville about emblems,,,true
 Medium,Smith a Gold helmet in the Resource Area,Between a Rock...,smithing:50,
 Medium,Open the muddy chest in the Lava Maze,,,
 Hard,Cast one of the 3 God spells against another player in the Wilderness,The Mage Arena,magic:60,
