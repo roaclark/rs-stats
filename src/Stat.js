@@ -120,11 +120,14 @@ const StatInner = (props) => {
                 );
               }}
             >
-              {actionData.map((act, i) => (
-                <option id={i} key={i} value={act.name}>
-                  {act.name}
-                </option>
-              ))}
+              {actionData.map(
+                (act, i) =>
+                  act.level <= currentLevel && (
+                    <option id={i} key={i} value={act.name}>
+                      {act.name}
+                    </option>
+                  )
+              )}
             </StyledSelect>
           </label>
           {action && <p>Exp: {action.exp}</p>}
