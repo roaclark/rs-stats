@@ -1,3 +1,42 @@
-action,exp,members,cost
-Bones,4.5,,115
-Big bones,15,,200
+action,exp,level,members,cost
+Bones,4.5,1,,98
+Monkey bones,5,1,,325
+Bat bones,5,1,true,271
+Big bones,15,1,,187
+Jogre bones,15,1,true,1097
+Zogre bones,23,1,true,403
+Shaikahan bones,25,1,true,3892
+Babydragon bones,30,1,true,606
+Wyrm bones,50,1,true,1087
+Dragon bones,72,1,true,2002
+Wyvern bones,72,1,true,1982
+Drake bones,80,1,true,2600
+Fayrg bones,84,1,true,3349
+Lava dragon bones,85,1,true,3892
+Raurg bones,96,1,true,5742
+Hydra bones,110,1,true,5026
+Dagannoth bones,125,1,true,7837
+Ensouled goblin head,130,1,true,395
+Ourg bones,140,1,true,29943
+Ensouled monkey head,182,1,true,895
+Ensouled imp head,286,1,true,1409
+Ensouled minotaur head,364,1,true,1326
+Ensouled scorpion head,454,1,true,1182
+Ensouled bear head,480,1,true,1180
+Ensouled unicorn head,494,1,true,1739
+Ensouled dog head,520,1,true,1745
+Ensouled chaos druid head,584,1,true,1520
+Ensouled giant head,650,1,true,1727
+Ensouled ogre head,716,1,true,2003
+Ensouled elf head,754,1,true,2441
+Ensouled troll head,780,1,true,2608
+Ensouled horror head,832,1,true,2565
+Ensouled kalphite head,884,1,true,2986
+Ensouled dagannoth head,936,1,true,3541
+Ensouled bloodveld head,1040,1,true,4577
+Ensouled tzhaar head,1104,1,true,5023
+Ensouled demon head,1170,1,true,5943
+Ensouled aviansie head,1234,1,true,7477
+Ensouled abyssal head,1300,1,true,6604
+Ensouled dragon head,1560,1,true,8377
+Superior dragon bones,150,70,true,10381

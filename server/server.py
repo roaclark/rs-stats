@@ -4,29 +4,39 @@ import json
 import csv
 from fetch_stats import fetch_stats
 
+def line_parser(f):
+  def func(line):
+    try:
+      return f(line)
+    except Exception as err:
+      print(err)
+      print('Failed to parse line:', line)
+  return func
+
 def get_csv(filename, parser):
   with open('./data/' + filename + '.csv', 'r', newline='') as csvfile:
     reader = csv.reader(csvfile)
     next(reader)
-    return [parser(line) for line in reader]
+    parsed_lines = [parser(line) for line in reader]
+    return [l for l in parsed_lines if l is not None]
 
 def get_rewards(name):
   return get_csv(
     'rewards/' + name,
-    lambda line: {'name': line[0], "level": int(line[1]), "members": bool(line[2])}
+    line_parser(lambda line: {'name': line[0], "level": int(line[1]), "members": bool(line[2])})
   ) + [{'name': 'Max', "level": 99, "members": False}]
 
 def get_actions(name):
   return get_csv(
     'actions/' + name,
-    lambda line: {'name': line[0], "exp": float(line[1]), "members": bool(line[2]), "cost": int(line[3] or 0)}
+    line_parser(lambda line: {'name': line[0], "exp": float(line[1]), "level": int(line[2]), "members": bool(line[3]), "cost": int(line[4] or 0)})
   )
 
 def get_experience():
-  return [0] + get_csv('experience', lambda x: int(x[1]))
+  return [0] + get_csv('experience', line_parser(lambda x: int(x[1])))
 
 def get_stats():
-  return {skill: exp for skill, exp in get_csv('stats', lambda x: (x[0], int(x[1])))}
+  return {skill: exp for skill, exp in get_csv('stats', line_parser(lambda x: (x[0], int(x[1]))))}
 
 def write_stats(stats):
   with open('./data/stats.csv','w') as f:
@@ -54,29 +64,25 @@ def parse_quest(line):
   }
 
 def get_quests():
-  return get_csv('quests', parse_quest)
+  return get_csv('quests', line_parser(parse_quest))
 
 def write_completed_quest(quest):
   with open('./data/completed_quests.csv','a') as f:
     f.write('\n' + quest)
 
 def parse_achievement(line):
-  try:
-    difficulty, name, quests, skills, complete = line
-    skill_reqs = dict((sk.split(':')[0], int(sk.split(':')[1])) for sk in skills.split('|')) if skills else {}
-    return {
-      'name': name,
-      'difficulty': difficulty,
-      'skillReqs': skill_reqs,
-      'questReqs': quests.split('|') if quests else [],
-      'complete': bool(complete),
-    }
-  except Exception as err:
-    print(err)
-    print('Failed to parse achievement:', line)
+  difficulty, name, quests, skills, complete = line
+  skill_reqs = dict((sk.split(':')[0], int(sk.split(':')[1])) for sk in skills.split('|')) if skills else {}
+  return {
+    'name': name,
+    'difficulty': difficulty,
+    'skillReqs': skill_reqs,
+    'questReqs': quests.split('|') if quests else [],
+    'complete': bool(complete),
+  }
 
 def get_achievements(area):
-  return get_csv('achievements/' + area, parse_achievement)
+  return get_csv('achievements/' + area, line_parser(parse_achievement))
 
 def write_completed_achievement(area, name):
   lines = []

@@ -1,149 +1,163 @@
-action,exp,members,cost
-Ball of wool,2.5,,
-Pot,12.6,,
-Leather gloves,13.8,,
-Gold ring,15,,
-Leather boots,16.2,,
-Leather cowl,18.5,,
-Gold necklace,20,,
-Leather vambraces,22,,
-Leather body,25,,
-Pie dish,25,,
-Leather chaps,27,,
-Gold amulet,30,,
-Bowl,33,,
-Hardleather body,35,,
-Sapphire ring,40,,
-Unstrung symbol,50,,
-Cut sapphire,50,,
-Tiara,52.5,,
-Sapphire necklace,55,,
-Emerald ring,55,,
-Emerald necklace,60,,
-Cut emerald,67.5,,
-Sapphire amulet,69,,
-Ruby ring,70,,
-Emerald amulet,74,,
-Ruby necklace,75,,
-Cut ruby,85,,
-Diamond ring,85,,
-Ruby amulet,85,,
-Diamond necklace,90,,
-Diamond amulet,100,,
-Cut diamond,107.5,,
-Bow string,15,true,
-Crossbow string,15,true,
-Magic string,30,true,
-Rope,25,true,
-Strip of cloth,12,true,
-Empty sack,38,true,
-Drift net,55,true,
-Basket,56,true,
-Empty plant pot,37.5,true,
-Pot lid,40,true,
-Spiky vambraces,6,true,
-Coif,37,true,
-Hard leather shield,70,true,
-Studded body,40,true,
-Studded chaps,42,true,
-Green d'hide vambraces,62,true,
-Green d'hide chaps,124,true,
-Green d'hide shield,124,true,
-Green d'hide body,186,true,
-Blue d'hide vambraces,70,true,
-Blue d'hide chaps,140,true,
-Blue d'hide shield,140,true,
-Blue d'hide body,210,true,
-Red d'hide vambraces,78,true,
-Red d'hide chaps,156,true,
-Red d'hide shield,156,true,
-Red d'hide body,234,true,
-Black d'hide vambraces,86,true,
-Black d'hide chaps,172,true,
-Black d'hide shield,172,true,
-Black d'hide body,258,true,
-Broodoo shield,100,true,
-Snakeskin boots,30,true,
-Snakeskin vambraces,35,true,
-Snakeskin bandana,45,true,
-Snakeskin chaps,50,true,
-Snakeskin body,55,true,
-Snakeskin shield,100,true,
-Yak-hide armour (legs),32,true,
-Yak-hide armour (top),32,true,
-Blood'n'tar snelm (pointed),32.5,true,
-Blood'n'tar snelm (round),32.5,true,
-Broken bark snelm,32.5,true,
-Bruise blue snelm (pointed),32.5,true,
-Bruise blue snelm (round),32.5,true,
-Myre snelm (pointed),32.5,true,
-Myre snelm (round),32.5,true,
-Ochre snelm (pointed),32.5,true,
-Ochre snelm (round),32.5,true,
-Crab helmet,32.5,true,
-Crab claw,32.5,true,
-Xerician hat,66,true,
-Xerician robe,88,true,
-Xerician top,110,true,
-Beer glass,17.5,true,
-Empty candle lantern,19,true,
-Empty oil lamp,25,true,
-Oil lantern,50,true,
-Vial,35,true,
-Fishbowl,42.5,true,
-Unpowered orb,52.5,true,
-Lantern lens,55,true,
-Empty light orb,70,true,
-Light orb,104,true,
-Opal,15,true,
-Jade,20,true,
-Red topaz,25,true,
-Dragonstone,137.5,true,
-Onyx,167.5,true,
-Zenyte,200,true,
-Opal ring,10,true,
-Opal necklace,35,true,
-Opal bracelet,45,true,
-Opal amulet (u),55,true,
-Jade ring,32,true,
-Jade necklace,54,true,
-Jade bracelet,60,true,
-Jade amulet (u),70,true,
-Topaz ring,35,true,
-Topaz necklace,70,true,
-Topaz bracelet,75,true,
-Topaz amulet (u),80,true,
-Gold bracelet,25,true,
-Sapphire bracelet,60,true,
-Emerald bracelet,65,true,
-Ruby bracelet,80,true,
-Diamond bracelet,95,true,
-Dragonstone ring,100,true,
-Dragon necklace,105,true,
-Dragonstone bracelet,110,true,
-Dragonstone amulet (u),150,true,
-Slayer ring,15,true,
-Onyx ring,115,true,
-Onyx necklace,120,true,
-Onyx bracelet,125,true,
-Onyx amulet (u),165,true,
-Zenyte ring,150,true,
-Zenyte necklace,165,true,
-Zenyte bracelet,180,true,
-Zenyte amulet (u),200,true,
-Silver sickle,50,true,
-Silver bolts (unf),50,true,
-Water battlestaff,100,true,
-Earth battlestaff,112.5,true,
-Fire battlestaff,125,true,
-Air battlestaff,137.5,true,
-Unstrung emblem,50,true,
-Bird house,15,true,
-Oak bird house,20,true,
-Willow bird house,25,true,
-Teak bird house,30,true,
-Maple bird house,35,true,
-Mahogany bird house,40,true,
-Yew bird house,45,true,
-Magic bird house,50,true,
-Redwood bird house,55,true,
+action,exp,level,members,cost
+Ball of wool,2.5,1,,55
+Pot,6.3,1,,41
+Unfired pot,6.3,1,,132
+Opal ring,10,1,true,322
+Pot (full),12.6,1,,132
+Leather gloves,13.8,1,,213
+Opal,15,1,true,144
+Beer glass,17.5,1,true,123
+Molten glass,20,1,true,88
+Empty candle lantern,19,4,true,123
+Bird house,15,5,true,692
+Gold ring,15,5,,72
+Gold necklace,20,6,,72
+Pie dish,10,7,,163
+Unfired pie dish,15,7,,132
+Leather boots,16.2,7,,213
+Gold bracelet,25,7,true,72
+Pie dish (full),25,7,,132
+Bowl,15,8,,127
+Unfired bowl,18,8,,132
+Gold amulet (u),30,8,,72
+Bowl (full),33,8,,132
+Leather cowl,18.5,9,,213
+Strip of cloth,12,10,true,164
+Bow string,15,10,true,4
+Crossbow string (roots),15,10,true,161
+Crossbow string (sinew),15,10,true,109
+Leather vambraces,22,11,,213
+Empty oil lamp,25,12,true,123
+Jade,20,13,true,189
+Jade ring,32,13,true,388
+Leather body,25,14,,213
+Xerician hat,66,14,true,2597
+Oak bird house,20,15,true,694
+Blood'n'tar snelm (pointed),32.5,15,true,510
+Blood'n'tar snelm (round),32.5,15,true,129
+Broken bark snelm,32.5,15,true,455
+Bruise blue snelm (pointed),32.5,15,true,2260
+Bruise blue snelm (round),32.5,15,true,362
+Crab claw,32.5,15,true,0
+Crab helmet,32.5,15,true,0
+Myre snelm (pointed),32.5,15,true,104
+Myre snelm (round),32.5,15,true,43
+Ochre snelm (pointed),32.5,15,true,214
+Ochre snelm (round),32.5,15,true,160
+Red topaz,25,16,true,1956
+Opal necklace,35,16,true,322
+Topaz ring,35,16,true,2320
+Unstrung symbol,50,16,,79
+Unstrung emblem,50,17,true,79
+Xerician robe,88,17,true,3462
+Leather chaps,27,18,,213
+Empty plant pot,17.5,19,true,119
+Unfired plant pot,20,19,true,132
+Magic string,30,19,true,1656
+Empty plant pot (full),37.5,19,true,132
+Sapphire ring,40,20,,425
+Sapphire,50,20,,403
+Empty sack,38,21,true,4184
+Silver bolts (unf),50,21,true,79
+Opal bracelet,45,22,true,322
+Sapphire necklace,55,22,,425
+Xerician top,110,22,true,4327
+Tiara,52.5,23,,79
+Sapphire bracelet,60,23,true,425
+Sapphire amulet (u),65,24,,425
+Pot lid,20,25,true,149
+Unfired pot lid,20,25,true,132
+Willow bird house,25,25,true,669
+Pot lid (full),40,25,true,132
+Jade necklace,54,25,true,388
+Oil lantern,50,26,true,77
+Drift net,55,26,true,2092
+Emerald ring,55,27,,584
+Opal amulet (u),55,27,true,322
+Emerald,67.5,27,,633
+Hardleather body,35,28,,146
+Jade bracelet,60,29,true,388
+Emerald necklace,65,29,,584
+Rope,25,30,true,235
+Emerald bracelet,65,30,true,584
+Emerald amulet (u),70,31,,584
+Topaz necklace,70,32,true,2320
+Vial,35,33,true,123
+Jade amulet (u),70,34,true,388
+Ruby ring,70,34,,999
+Ruby,85,34,,1171
+Teak bird house,30,35,true,795
+Blue broodoo shield,100,35,true,1564
+Green broodoo shield,100,35,true,2264
+Orange broodoo shield,100,35,true,2005
+Basket,56,36,true,5844
+Coif,37,38,true,213
+Topaz bracelet,75,38,true,2320
+Ruby necklace,75,40,,999
+Studded body,40,41,true,334
+Hard leather shield,70,41,true,353
+Empty fishbowl,42.5,42,true,123
+Ruby bracelet,80,42,true,999
+Yak-hide legs,32,43,true,386
+Diamond ring,85,43,,1962
+Diamond,107.5,43,,2536
+Studded chaps,42,44,true,322
+Snakeskin boots,30,45,true,103
+Maple bird house,35,45,true,660
+Topaz amulet (u),80,45,true,2320
+Yak-hide top,32,46,true,772
+Unpowered orb,52.5,46,true,123
+Snakeskin vambraces,35,47,true,137
+Snakeskin bandana,45,48,true,87
+Lantern lens,55,49,true,123
+Mahogany bird house,40,50,true,1157
+Ruby amulet (u),85,50,,999
+Snakeskin chaps,50,51,true,206
+Snakeskin body,55,53,true,257
+Water battlestaff,100,54,true,9484
+Dragonstone ring,100,55,true,11950
+Dragonstone,137.5,55,true,14650
+Diamond necklace,90,56,,1962
+Snakeskin shield,100,56,true,176
+Green d'hide vambraces,62,57,true,1565
+Diamond bracelet,95,58,true,1962
+Earth battlestaff,112.5,58,true,9291
+Yew bird house,45,60,true,915
+Green d'hide chaps,124,60,true,3128
+Molten glass (Superglass Make with Staff),180,61,true,2010
+Molten glass (Superglass Make),180,61,true,2090
+Green d'hide shield,124,62,true,3462
+Fire battlestaff,125,62,true,9355
+Green d'hide body,186,63,true,4691
+Blue d'hide vambraces,70,66,true,1925
+Air battlestaff,137.5,66,true,9355
+Onyx ring,115,67,true,1570113
+Onyx,167.5,67,true,1537244
+Blue d'hide chaps,140,68,true,3848
+Blue d'hide shield,140,69,true,4589
+Diamond amulet (u),100,70,,1962
+Blue d'hide body,210,71,true,5771
+Dragon necklace,105,72,true,11950
+Red d'hide vambraces,78,73,true,2455
+Dragonstone bracelet,110,74,true,11950
+Slayer ring,15,75,true,73
+Magic bird house,50,75,true,1662
+Red d'hide chaps,156,75,true,4908
+Red d'hide shield,156,76,true,5379
+Red d'hide body,234,77,true,7361
+Black d'hide vambraces,86,79,true,3459
+Black d'hide chaps,172,79,true,6916
+Dragonstone amulet (u),150,80,true,11950
+Onyx necklace,120,82,true,1570113
+Black d'hide shield,172,83,true,19702
+Onyx bracelet,125,84,true,1570113
+Black d'hide body,258,84,true,10373
+Empty light orb,70,87,true,123
+Light orb,104,87,true,901
+Zenyte ring,150,89,true,15164229
+Zenyte,200,89,true,14481066
+Redwood bird house,55,90,true,931
+Onyx amulet (u),165,90,true,1570113
+Zenyte necklace,165,92,true,15164229
+Zenyte bracelet,180,95,true,15164229
+Zenyte amulet (u),200,98,true,15164229

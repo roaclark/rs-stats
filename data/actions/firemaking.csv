@@ -1,12 +1,22 @@
-action,exp,members,cost
-Normal,40,,
-Oak,60,,
-Willow,90,,
-Maple,135,,
-Yew,202.5,,
-Teak,105,true,
-Arctic pine,125,true,
-Mahogany,157.5,true,
-Blisterwood,96,true,
-Magic,303.8,true,
-Redwood,350,true,
+action,exp,level,members,cost
+Achey tree logs,40,1,true,275
+Logs,40,1,,42
+Pyre logs,50.5,5,true,735
+Oak logs,60,15,,44
+Oak pyre logs,70,20,true,737
+Willow logs,90,30,,19
+Willow pyre logs,100,35,true,1852
+Teak logs,105,35,true,145
+Teak pyre logs,120,40,true,1978
+Arctic pine logs,125,42,true,547
+Maple logs,135,45,,10
+Arctic pyre logs,158,47,true,2380
+Mahogany logs,157.5,50,true,507
+Maple pyre logs,175,50,true,1843
+Mahogany pyre logs,210,55,true,2340
+Yew logs,202.5,60,,265
+Yew pyre logs,225,65,true,1911
+Magic logs,304,75,true,1012
+Magic pyre logs,404.5,80,true,2658
+Redwood logs,350,90,true,281
+Redwood pyre logs,500,95,true,1927

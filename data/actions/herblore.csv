@@ -1,69 +1,100 @@
-action,exp,members,cost
-Imp repellent,5,true,
-Attack potion,25,true,36
-Antipoison,37.5,true,
-Relicym's balm,40,true,
-Strength potion,50,true,
-Serum 207,50,true,
-Guthix rest tea,59,true,
-Compost potion,60,true,
-Restore potion,62.5,true,
-Guthix balance,50,true,
-Blamish oil,80,true,
-Energy potion,67.5,true,
-Defence potion,75,true,
-Agility potion,80,true,
-Combat potion,84,true,
-Prayer potion,87.5,true,
-Super attack,100,true,
-Superantipoison,106.3,true,
-Fishing potion,112.5,true,
-Super energy,117.5,true,
-Shrink-me-quick,6,true,
-Hunter potion,120,true,
-Super strength,125,true,
-Magic essence,130,true,
-Weapon poison,137.5,true,
-Super restore,142.5,true,
-Sanfew serum,160,true,
-Super defence,150,true,
-Antidote+,155,true,
-Antifire potion,157.5,true,
-Divine super attack potion,2,true,
-Divine super defence potion,2,true,
-Divine super strength potion,2,true,
-Ranging potion,162.5,true,
-Weapon poison+,165,true,
-Divine ranging potion,2,true,
-Magic potion,172.5,true,
-Stamina potion,102,true,
-Zamorak brew,175,true,
-Divine magic potion,2,true,
-Antidote++,177.5,true,
-Bastion potion,155,true,
-Battlemage potion,155,true,
-Saradomin brew,180,true,
-Weapon poison++,190,true,
-Extended antifire,110,true,
-Divine bastion potion,2,true,
-Divine battlemage potion,2,true,
-Anti-venom,120,true,
-Super combat potion,150,true,
-Super antifire potion,130,true,
-Anti-venom+,125,true,
-Divine super combat potion,2,true,
-Extended super antifire,160,true,
-Grimy guam leaf,2.5,true,
-Grimy marrentill,3.8,true,
-Grimy tarromin,5,true,
-Grimy harralander,6.3,true,
-Grimy ranarr weed,7.5,true,
-Grimy toadflax,8,true,
-Grimy irit leaf,8.8,true,
-Grimy avantoe,10,true,
-Grimy kwuarm,11.3,true,
-Grimy snapdragon,11.8,true,
-Grimy cadantine,12.5,true,
-Grimy lantadyme,13.1,true,
-Grimy dwarf weed,13.8,true,
-Grimy torstol,15,true,
+action,exp,level,members,cost
+Guam leaf,2.5,3,true,22
+Attack potion,25,3,true,97
+Attack mix,8,4,true,71
+Marrentill,4,5,true,21
+Antipoison,38,5,true,338
+Antipoison mix,12,6,true,194
+Relicym's balm,40,8,true,
+Relicym's mix,14,9,true,390
+Tarromin,5,11,true,122
+Strength potion,50,12,true,943
+Strength mix,17,14,true,206
+Serum 207,50,15,true,268
+Guthix rest,60,18,true,1141
+Guam tar,30,19,true,183
+Harralander,6,20,true,715
+Guthix balance,50,22,true,179
+Compost potion,60,22,true,919
+Restore potion,63,22,true,1343
+Restore mix,21,24,true,128
+Ranarr weed,8,25,true,6086
+Blamish oil,80,25,true,844
+Energy potion,68,26,true,894
+Energy mix,23,29,true,639
+Toadflax,8,30,true,2496
+Defence potion,75,30,true,6527
+Marrentill tar,43,31,true,179
+Defence mix,25,33,true,560
+Agility potion,80,34,true,3123
+Combat potion,84,36,true,928
+Agility mix,27,37,true,584
+Prayer potion,88,38,true,6556
+Tarromin tar,55,39,true,285
+Irit leaf,9,40,true,619
+Combat mix,28,40,true,550
+Prayer mix,29,42,true,4286
+Harralander tar,72.5,44,true,872
+Super attack,100,45,true,760
+Superattack mix,33,47,true,399
+Avantoe,10,48,true,1908
+Superantipoison,106.3,48,true,1040
+Fishing potion,112.5,50,true,2344
+Anti-poison supermix,35,51,true,456
+Shrink-me-quick,6,52,true,297
+Super energy,117.5,52,true,2517
+Fishing mix,38,53,true,460
+Hunter potion,120,53,true,4072
+Kwuarm,11.3,54,true,1595
+Super strength,125,55,true,2469
+Super energy mix,39,56,true,1637
+Magic essence,130,57,true,
+Hunting mix,40,58,true,2456
+Snapdragon,11.8,59,true,8760
+Super str. mix,42,59,true,1314
+Weapon poison,137.5,60,true,1861
+Magic essence mix,43,61,true,327
+Super restore,142.5,63,true,9506
+Cadantine,12.5,65,true,1777
+Sanfew serum,160,65,true,20425
+Super defence,150,66,true,2190
+Lantadyme,13.1,67,true,1361
+Super restore mix,48,67,true,5518
+Antidote+,155,68,true,4337
+Antifire potion,157.5,69,true,1684
+Divine super attack potion,2,70,true,156
+Divine super defence potion,2,70,true,1115
+Divine super strength potion,2,70,true,1924
+Dwarf weed,13.8,70,true,554
+Super def. mix,50,71,true,858
+Ranging potion,162.5,72,true,1935
+Weapon poison(+),165,73,true,3559
+Divine ranging potion,2,74,true,279
+Antidote+ mix,52,74,true,1794
+Torstol,15,75,true,8763
+Antifire mix,53,75,true,442
+Magic potion,172.5,76,true,2257
+Stamina potion,102,77,true,6130
+Divine magic potion,2,78,true,175
+Zamorak brew,175,78,true,8935
+Antidote++,177.5,79,true,3877
+Ranging mix,54,80,true,472
+Bastion potion,155,80,true,7530
+Battlemage potion,155,80,true,6972
+Saradomin brew,180,81,true,7045
+Weapon poison(++),190,82,true,1647
+Magic mix,57,83,true,404
+Extended antifire,110,84,true,1853
+Zamorak mix,58,85,true,1374
+Divine bastion potion,2,86,true,8052
+Divine battlemage potion,2,86,true,6556
+Stamina mix,60,86,true,2995
+Anti-venom,120,87,true,5317
+Super combat potion,150,90,true,11973
+Extended antifire mix,61,91,true,649
+Super antifire potion,130,92,true,10817
+Anti-venom+,125,94,true,12086
+Divine super combat potion,2,97,true,11164
+Super antifire mix,70,98,true,5049
+Extended super antifire,160,98,true,11158
+Extended super antifire mix,78,99,true,5392

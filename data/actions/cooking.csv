@@ -1,78 +1,116 @@
-action,exp,members,cost
-Cooked meat,30,,
-Shrimps,30,,
-Cooked chicken,30,,
-Anchovies,30,,
-Sardine,40,,
-Bread,40,,
-Herring,50,,
-Cheese,64,,
-Trout,70,,
-Redberry pie,78,,
-Pike,80,,
-Salmon,90,,
-Tuna,100,,
-Meat pie,110,,
-Apple pie,130,,
-Stew,117,,
-Lobster,120,,163
-Swordfish,140,,
-Plain pizza,143,,
-Meat pizza,169,,
-Cake,180,,
-Anchovy pizza,182,,
-Jug of wine,200,,
-Chocolate cake,210,,
-Sinew,3,true,
-Cooked rabbit,30,true,
-Poison karambwan,80,true,
-Ugthanki meat,40,true,
-Mackerel,60,true,
-Roast bird meat,60,true,
-Thin snail,70,true,
-Spider on stick,80,true,
-Spider on shaft,80,true,
-Roast rabbit,70,true,
-Lean snail,80,true,
-Cod,75,true,
-Roast beast meat,82.5,true,
-Cooked crab meat,100,true,
-Fat snail,95,true,
-Slimy eel,95,true,
-Cooked karambwan,190,true,
-Cooked chompy,100,true,
-Cooked fishcake,100,true,
-Rainbow fish,110,true,
-Cave eel,115,true,
-Cooked jubbly,160,true,
-Bass,130,true,
-Lava eel,30,true,
-Monkfish,150,true,
-Sacred eel,109,true,
-Shark,210,true,
-Sea turtle,211.3,true,
-Anglerfish,230,true,
-Dark crab,215,true,
-Manta ray,216.2,true,
-Pitta bread,40,true,
-Curry,280,true,
-Pineapple pizza,195,true,
-Wine of zamorak,200,true,
-Cup of tea,52,true,
-Baked potato,15,true,
-Spicy sauce,25,true,
-Chilli con carne,25,true,
-Scrambled egg,50,true,
-Cooked sweetcorn,104,true,
-Potato with butter,40,true,
-Chilli potato,15,true,
-Fried onions,60,true,
-Fried mushrooms,60,true,
-Potato with cheese,40,true,
-Egg potato,45,true,
-Mushroom & onion,120,true,
-Mushroom potato,55,true,
-Tuna potato,10,true,
-Pot of cream,18,true,
-Pat of butter,40.5,true,
-Cheese,64,true,
+action,exp,level,members,cost
+Sinew,3,1,true,61
+Anchovies,30,1,,151
+Cooked chicken,30,1,,118
+Cooked meat,30,1,,61
+Cooked rabbit,30,1,true,175
+Shrimps,30,1,,33
+Bread,40,1,,150
+Sardine,40,1,,42
+Ugthanki meat,40,1,true,955
+Poison karambwan,80,1,true,349
+Herring,50,5,,92
+Fruit blast,50,6,true,386
+Baked potato,15,7,true,50
+Pineapple punch,70,8,true,800
+Spicy sauce,25,9,true,361
+Mackerel,60,10,true,47
+Redberry pie,78,10,,476
+Toad crunchies,100,10,true,548
+Chilli con carne,25,11,true,407
+Roast bird meat,60,11,true,20
+Thin snail meat,70,12,true,588
+Spicy crunchies,100,12,true,177
+Scrambled egg,50,13,true,10
+Worm crunchies,100,14,true,955
+Cider,182,14,true,1787
+Trout,70,15,,63
+Roast rabbit,70,16,true,175
+Spider on shaft,80,16,true,228
+Spider on stick,80,16,true,233
+Chocchip crunchies,100,16,true,131
+Lean snail meat,80,17,true,1766
+Cod,75,18,true,75
+Wizard blizzard,110,18,true,759
+Dwarven stout,215,19,true,4809
+Cup of tea,52,20,true,19
+Pike,80,20,,99
+Meat pie,104,20,,502
+Short green guy,120,20,true,487
+Pot of cream,18,21,true,18
+Roast beast meat,82.5,21,true,79
+Cooked crab meat,100,21,true,
+Fat snail meat,95,22,true,1140
+Asgarnian ale,248,24,true,4321
+Salmon,90,25,,92
+Stew,117,25,,150
+Fruit batta,150,25,true,756
+Toad batta,152,26,true,584
+Worm batta,154,27,true,476
+Slimy eel,95,28,true,371
+Cooked sweetcorn,104,28,true,166
+Vegetable batta,156,28,true,331
+Mud pie,128,29,true,1179
+Cheese+tom batta,158,29,true,88
+Greenman's ale,281,29,true,6277
+Cooked chompy,100,30,true,1767
+Tuna,100,30,,63
+Apple pie,130,30,,466
+Worm hole,170,30,true,1895
+Cooked karambwan,190,30,true,349
+Cooked fishcake,100,31,true,
+Drunk dragon,160,32,true,401
+Choc saturday,170,33,true,330
+Garden pie,128,34,true,936
+Wizard's mind bomb,314,34,true,7309
+Rainbow fish,110,35,true,318
+Plain pizza,143,35,,
+Veg ball,175,35,true,271
+Jug of wine,200,35,,115
+Blurberry special,180,37,true,903
+Pat of butter,40.5,38,true,18
+Cave eel,115,38,true,480
+Potato with butter,40,39,true,164
+Dragon bitter,347,39,true,3773
+Lobster,120,40,,168
+Cake,180,40,,187
+Tangled toad's legs,185,40,true,2101
+Chilli potato,15,41,true,308
+Cooked jubbly,160,41,true,521
+Fried onions,60,42,true,24
+Chocolate bomb,190,42,true,315
+Bass,130,43,true,117
+Moonlight mead,480,44,true,3873
+Swordfish,140,45,,397
+Meat pizza,169,45,,437
+Fried mushrooms,60,46,true,88
+Potato with cheese,40,47,true,315
+Fish pie,164,47,true,1056
+Cheese,64,48,,18
+Axeman's folly,413,49,true,3550
+Chocolate cake,210,50,true,245
+Egg potato,45,51,true,389
+Botanical pie,180,52,true,1642
+Lava eel,30,53,true,
+Chef's delight,446,54,true,3589
+Anchovy pizza,182,55,,606
+Mushroom & onion,120,57,true,106
+Pitta bread,40,58,true,
+Slayer's respite,479,59,true,3593
+Mushroom pie,200,60,true,2142
+Curry,280,60,true,282
+Monkfish,150,62,true,241
+Mushroom potato,55,64,true,486
+Pineapple pizza,195,65,true,503
+Wine of zamorak,200,65,true,1617
+Tuna potato,10,68,true,1055
+Admiral pie,210,70,true,927
+Sacred eel,116.5,72,true,
+Dragonfruit pie,220,73,true,1471
+Shark,210,80,true,493
+Sea turtle,211.3,82,true,800
+Anglerfish,230,84,true,1019
+Wild pie,240,85,true,3290
+Dark crab,215,90,true,1075
+Manta ray,216.2,91,true,1391
+Summer pie,260,95,true,1131

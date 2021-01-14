@@ -1,181 +1,192 @@
-action,exp,members,cost
-Wind Strike,5.5,,3
-Reanimate Goblin,6,true,
-Water Strike,7.5,,
-Enchant Crossbow Bolt (Opal),9,true,
-Earth Strike,9.5,,
-Lumbridge Graveyard Teleport,10,true,
-Fire Strike,11.5,,
-Confuse,13,,
-Wind Bolt,13.5,,
-Reanimate Monkey,14,true,
-Draynor Manor Teleport,16,true,
-Water Bolt,16.5,,
-Lvl-1 Enchant,17.5,,
-Enchant Crossbow Bolt (Sapphire),17.5,true,
-Enchant Crossbow Bolt (Jade),19,true,
-Battlefront Teleport,19,true,
-Earth Bolt,19.5,,
-Weaken,21,,
-Mind Altar Teleport,22,true,
-Fire Bolt,22.5,,
-Reanimate Imp,24,true,
-Crumble Undead,24.5,,
-Bones to Bananas,25,,
-Wind Blast,25.5,,
-Respawn Teleport,27,true,
-Water Blast,28.5,,
-Curse,29,,
-Enchant Crossbow Bolt (Pearl),29,true,
-Bind,30,,
-Teleport to House,30,true,
-Salve Graveyard Teleport,30,true,
-Iban Blast,30,true,
-Magic Dart,30,true,
-Smoke Rush,30,true,
-Low Level Alchemy,31,,
-Shadow Rush,31,true,
-Earth Blast,31.5,,
-Reanimate Minotaur,32,true,
-Enchant Crossbow Bolt (Red Topaz),33,true,
-Blood Rush,33,true,
-Ice Rush,34,true,
-Fire Blast,34.5,,
-Varrock Teleport,35,,
-Saradomin Strike,35,true,
-Flames of Zamorak,35,true,
-Claws of Guthix,35,true,
-Smoke Burst,36,true,
-Wind Wave,36,true,
-Lvl-2 Enchant,37,,
-Enchant Crossbow Bolt (Emerald),37,true,
-Shadow Burst,37,true,
-Water Wave,37.5,true,
-Reanimate Scorpion,38,true,
-Blood Burst,39,true,
-Earth Wave,40,true,
-Ice Burst,40,true,
-Lumbridge Teleport,41,,
-Reanimate Bear,42,true,
-Smoke Blitz,42,true,
-Fire Wave,42.5,true,
-Telekinetic Grab,43,,
-Shadow Blitz,43,true,
-Reanimate Unicorn,44,true,
-Wind Surge,44.5,true,
-Blood Blitz,45,true,
-Teleport to Bounty Target,45,true,
-Ice Blitz,46,true,
-Water Surge,46.5,true,
-Falador Teleport,47,,
-Smoke Barrage,48,true,
-Shadow Barrage,48,true,
-Earth Surge,48.5,true,
-Fenkenstrain's Castle Teleport,50,true,
-Fire Surge,50.5,true,
-Blood Barrage,51,true,
-Reanimate Dog,52,true,
-Ice Barrage,52,true,
-Superheat Item,53,,
-Camelot Teleport,55.5,true,
-Charge Water Orb,56,true,
-Lvl-3 Enchant,59,,
-Enchant Crossbow Bolt (Ruby),59,true,
-Reanimate Chaos Druid,60,true,
-Snare,60,true,
-Bake Pie,60,true,
-Geomancy,60,true,
-Cure Plant,60,true,
-Ardougne Teleport,61,true,
-Monster Examine,61,true,
-NPC Contact,63,true,
-Paddewwa Teleport,64,true,
-High Level Alchemy,65,,
-Bones to Peaches,65,true,
-Cure Other,65,true,
-Humidify,65,true,
-Moonclan Teleport,66,true,
-Lvl-4 Enchant,67,,
-Enchant Crossbow Bolt (Diamond),67,true,
-Tele Group Moonclan,67,true,
-Watchtower Teleport,68,true,
-Trollheim Teleport,68,true,
-West Ardougne Teleport,68,true,
-Cure Me,69,true,
-Ourania Teleport,69,true,
-Charge Earth Orb,70,true,
-Senntisten Teleport,70,true,
-Hunter Kit,70,true,
-Waterbirth Teleport,71,true,
-Tele Group Waterbirth,72,true,
-Charge Fire Orb,73,true,
-Reanimate Giant,74,true,
-Ape Atoll Teleport,74,true,
-Harmony Island Teleport,74,true,
-Cure Group,74,true,
-Spin Flax,75,true,
-Charge Air Orb,76,true,
-Kharyrll Teleport,76,true,
-Vulnerability,76,true,
-Barbarian Teleport,76,true,
-Stat Spy,76,true,
-Tele Group Barbarian,77,true,
-Lvl-5 Enchant,78,true,
-Enchant Crossbow Bolt (Dragonstone),78,true,
-Superglass Make,78,true,
-Reanimate Ogre,80,true,
-Khazard Teleport,80,true,
-Tele Block,80,,
-Tan Leather,81,true,
-Tele Group Khazard,81,true,
-Kourend Castle Teleport,82,true,
-Cemetery Teleport,82,true,
-Lassar Teleport,82,true,
-Dream,82,true,
-Carrallangar Teleport,82,true,
-Enfeeble,83,true,
-String Jewellery,83,true,
-Teleother Lumbridge,84,true,
-Stat Restore Pot Share,84,true,
-Reanimate Elf,86,true,
-Magic Imbue,86,true,
-Fertile Soil,87,true,
-Dareeyak Teleport,88,true,
-Boost Potion Share,88,true,
-Entangle,89,true,
-Fishing Guild Teleport,89,true,
-Resurrect Crops,90,true,
-Stun,90,true,
-Barrows Teleport,90,true,
-Tele Group Fishing Guild,90,true,
-Plank Make,90,true,
-Reanimate Troll,92,true,
-Teleother Falador,92,true,
-Catherby Teleport,92,true,
-Tele Group Catherby,93,true,
-Ice Plateau Teleport,96,true,
-Lvl-6 Enchant,97,true,
-Enchant Crossbow Bolt (Onyx),97,true,
-Recharge Dragonstone,97.5,true,
-Tele Group Ice Plateau,99,true,
-Annakarl Teleport,100,true,
-Teleother Camelot,100,true,
-Ape Atoll Teleport,100,true,
-Energy Transfer,100,true,
-Heal Other,101,true,
-Reanimate Horror,104,true,
-Ghorrock Teleport,106,true,
-Vengeance Other,108,true,
-Lvl-7 Enchant,110,true,
-Vengeance,112,true,
-Reanimate Kalphite,114,true,
-Reanimate Dagannoth,124,true,
-Heal Group,124,true,
-Reanimate Bloodveld,130,true,
-Spellbook Swap,130,true,
-Reanimate TzHaar,138,true,
-Reanimate Demon,144,true,
-Reanimate Aviansie,156,true,
-Reanimate Abyssal Creature,170,true,
-Charge,180,true,
-Reanimate Dragon,186,true,
+action,exp,level,members,cost
+Wind Strike,5.5,1,,8
+Reanimate Goblin,6,3,true,395
+Confuse,13,3,,30
+Opal Bolt Enchant,9,4,true,291
+Opal Bolt Enchant (dragon),9,4,true,7871
+Water Strike,7.5,5,,13
+Lumbridge Graveyard Teleport,9,6,true,135
+Reanimate Monkey,14,7,true,895
+Sapphire Bolt Enchant,17.5,7,true,1076
+Sapphire Bolt Enchant (dragon),17.5,7,true,7636
+Lvl-1 Enchant,17.5,7,,136
+Earth Strike,9.5,9,,18
+Weaken,21,11,,30
+Reanimate Imp,24,12,true,1409
+Fire Strike,11.5,13,,28
+Jade Bolt Enchant,19,14,true,141
+Jade Bolt Enchant (dragon),19,14,true,8021
+Bones to Bananas,25,15,,303
+Reanimate Minotaur,32,16,true,1326
+Wind Bolt,13.5,17,,61
+Draynor Manor Teleport,16,17,true,135
+Curse,29,19,,30
+Reanimate Scorpion,38,19,true,1182
+Bind,30,20,,400
+Low Level Alchemy,31,21,,200
+Reanimate Bear,42,21,true,1180
+Reanimate Unicorn,44,22,true,1739
+Water Bolt,16.5,23,,71
+Battlefront Teleport,19,23,true,135
+Pearl Bolt Enchant,29,24,true,671
+Pearl Bolt Enchant (dragon,29,24,true,8571
+Varrock Teleport,35,25,,145
+Reanimate Dog,52,26,true,1745
+Emerald Bolt Enchant,37,27,true,1601
+Emerald Bolt Enchant (dragon),37,27,true,8011
+Lvl-2 Enchant,37,27,,146
+Mind Altar Teleport,22,28,true,131
+Earth Bolt,19.5,29,,76
+Reanimate Chaos Druid,60,30,true,1520
+Lumbridge Teleport,41,31,,145
+Telekinetic Grab,43,33,,130
+Respawn Teleport,27,34,true,268
+Fire Bolt,22.5,35,,86
+Falador Teleport,48,37,,145
+Reanimate Giant,74,37,true,1727
+Crumble Undead,24.5,39,,71
+Salve Graveyard Teleport,30,40,true,411
+Teleport to House,30,40,true,135
+Reanimate Ogre,80,40,true,2003
+Wind Blast,25.5,41,,222
+Superheat Item,53,43,,205
+Reanimate Elf,86,43,true,2441
+Camelot Teleport,55.5,45,true,150
+Reanimate Troll,92,46,true,2608
+Water Blast,28.5,47,,237
+Fenkenstrain's Castle Teleport,50,48,true,273
+Topaz Bolt Enchant,33,49,true,2641
+Topaz Bolt Enchant (dragon),33,49,true,9921
+Ruby Bolt Enchant,59,49,true,3372
+Ruby Bolt Enchant (dragon),59,49,true,9152
+Lvl-3 Enchant,59,49,,156
+Iban Blast,30,50,true,212
+Magic Dart,30,50,true,219
+Smoke Rush,30,50,true,526
+Snare,60,50,,595
+Ardougne Teleport,61,51,true,260
+Shadow Rush,31,52,true,664
+Reanimate Horror,104,52,true,2565
+Earth Blast,31.5,53,,242
+Paddewwa Teleport,64,54,true,260
+High Level Alchemy,65,55,,210
+Blood Rush,33,56,true,912
+Charge Water Orb,66,56,true,632
+Diamond Bolt Enchant,67,57,true,4051
+Diamond Bolt Enchant (dragon),67,57,true,9521
+Lvl-4 Enchant,67,57,,181
+Reanimate Kalphite,114,57,true,2986
+Ice Rush,34,58,true,526
+Watchtower Teleport,68,58,true,260
+Fire Blast,34.5,59,,252
+Claws of Guthix,61,60,true,817
+Flames of Zamorak,61,60,true,817
+Saradomin Strike,61,60,true,822
+Bones to Peaches,65,60,true,498
+Charge Earth Orb,70,60,true,632
+Senntisten Teleport,70,60,true,393
+Trollheim Teleport,68,61,true,260
+West Ardougne Teleport,68,61,true,536
+Smoke Burst,36,62,true,638
+Wind Wave,36,62,true,421
+Reanimate Dagannoth,124,62,true,3541
+Charge Fire Orb,73,63,true,632
+Shadow Burst,37,64,true,766
+Ape Atoll Teleport,74,64,true,339
+Water Wave,37.5,65,true,456
+Bake Pie,60,65,true,192
+Geomancy,60,65,true,1036
+Harmony Island Teleport,74,65,true,453
+Reanimate Bloodveld,130,65,true,4577
+Cure Plant,60,66,true,187
+Monster Examine,61,66,true,281
+Charge Air Orb,76,66,true,632
+Kharyrll Teleport,76,66,true,646
+Vulnerability,76,66,true,193
+NPC Contact,63,67,true,288
+Blood Burst,39,68,true,1410
+Cure Other,65,68,true,322
+Humidify,65,68,true,167
+Dragonstone Bolt Enchant,78,68,true,7374
+Dragonstone Bolt Enchant (dragon),78,68,true,13434
+Lvl-5 Enchant,78,68,true,281
+Moonclan Teleport,66,69,true,429
+Kourend Castle Teleport,82,69,true,581
+Reanimate TzHaar,138,69,true,5023
+Earth Wave,40,70,true,456
+Ice Burst,40,70,true,638
+Tele Group Moonclan,67,70,true,439
+Cure Me,69,71,true,681
+Ourania Teleport,69,71,true,449
+Hunter Kit,70,71,true,304
+Cemetery Teleport,82,71,true,664
+Waterbirth Teleport,71,72,true,424
+Lassar Teleport,82,72,true,270
+Reanimate Demon,144,72,true,5943
+Tele Group Waterbirth,72,73,true,444
+Enfeeble,83,73,true,223
+Smoke Blitz,42,74,true,1226
+Cure Group,74,74,true,806
+Teleother Lumbridge,84,74,true,273
+Fire Wave,42.5,75,true,456
+Barbarian Teleport,76,75,true,559
+Stat Spy,76,75,true,581
+Shadow Blitz,43,76,true,1502
+Spin Flax,75,76,true,562
+Tele Group Barbarian,77,76,true,574
+Superglass Make (giant),78,77,true,2090
+Superglass Make (regular),78,77,true,1142
+Khazard Teleport,80,78,true,564
+Tan Leather,81,78,true,504
+Dareeyak Teleport,88,78,true,275
+Resurrect Crops,90,78,true,6657
+Reanimate Aviansie,156,78,true,7477
+Entangle,70,79,true,790
+Tele Group Khazard,81,79,true,584
+Dream,82,79,true,450
+Blood Blitz,45,80,true,1998
+String Jewellery,83,80,true,369
+Stun,90,80,true,263
+Charge,180,80,true,1218
+Wind Surge,44.5,81,true,403
+Stat Restore Pot Share,84,81,true,394
+Ice Blitz,46,82,true,1221
+Magic Imbue,86,82,true,364
+Teleother Falador,92,82,true,273
+Fertile Soil,87,83,true,886
+Barrows Teleport,90,83,true,932
+Boost Potion Share,88,84,true,551
+Carrallangar Teleport,94,84,true,536
+Teleport to Bounty Target,45,85,true,383
+Water Surge,46.5,85,true,453
+Tele Block,80,85,true,383
+Fishing Guild Teleport,89,85,true,866
+Reanimate Abyssal Creature,170,85,true,6604
+Smoke Barrage,48,86,true,1660
+Plank Make,90,86,true,554
+Tele Group Fishing Guild,90,86,true,886
+Catherby Teleport,92,87,true,866
+Onyx Bolt Enchant,97,87,true,86378
+Onyx Bolt Enchant (dragon),97,87,true,91448
+Lvl-6 Enchant,97,87,true,331
+Shadow Barrage,49,88,true,2069
+Tele Group Catherby,93,88,true,891
+Ice Plateau Teleport,96,89,true,856
+Recharge Dragonstone,97.5,89,true,310
+Earth Surge,48.5,90,true,453
+Tele Group Ice Plateau,99,90,true,896
+Annakarl Teleport,100,90,true,1042
+Ape Atoll Teleport,100,90,true,1328
+Teleother Camelot,100,90,true,411
+Energy Transfer,100,91,true,876
+Blood Barrage,51,92,true,2555
+Heal Other,101,92,true,1212
+Vengeance Other,108,93,true,905
+Lvl-7 Enchant,110,93,true,10911
+Reanimate Dragon,186,93,true,8377
+Ice Barrage,52,94,true,1650
+Vengeance,112,94,true,1052
+Fire Surge,50.5,95,true,453
+Heal Group,124,95,true,2526
+Ghorrock Teleport,106,96,true,290
+Spellbook Swap,130,96,true,828

@@ -1,41 +1,156 @@
-action,exp,members,cost
-Wood shortbow,10,true,
-Wood longbow,20,true,
-Oak shortbow,33,true,
-Oak longbow,50,true,
-Comp ogrebow,90,true,
-Willow shortbow,66.5,true,
-Willow longbow,83,true,
-Maple shortbow,100,true,
-Maple longbow,116.5,true,
-Yew shortbow,135,true,
-Yew longbow,150,true,
-Magic shortbow,166.5,true,
-Magic longbow,183,true,
-Wooden crossbow,24,true,
-Oak crossbow,64,true,
-Willow crossbow,88,true,
-Teak crossbow,108,true,
-Maple crossbow,128,true,
-Mahogany crossbow,164,true,
-Yew crossbow,200,true,
-Magic crossbow,275,true,
-Light ballistae,330,true,
-Heavy ballistae,660,true,
-Battlestaff,80,true,
-Oak shield,50,true,
-Willow shield,83,true,
-Maple shield,116.5,true,
-Yew shield,150,true,
-Magic shield,183,true,
-Redwood shield,216,true,
-Headless arrow,1,true,
-Bronze arrow,1.3,true,
-Iron arrow,2.5,true,
-Steel arrow,5,true,
-Mithril arrow,7.5,true,
-Broad arrow,10,true,
-Adamant arrow,10,true,
-Rune arrow,12.5,true,
-Amethyst arrow,13.5,true,
-Dragon arrow,15,true,
+action,exp,level,members,cost
+Headless arrow,15,1,true,60
+Bronze arrow,19.5,1,true,120
+Bronze javelin,15,3,true,540
+Shortbow (stringing),5,5,true,111
+Shortbow (u),5,5,true,42
+Shortbow (full),10,5,true,149
+Bronze bolts,5,9,true,180
+Bronze crossbow (stringing),6,9,true,229
+Wooden stock,6,9,true,42
+Bronze crossbow (u),12,9,true,68
+Bronze crossbow (full),24,9,true,288
+Longbow (stringing),10,10,true,127
+Longbow (u),10,10,true,42
+Bronze dart,18,10,true,400
+Longbow (full),20,10,true,149
+Opal bolt tips,1.6,11,true,243
+Opal bolts,16,11,true,350
+Iron arrow,37.50,15,true,225
+Iron javelin,30,17,true,465
+Oak shortbow (stringing),16.5,20,true,128
+Oak shortbow (u),16.50,20,true,44
+Oak shortbow (full),33,20,true,151
+Iron dart,38,22,true,310
+Blurite bolts,10,24,true,30
+Blurite crossbow (stringing),16,24,true,181
+Oak stock,16,24,true,44
+Blurite crossbow (u),32,24,true,5
+Blurite crossbow (full),64,24,true,225
+Oak longbow (stringing),25,25,true,135
+Oak longbow (u),25,25,true,44
+Oak longbow (full),50,25,true,151
+Jade bolt tips,2.40,26,true,309
+Jade bolts,24,26,true,70
+Oak shield,50,27,true,88
+Comp ogre bow (stringing),45,30,true,864
+Unstrung comp bow,45,30,true,712
+Steel arrow,75,30,true,390
+Comp ogre bow (full),90,30,true,819
+Kebbit bolts,6,32,true,1615
+Steel javelin,75,32,true,990
+Willow shortbow (stringing),33.30,35,true,151
+Willow shortbow (u),33.3,35,true,19
+Willow shortbow (full),66.6,35,true,126
+Steel dart,75,37,true,540
+Iron bolts,15,39,true,180
+Iron crossbow (stringing),22,39,true,229
+Willow stock,22,39,true,19
+Iron crossbow (u),44,39,true,50
+Iron crossbow (full),88,39,true,245
+Willow longbow (stringing),41.5,40,true,168
+Willow longbow (u),41.50,40,true,19
+Willow longbow (full),83,40,true,126
+Pearl bolt tips (24),3.20,41,true,625
+Pearl bolt tips (6),3.2,41,true,62
+Pearl bolts,32,41,true,460
+Long kebbit bolts,7.90,42,true,3810
+Willow shield,83,42,true,38
+Silver bolts,25,43,true,110
+Mithril arrow,112.5,45,true,645
+Steel crossbow (stringing),27,46,true,271
+Teak stock,27,46,true,145
+Steel bolts,35,46,true,360
+Steel crossbow (u),54,46,true,128
+Steel crossbow (full),108,46,true,424
+Incomplete light ballista,15,47,true,58372
+Unstrung light ballista,15,47,true,89179
+Mithril javelin,120,47,true,1965
+Light ballista,300,47,true,505711
+Light ballista (full),330,47,true,511182
+Topaz bolt tips,3.9,48,true,2241
+Topaz bolts,40,48,true,2340
+Maple shortbow (stringing),50,50,true,194
+Maple shortbow (u),50,50,true,10
+Maple shortbow (full),100,50,true,117
+Mithril dart,112,52,true,810
+Broad arrows,150,52,true,960
+Maple stock,32,54,true,10
+Mithril crossbow (stringing),32,54,true,511
+Mithril bolts,50,54,true,720
+Mithril crossbow (u),64,54,true,484
+Mithril crossbow (full),128,54,true,665
+Broad bolts,30,55,true,590
+Maple longbow (stringing),58.3,55,true,189
+Maple longbow (u),58.3,55,true,10
+Maple longbow (full),116.6,55,true,117
+Sapphire bolt tips,4.7,56,true,353
+Sapphire bolts,47,56,true,830
+Maple shield,116.5,57,true,20
+Emerald bolt tips,5.5,58,true,512
+Emerald bolts,55,58,true,1150
+Mith grapple (unf),11,59,true,634
+Adamant arrow,150,60,true,1545
+Adamant crossbow (stringing),41,61,true,1470
+Mahogany stock,41,61,true,507
+Adamant bolts,70,61,true,2020
+Adamant crossbow (u),82,61,true,1839
+Adamant crossbow (full),164,61,true,2430
+Adamant javelin,150,62,true,2760
+Ruby bolt tips,6.3,63,true,927
+Ruby bolts,63,63,true,2740
+Diamond bolt tips,7,65,true,1890
+Yew shortbow (stringing),67.5,65,true,351
+Yew shortbow (u),67.5,65,true,265
+Diamond bolts,70,65,true,3550
+Yew shortbow (full),135,65,true,372
+Adamant dart,150,67,true,1970
+Rune crossbow (stringing),50,69,true,9498
+Yew stock,50,69,true,265
+Runite bolts,100,69,true,1590
+Runite crossbow (u),100,69,true,9358
+Rune crossbow (full),200,69,true,9662
+Yew longbow (stringing),75,70,true,430
+Yew longbow (u),75,70,true,265
+Yew longbow (full),150,70,true,372
+Dragonstone bolt tips,8.2,71,true,11878
+Dragonstone bolts,82,71,true,6920
+Incomplete heavy ballista,30,72,true,109767
+Unstrung heavy ballista,30,72,true,112657
+Yew shield,150,72,true,530
+Heavy ballista,660,72,true,548430
+Heavy ballista (full),660,72,true,562577
+Onyx bolt tips,9.4,73,true,1570041
+Onyx bolts,94,73,true,85590
+Rune arrow,187.5,75,true,3675
+Amethyst broad bolts,106,76,true,2650
+Rune javelin,186,77,true,8070
+Dragon crossbow (stringing),70,78,true,1361296
+Magic stock,70,78,true,1012
+Dragon crossbow (u),135,78,true,1576402
+Dragon crossbow (full),275,78,true,1577293
+Magic shortbow (stringing),83.3,80,true,884
+Magic shortbow (u),83.3,80,true,1012
+Magic shortbow (full),166.6,80,true,1119
+Rune dart,188,81,true,12550
+Amethyst arrow,202.5,82,true,3165
+Opal dragon bolts,16,84,true,7280
+Jade dragon bolts,24,84,true,7020
+Pearl dragon bolts,32,84,true,7240
+Topaz dragon bolts,40,84,true,8980
+Sapphire dragon bolts,47,84,true,7180
+Emerald dragon bolts,55,84,true,7500
+Ruby dragon bolts,63,84,true,7920
+Diamond dragon bolts,70,84,true,8730
+Dragonstone dragon bolts,82,84,true,12720
+Onyx dragon bolts,94,84,true,91390
+Dragon bolts,120,84,true,7240
+Amethyst javelin,202.5,84,true,9390
+Magic longbow (stringing),91.5,85,true,1125
+Magic longbow (u),91.5,85,true,1012
+Magic longbow (full),183,85,true,1119
+Magic shield,183,87,true,2024
+Dragon arrow,225,90,true,10485
+Redwood shield,216,92,true,562
+Dragon javelin,225,92,true,14265
+Dragon dart,250,95,true,25970
