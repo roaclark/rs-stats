@@ -200,16 +200,24 @@ const AchivementsTable = ({ statsData, getLevel, area, completedQuests }) => {
     ];
   });
 
+  const totalCount = achievements.data.length;
+  const completedCount = totalCount - filteredAchievements.length;
+
   return (
-    <Table
-      header={headers}
-      data={data}
-      rowStyles={(_row, i) => ({
-        background: sortedAchievements[i].available
-          ? "rgba(0, 255, 0, 0.05)"
-          : "rgba(255, 0, 0, 0.05)",
-      })}
-    />
+    <>
+      <p>
+        {completedCount} / {totalCount}
+      </p>
+      <Table
+        header={headers}
+        data={data}
+        rowStyles={(_row, i) => ({
+          background: sortedAchievements[i].available
+            ? "rgba(0, 255, 0, 0.05)"
+            : "rgba(255, 0, 0, 0.05)",
+        })}
+      />
+    </>
   );
 };
 
