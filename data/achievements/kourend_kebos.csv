@@ -11,7 +11,7 @@ Easy,Enter your player-owned house from Hosidius,,construction:25,true
 Easy,Heal a wounded Shayzien soldier,,,true
 Easy,Create a strength potion in the The Deeper Lode pub in Lovakengj,Druidic Ritual,herblore:12,
 Easy,Fish a Trout from the River Molch. Spot located south-east of Farming Guild,,fishing:20,true
-Medium,Travel to the fairy ring south of Mount Karuulm,Fairytale II - Cure a Queen,,
+Medium,Travel to the fairy ring south of Mount Karuulm,Fairytale II - Cure a Queen,,true
 Medium,Kill a lizardman,,,true
 Medium,Use Kharedst's memoirs to teleport to all five cities in Great Kourend,The Depths of Despair|The Queen of Thieves|Tale of the Righteous|The Forsaken Tower|The Ascent of Arceuus,,
 Medium,Mine some volcanic sulphur,,mining:42,true

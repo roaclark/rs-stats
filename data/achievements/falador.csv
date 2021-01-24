@@ -23,7 +23,7 @@ Medium,Mine some gold ore at the Crafting Guild,,crafting:40|mining:40,true
 Medium,Squeeze through the crevice in the Dwarven Mines,,agility:42,
 Medium,Chop and burn some willow logs in Taverley,,woodcutting:30|firemaking:30,
 Medium,Craft a basket on the Falador farm loom,,crafting:36,
-Medium,Teleport to Falador,,magic:37,
+Medium,Teleport to Falador,,magic:37,true
 Hard,Craft 140 mind runes simultaneously,,runecrafting:56,
 Hard,Change your family crest to the Saradomin symbol,,prayer:70,
 Hard,Kill the Giant Mole beneath Falador Park,,,

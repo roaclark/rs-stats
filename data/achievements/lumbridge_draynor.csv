@@ -18,8 +18,8 @@ Medium,Travel to the Wizards' Tower by Fairy ring,Fairytale II - Cure a Queen,,t
 Medium,Cast the Lumbridge Teleport spell,,magic:31,
 Medium,Catch some salmon in Lumbridge,,fishing:30,
 Medium,Craft a coif in the Lumbridge cow pen,,crafting:38,
-Medium,Chop some willow logs in Draynor Village,,woodcutting:30,
-Medium,Pickpocket Martin the Master Gardener,,thieving:38,
+Medium,Chop some willow logs in Draynor Village,,woodcutting:30,true
+Medium,Pickpocket Martin the Master Gardener,,thieving:38,true
 Medium,Get a Slayer task from Chaeldar,Lost City,combat:70,
 Medium,Catch an essence or eclectic impling in Puro-Puro,Lost City,hunter:42,
 Medium,Craft some lava runes at the fire altar in Al Kharid,,runecrafting:23,
@@ -27,7 +27,7 @@ Hard,Cast Bones to Peaches in Al Kharid Palace,,magic:60,
 Hard,Squeeze past the jutting wall on your way to the cosmic altar,Lost City,agility:46,
 Hard,Craft 56 cosmic runes simultaneously,Lost City,runecrafting:59,
 Hard,Travel from Lumbridge to Edgeville on a waka canoe,,woodcutting:57,true
-Hard,Collect at least 100 Tears of Guthix in one visit,Tears of Guthix,,
+Hard,Collect at least 100 Tears of Guthix in one visit,Tears of Guthix,,true
 Hard,Take the train from Dorgesh-Kaan to Keldagrim,Another Slice of H.A.M.,,
 Hard,Purchase some Barrows gloves from the Culinaromancer's Chest,Recipe for Disaster,,
 Hard,Pick some belladonna from the farming patch at Draynor Manor,,farming:63,

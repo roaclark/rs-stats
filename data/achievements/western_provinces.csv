@@ -22,7 +22,7 @@ Medium,Travel from Eagles' Peak to the Feldip Hills by Eagle,Eagles' Peak,,
 Medium,Make a Chocolate bomb at the Grand Tree,,cooking:42,
 Medium,Complete a delivery for the Gnome Restaurant,,cooking:29,
 Medium,Turn your crystal saw seed into a crystal saw,The Eyes of Glouphrie,,
-Medium,Mine some gold ore underneath the Grand Tree,The Grand Tree,mining:40,
+Medium,Mine some gold ore underneath the Grand Tree,The Grand Tree,mining:40,true
 Hard,Kill an elf with a crystal bow,Roving Elves,ranged:70|agility:56,
 Hard,Catch and cook a monkfish in Piscatoris,Swan Song,fishing:62|cooking:62,
 Hard,Complete a veteran game of Pest Control,,combat:100,
