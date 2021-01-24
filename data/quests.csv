@@ -1,60 +1,60 @@
 name,skill,agility,attack,construction,crafting,cooking,defence,firemaking,fishing,fletching,farming,herblore,hitpoints,hunter,magic,mining,prayer,ranged,runecrafting,slayer,smithing,strength,thieving,woodcutting,combat,enemy_lvl,quest_points,pre_reqs
 A Porcine of Interest,Novice,,,,,,,,,,,,,,,,,,,,,,,,,37,,
 A Soul's Bane,Novice,,,,,,,,,,,,,,,,,,,,,,,,,63,,
-A Tail of Two Cats,Intermediate,,,,,,,,,,,,,,,,,,,,,,,,,999,,Icthlarin's Little Helper
+A Tail of Two Cats,Intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,Icthlarin's Little Helper
 A Taste of Hope,Experienced,45,40,,48,,,,,,,40,,,,,,,,38,,,,,,233,,Darkness of Hallowvale
-Alfred Grimhand's Barcrawl,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,999,,
-Animal Magnetism,Intermediate,,,,16,,,,,,,,,,,,,30,,18,,,,35,,999,,The Restless Ghost|Ernest the Chicken|Priest in Peril
+Alfred Grimhand's Barcrawl,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Animal Magnetism,Intermediate,,,,16,,,,,,,,,,,,,30,,18,,,,35,,,,The Restless Ghost|Ernest the Chicken|Priest in Peril
 Another Slice of H.A.M.,Intermediate,23,15,,12,,,16,,,,10,,,33,17,25,,,,,,25,,,64,,Death to the Dorgeshuun|The Giant Dwarf|The Dig Site
-Architectural Alliance,Miniquest,,,,30,,,,15,,,,,15,,42,,,,,45,,,,,999,,
-Bear Your Soul,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,999,,
+Architectural Alliance,Miniquest,,,,30,,,,15,,,,,15,,42,,,,,45,,,,,,,
+Bear Your Soul,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Between a Rock...,Experienced,,,,,,30,,10,,,,,,,40,,,,,50,,,,,125,,Dwarf Cannon|Fishing Contest
-Big Chompy Bird Hunting,Intermediate,,,,,30,,,,5,,,,,,,,30,,,,,,,,999,,
+Big Chompy Bird Hunting,Intermediate,,,,,30,,,,5,,,,,,,,30,,,,,,,,,,
 Biohazard,Novice,,,,,,,,,,,,,,,,,,,,,,,,,13,,Plague City
-Black Knights' Fortress,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,12,
-Bone Voyage,Intermediate,,,,,,,,,,,,,,,,,,,,,,,,,999,,The Dig Site
+Black Knights' Fortress,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,12,
+Bone Voyage,Intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,The Dig Site
 Cabin Fever,Experienced,42,,,45,30,,,50,5,40,8,,,,,47,40,,52,50,,,,,150,,Pirate's Treasure|Rum Deal|Priest in Peril
-Client of Kourend,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
-Clock Tower,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
+Client of Kourend,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Clock Tower,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Cold War,Intermediate,30,,34,30,,,,,,,,,10,,,,,,,,,15,,,51,,
 Contact!,Master,,,,,,,,,,,,,,,,,,,,,,,,,191,,Icthlarin's Little Helper|Prince Ali Rescue
-Cook's Assistant,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
+Cook's Assistant,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Creature of Fenkenstrain,Intermediate,,,,20,,,,,,,,,,,,,,,,,,25,,,51,,Priest in Peril|The Restless Ghost
 Curse of the Empty Lord,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,113,,Desert Treasure
-Daddy's Home,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,999,,
+Daddy's Home,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Darkness of Hallowvale,Intermediate,26,,5,32,,,,,,,,,,33,20,,,,,,40,22,,,169,,In Aid of the Myreque
-Death Plateau,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
+Death Plateau,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Death to the Dorgeshuun,Intermediate,23,,,,,,,,,,,,,,17,,,,,,,23,,,50,,The Lost Tribe
 Demon Slayer,Novice,,,,,,,,,,,,,,,,,,,,,,,,,27,,
 Desert Treasure,Master,15,,,,,,50,,10,,10,,,50,,,40,,10,20,,53,,,174,,The Dig Site|Temple of Ikov|The Tourist Trap|Troll Stronghold|Priest in Peril|Waterfall Quest
 Devious Minds,Experienced,15,,,,,,,,50,,,,,,17,,,50,,65,,13,,,41,,Wanted!|Troll Stronghold|Doric's Quest|Enter the Abyss
-Doric's Quest,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
+Doric's Quest,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Dragon Slayer I,Experienced,,,,,,,,,,,,,,,,,,,,,,,,,83,32,
 Dragon Slayer II,Grandmaster,60,,50,62,,,,,,,,50,,75,68,,,,,70,,60,,,608,200,Legends' Quest|Dream Mentor|A Tail of Two Cats|Animal Magnetism|Ghosts Ahoy|Bone Voyage|Client of Kourend
 Dream Mentor,Master,32,,,61,,40,49,,,,31,,,65,60,,,,,,,,55,85,343,,Lunar Diplomacy|Eadgar's Ruse
-Druidic Ritual,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
-Dwarf Cannon,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
+Druidic Ritual,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dwarf Cannon,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Eadgar's Ruse,Experienced,15,,,,,,,,,,31,,,,,,,,,,,,,,113,,Druidic Ritual|Troll Stronghold
 Eagles' Peak,Novice,,,,,,,,,,,,,27,,,,,,,,,,,,13,,
 Elemental Workshop I,Novice,,,,20,,,,,,,,,,,20,,,,,20,,,,,35,,
 Elemental Workshop II,Intermediate,,,,20,,,,,,,,,,20,20,,,,,30,,,,,35,,Elemental Workshop I
-Enakhra's Lament,Experienced,,,,50,,,45,,,,,,,39,,43,,,,,,,,,999,,
+Enakhra's Lament,Experienced,,,,50,,,45,,,,,,,39,,43,,,,,,,,,,,
 Enchanted Key,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,30,,Making History
-Enlightened Journey,Intermediate,,,,36,,,20,,,30,,,,,,,,,,,,,,,999,20,
-Enter the Abyss,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,999,,Rune Mysteries
-Ernest the Chicken,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
+Enlightened Journey,Intermediate,,,,36,,,20,,,30,,,,,,,,,,,,,,,,20,
+Enter the Abyss,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,,,Rune Mysteries
+Ernest the Chicken,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Fairytale I - Growing Pains,Experienced,,,,31,,,,,,,,,,,,,,,,,,,36,,111,,Lost City|Nature Spirit
 Fairytale II - Cure a Queen,Experienced,,,,31,,,,,,49,57,,,,,,,,,,,40,36,,145,,Fairytale I - Growing Pains
 Family Crest,Experienced,,,,40,,,,,,,,,,59,40,,,,,40,,,,,170,,
 Family Pest,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,170,,Family Crest
 Fight Arena,Experienced,,,,,,,,,,,,,,,,,,,,,,,,,137,,
-Fishing Contest,Novice,,,,,,,,10,,,,,,,,,,,,,,,,,999,,
-Forgettable Tale...,Intermediate,,,,12,22,,16,10,,17,,,,33,,,,,,,,14,,,999,,The Giant Dwarf|Fishing Contest
+Fishing Contest,Novice,,,,,,,,10,,,,,,,,,,,,,,,,,,,
+Forgettable Tale...,Intermediate,,,,12,22,,16,10,,17,,,,33,,,,,,,,14,,,,,The Giant Dwarf|Fishing Contest
 Garden of Tranquillity,Intermediate,,,,20,,,,,,25,,,,,,,,,,,,25,,,51,,Creature of Fenkenstrain
-Gertrude's Cat,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
-Getting Ahead,Intermediate,,,26,30,,,,,,,,,,,,,,,,,,,,,999,,
+Gertrude's Cat,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Getting Ahead,Intermediate,,,26,30,,,,,,,,,,,,,,,,,,,,,,,
 Ghosts Ahoy,Intermediate,25,,,,20,,,,,,,,,,,,,,,,,,,,32,,Priest in Peril|The Restless Ghost
-Goblin Diplomacy,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
+Goblin Diplomacy,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Grim Tales,Master,59,,,,,,,,,45,52,,,,,,,,,,,58,71,,138,,Witch's House
 Haunted Mine,Experienced,15,,,35,,,,,,,,,,,,,,,,,,,,,95,,Priest in Peril
 Hazeel Cult,Novice,,,,,,,,,,,,,,,,,,,,,,,,,13,,
@@ -62,101 +62,101 @@ Heroes' Quest,Experienced,,,,31,53,,,53,,,25,,,,50,,,,,,,,36,,111,55,Shield of A
 Holy Grail,Intermediate,,20,,,,,,,,,,,,,,,,,,,,,,,120,,Merlin's Crystal
 Horror from the Deep,Experienced,35,,,,,,,,,,,,,,,,,,,,,,,,100,,Alfred Grimhand's Barcrawl
 Icthlarin's Little Helper,Intermediate,,,,,,,,,,,,,,,,,,,,,,,,,91,,Gertrude's Cat
-Imp Catcher,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
+Imp Catcher,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 In Aid of the Myreque,Intermediate,25,,,25,,,,,,,,,,7,15,,,,,,,,,,97,,In Search of the Myreque
 In Search of Knowledge,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,105,,
 In Search of the Myreque,Intermediate,25,,,,,,,,,,,,,,,,,,,,,,,,97,,Nature Spirit
-Jungle Potion,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,Druidic Ritual
+Jungle Potion,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,Druidic Ritual
 King's Ransom,Experienced,36,20,,25,,65,,,,,18,,,45,,,,,,30,,,,,120,,Black Knights' Fortress|Holy Grail|Murder Mystery|One Small Favour
 Lair of Tarn Razorlor,Miniquest,,,,,,,,,,,,,,,,,,,40,,,,,,95,,Haunted Mine
 Legends' Quest,Master,50,,,50,53,,,53,,,45,,,59,52,42,25,,,50,50,50,50,,187,107,Family Crest|Heroes' Quest|Shilo Village|Underground Pass|Waterfall Quest
 Lost City,Experienced,,,,31,,,,,,,,,,,,,,,,,,,36,,101,,
 Lunar Diplomacy,Experienced,32,,,61,,40,49,,,,5,,,65,60,,,,,,,,55,,111,,The Fremennik Trials|Lost City|Rune Mysteries|Shilo Village
 Making Friends with My Arm,Master,68,,35,,,,66,,,,,,,,72,,,,,,,,,,198,,My Arm's Big Adventure|Swan Song|Cold War|Romeo & Juliet
-Making History,Intermediate,,,,,,,,,,,,,,,,,,,,,,,,,999,,Priest in Peril|The Restless Ghost
+Making History,Intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,Priest in Peril|The Restless Ghost
 Merlin's Crystal,Intermediate,,,,,,,,,,,,,,,,,,,,,,,,,39,,
-Misthalin Mystery,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
-Monk's Friend,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
+Misthalin Mystery,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Monk's Friend,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Monkey Madness I,Master,25,,,,,,,,,,,,,,,,,,,,,,,,195,,The Grand Tree|Tree Gnome Village
 Monkey Madness II,Grandmaster,55,,5,70,70,,60,,,30,14,,60,46,40,,,,69,,,55,,,378,,Enlightened Journey|The Eyes of Glouphrie|Recipe for Disaster|Troll Stronghold|Watchtower
 Mountain Daughter,Intermediate,20,,,,,,,,,,,,,,,,,,,,,,,,70,,
 Mourning's End Part I,Master,56,,,10,30,,,,5,,,,,,,,60,,,,,50,,,110,,Big Chompy Bird Hunting|Sheep Herder|Roving Elves
 Mourning's End Part II,Master,56,,,10,30,,,,5,,,,,,,,60,,,,,50,,,110,,Mourning's End Part I
-Murder Mystery,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
+Murder Mystery,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 My Arm's Big Adventure,Intermediate,15,,,,,,,,,29,31,,,,,,,,,,,30,10,,172,,Eadgar's Ruse|The Feud|Jungle Potion
 Nature Spirit,Novice,,,,,,,,,,,,,,,,,,,,,,,,,30,,Priest in Peril|The Restless Ghost
-Observatory Quest,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
+Observatory Quest,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Olaf's Quest,Intermediate,,,,,,,40,,,,,,,,,,,,,,,,50,,100,,The Fremennik Trials
 One Small Favour,Experienced,36,,,25,,,,,,,18,,,,,,,,,30,,,,,93,,Rune Mysteries|Druidic Ritual|Shilo Village
-Pirate's Treasure,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
-Plague City,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
+Pirate's Treasure,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Plague City,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Priest in Peril,Novice,,,,,,,,,,,,,,,,,,,,,,,,,30,,
-Prince Ali Rescue,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
+Prince Ali Rescue,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Rag and Bone Man II,Intermediate,35,,,20,30,,,,5,,8,,,,,,30,,40,4,,25,,,111,,Rag and Bone Man|Skippy and the Mogres|Creature of Fenkenstrain|Zogre Flesh Eaters|Waterfall Quest
 Rag and Bone Man,Novice,,,,,,,,,,,,,,,,,,,,,,,,,27,,
-Ratcatchers,Intermediate,,,,12,,,16,,,,,,,33,,,,,,,,14,,,999,,Icthlarin's Little Helper|The Giant Dwarf
+Ratcatchers,Intermediate,,,,12,,,16,,,,,,,33,,,,,,,,14,,,,,Icthlarin's Little Helper|The Giant Dwarf
 Recipe for Disaster,Master,48,,,40,70,,50,53,10,,25,,,59,50,,40,,10,40,,53,36,,227,175,Cook's Assistant|Fishing Contest|Goblin Diplomacy|Big Chompy Bird Hunting|Murder Mystery|Nature Spirit|Witch's House|Gertrude's Cat|Shadow of the Storm|Legends' Quest|Monkey Madness I|Desert Treasure|Horror from the Deep
 Recruitment Drive,Novice,,,,,,,,,,,,,,,,,,,,,,,,,20,12,Black Knights' Fortress|Druidic Ritual
 Regicide,Master,56,,,10,,,,,,,,,,,,,25,,,,,,,,110,,Underground Pass
-Romeo & Juliet,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
+Romeo & Juliet,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Roving Elves,Master,56,,,10,,,,,,,,,,,,,25,,,,,,,,110,,Waterfall Quest|Regicide
 Royal Trouble,Experienced,40,,,31,53,,,53,,10,35,,,,50,,,,40,,,,45,,149,,Throne of Miscellania
 Rum Deal,Experienced,,,,42,30,,,50,5,40,8,,,,,47,30,,42,4,,,,,150,,Zogre Flesh Eaters|Priest in Peril
-Rune Mysteries,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
-Scorpion Catcher,Intermediate,,,,,,,,,,,,,,,,31,,,,,,,,,999,,Alfred Grimhand's Barcrawl
-Sea Slug,Intermediate,,,,,,,,,,,,,,,30,,,,,,,,,,999,,
+Rune Mysteries,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Scorpion Catcher,Intermediate,,,,,,,,,,,,,,,,31,,,,,,,,,,,Alfred Grimhand's Barcrawl
+Sea Slug,Intermediate,,,,,,,,,,,,,,,30,,,,,,,,,,,,
 Shades of Mort'ton,Intermediate,,,,20,,,5,,,,15,,,,,,,,,,,,,,40,,Priest in Peril
 Shadow of the Storm,Intermediate,,,,30,,,,,,,,,,,,,,,,,,25,,,100,,Demon Slayer|The Golem
-Sheep Herder,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
-Sheep Shearer,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
+Sheep Herder,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sheep Shearer,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Shield of Arrav,Novice,,,,,,,,,,,,,,,,,,,,,,,,,23,,
 Shilo Village,Experienced,32,,,20,,,,,,,,,,,,,,,,,,,,,93,,Jungle Potion
 Sins of the Father,Master,52,50,,56,,,,,60,,,,,49,,,,,50,,,,62,,413,,Vampyre Slayer|A Taste of Hope
-Skippy and the Mogres,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,999,,
+Skippy and the Mogres,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Song of the Elves,Grandmaster,70,,70,,,,,,,70,70,,70,,70,,,,,70,,,70,,494,,Mourning's End Part II|Making History
 Spirits of the Elid,Intermediate,,,,,,,,,,,,,,33,37,,37,,,,,37,,,62,,
 Swan Song,Master,36,,,40,62,,42,62,,25,18,,,66,,,,,,45,,25,,,170,100,One Small Favour|Garden of Tranquillity
 Tai Bwo Wannai Trio,Intermediate,15,,,,30,,,5,,,,,,,,,,,,,,,,,53,,Jungle Potion
 Tale of the Righteous,Novice,,,,,,,,,,,,,,,10,,,,,,16,,,,46,,Client of Kourend
-Tears of Guthix,Intermediate,,,,20,,,49,,,,,,,,20,,,,,,,,,,999,43,
+Tears of Guthix,Intermediate,,,,20,,,49,,,,,,,,20,,,,,,,,,,,43,
 Temple of Ikov,Experienced,,,,,,,,,,,,,,,,,40,,,,,42,,,84,,
 The Ascent of Arceuus,Novice,,,,,,,,,,,,,12,,,,,,,,,,,,30,,Client of Kourend
 The Corsair Curse,Novice,,,,,,,,,,,,,,,,,,,,,,,,,35,,
 The Depths of Despair,Novice,18,,,,,,,,,,,,,,,,,,,,,,,,36,,Client of Kourend
-The Dig Site,Intermediate,10,,,,,,,,,,10,,,,,,,,,,,25,,,999,,
-The Eyes of Glouphrie,Intermediate,25,,5,,,,,,,,,,,46,,,,,,,,,,,999,,The Grand Tree
+The Dig Site,Intermediate,10,,,,,,,,,,10,,,,,,,,,,,25,,,,,
+The Eyes of Glouphrie,Intermediate,25,,5,,,,,,,,,,,46,,,,,,,,,,,,,The Grand Tree
 The Feud,Intermediate,,,,,,,,,,,,,,,,,,,,,,30,,,75,,
-The Forsaken Tower,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,Client of Kourend
+The Forsaken Tower,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,Client of Kourend
 The Fremennik Exiles,Master,,,,65,,,,60,,,,,,,,,,55,60,60,,,,,363,,The Fremennik Isles|Lunar Diplomacy|Mountain Daughter|Heroes' Quest
 The Fremennik Isles,Experienced,40,,20,,,,,,,,,,,,,,,,,,,,,,122,,The Fremennik Trials
 The Fremennik Trials,Intermediate,,,,,,,,,,,,,,,,,,,,,,,,,69,,
 The General's Shadow,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,160,,Fight Arena|Curse of the Empty Lord|Desert Treasure
-The Giant Dwarf,Intermediate,,,,12,,,16,,,,,,,33,,,,,,,,14,,,999,,
-The Golem,Intermediate,,,,20,,,,,,,,,,,,,,,,,,25,,,999,,
+The Giant Dwarf,Intermediate,,,,12,,,16,,,,,,,33,,,,,,,,14,,,,,
+The Golem,Intermediate,,,,20,,,,,,,,,,,,,,,,,,25,,,,,
 The Grand Tree,Experienced,25,,,,,,,,,,,,,,,,,,,,,,,,172,,
 The Great Brain Robbery,Experienced,42,,30,45,31,,,50,5,40,8,,,,,50,40,,42,50,,25,,,190,,Creature of Fenkenstrain|Cabin Fever|Recipe for Disaster
-The Hand in the Sand,Intermediate,,,,49,,,,,,,,,,,,,,,,,,17,,,999,,
-The Knight's Sword,Intermediate,,,,,,,,,,,,,,,10,,,,,,,,,,999,,
-The Lost Tribe,Intermediate,13,,,,,,,,,,,,,,17,,,,,,,13,,,999,,Goblin Diplomacy|Rune Mysteries
+The Hand in the Sand,Intermediate,,,,49,,,,,,,,,,,,,,,,,,17,,,,,
+The Knight's Sword,Intermediate,,,,,,,,,,,,,,,10,,,,,,,,,,,,
+The Lost Tribe,Intermediate,13,,,,,,,,,,,,,,17,,,,,,,13,,,,,Goblin Diplomacy|Rune Mysteries
 The Mage Arena II,Miniquest,,,,,,,,,,,,,,75,,,,,,,,,,,348,,
 The Mage Arena,Miniquest,,,,,,,,,,,,,,60,,,,,,,,,,,112,,
-The Queen of Thieves,Novice,,,,,,,,,,,,,,,,,,,,,,20,,,999,,Client of Kourend
-The Restless Ghost,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
+The Queen of Thieves,Novice,,,,,,,,,,,,,,,,,,,,,,20,,,,,Client of Kourend
+The Restless Ghost,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 The Slug Menace,Intermediate,13,,,30,,,30,,,,,,,,17,,,30,30,,,30,,,62,,Wanted!|Sea Slug
 The Tourist Trap,Intermediate,,,,,,,,,10,,,,,,,,,,,20,,,,,47,,
 Throne of Miscellania,Experienced,,,,31,53,,,53,,10,35,,,,50,,,,,,,,45,,111,,Heroes' Quest|The Fremennik Trials
-Tower of Life,Novice,,,10,,,,,,,,,,,,,,,,,,,,,,999,,
+Tower of Life,Novice,,,10,,,,,,,,,,,,,,,,,,,,,,,,
 Tree Gnome Village,Intermediate,,,,,,,,,,,,,,,,,,,,,,,,,112,,
-Tribal Totem,Intermediate,,,,,,,,,,,,,,,,,,,,,,21,,,999,,
+Tribal Totem,Intermediate,,,,,,,,,,,,,,,,,,,,,,21,,,,,
 Troll Romance,Experienced,28,,,,,,,,,,,,,,,,,,,,,,,,113,,Troll Stronghold
 Troll Stronghold,Experienced,15,,,,,,,,,,,,,,,,,,,,,,,,113,,Death Plateau
 Underground Pass,Experienced,,,,,,,,,,,,,,,,,25,,,,,,,,91,,Biohazard
 Vampyre Slayer,Novice,,,,,,,,,,,,,,,,,,,,,,,,,34,,Rune Mysteries|Goblin Diplomacy
 Wanted!,Intermediate,13,,,,,,,,,,,,,,17,,,,,,,13,,,33,32,Recruitment Drive|Sea Slug
 Watchtower,Intermediate,25,,,,,,,,,,14,,,15,40,,,,,,,15,,,68,,
-Waterfall Quest,Intermediate,,,,,,,,,,,,,,,,,,,,,,,,,999,,
+Waterfall Quest,Intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,
 What Lies Below,Intermediate,,,,,,,,,,,,,,,,,,35,,,,,,,47,,Rune Mysteries
 Witch's House,Intermediate,,,,,,,,,,,,,,,,,,,,,,,,,53,,
 Witch's Potion,Novice,,,,,,,,,,,,,,,,,,,,,,,,,1,,
-X Marks the Spot,Novice,,,,,,,,,,,,,,,,,,,,,,,,,999,,
+X Marks the Spot,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Zogre Flesh Eaters,Intermediate,,,,,30,,,,5,,8,,,,,,30,,,4,,,,,111,,Big Chompy Bird Hunting|Jungle Potion

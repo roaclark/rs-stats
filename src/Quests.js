@@ -143,7 +143,15 @@ const Quests = ({ statsData, members, getLevel }) => {
     quest.name,
   ]);
 
-  const headers = ["", "Name", "Difficulty", "Skills", "Prerequisites", ""];
+  const headers = [
+    "",
+    "Name",
+    "Difficulty",
+    "Skills",
+    "Prerequisites",
+    "Enemy lvl",
+    "",
+  ];
   const data = sortedQuests.map((quest, i) => {
     return [
       i + 1,
@@ -155,6 +163,7 @@ const Quests = ({ statsData, members, getLevel }) => {
         getLevel={getLevel}
       />,
       <QuestReqs reqs={quest.questReqs} completedQuests={completedQuests} />,
+      quest.enemyLvl || "--",
       <CompleteButton
         onClick={() => serverPost("/complete_quest", { quest: quest.name })}
       >

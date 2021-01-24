@@ -61,7 +61,7 @@ def parse_quest(line):
     'difficulty': line[1],
     'skillReqs': skill_reqs,
     'questReqs': line[-1].split('|') if line[-1] else [],
-    'enemy_lvl': int(line[-3] or 0),
+    'enemyLvl': int(line[-3] or 0),
   }
 
 def get_quests():
