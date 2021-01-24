@@ -53,14 +53,15 @@ def update_level(stats, exp, stat, level):
 def get_skills():
   return get_csv('skills', lambda line: {'name': line[0], "members": bool(line[1])})
 
-quest_headers = ['name','skill','agility','attack','construction','crafting','cooking','defence','firemaking','fishing','fletching','farming','herblore','hitpoints','hunter','magic','mining','prayer','ranged','runecrafting','slayer','smithing','strength','thieving','woodcutting','combat','quest_points','pre_reqs']
+quest_headers = ['name','skill','agility','attack','construction','crafting','cooking','defence','firemaking','fishing','fletching','farming','herblore','hitpoints','hunter','magic','mining','prayer','ranged','runecrafting','slayer','smithing','strength','thieving','woodcutting','combat','enemy_lvl','quest_points','pre_reqs']
 def parse_quest(line):
-  skill_reqs = {skill: int(req) for skill, req in zip(quest_headers[2:-2], line[2:-2]) if req}
+  skill_reqs = {skill: int(req) for skill, req in zip(quest_headers[2:-3], line[2:-3]) if req}
   return {
     'name': line[0],
     'difficulty': line[1],
     'skillReqs': skill_reqs,
     'questReqs': line[-1].split('|') if line[-1] else [],
+    'enemy_lvl': int(line[-3] or 0),
   }
 
 def get_quests():
