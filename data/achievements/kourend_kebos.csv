@@ -9,11 +9,11 @@ Easy,Pray at the altar on the top floor of the Kourend Castle,,,true
 Easy,Dig up some saltpetre. West of the Hosidius House Portal,,,true
 Easy,Enter your player-owned house from Hosidius,,construction:25,true
 Easy,Heal a wounded Shayzien soldier,,,true
-Easy,Create a strength potion in the The Deeper Lode pub in Lovakengj,Druidic Ritual,herblore:12,
+Easy,Create a strength potion in the The Deeper Lode pub in Lovakengj,Druidic Ritual,herblore:12,true
 Easy,Fish a Trout from the River Molch. Spot located south-east of Farming Guild,,fishing:20,true
 Medium,Travel to the fairy ring south of Mount Karuulm,Fairytale II - Cure a Queen,,true
 Medium,Kill a lizardman,,,true
-Medium,Use Kharedst's memoirs to teleport to all five cities in Great Kourend,The Depths of Despair|The Queen of Thieves|Tale of the Righteous|The Forsaken Tower|The Ascent of Arceuus,,
+Medium,Use Kharedst's memoirs to teleport to all five cities in Great Kourend,The Depths of Despair|The Queen of Thieves|Tale of the Righteous|The Forsaken Tower|The Ascent of Arceuus,,true
 Medium,Mine some volcanic sulphur,,mining:42,true
 Medium,Enter the Farming Guild,,farming:45,
 Medium,Switch to the Arceuus spellbook via Tyss,,,

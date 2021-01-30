@@ -12,7 +12,7 @@ Easy,Chop and burn some oak logs in the Fremennik Province,,woodcutting:15|firem
 Medium,Slay a brine rat,Olaf's Quest,slayer:47,
 Medium,Travel to the Snowy Hunter Area via Eagle,Eagles' Peak,,
 Medium,Mine some coal in Rellekka,The Fremennik Trials,mining:30,true
-Medium,Steal from the Rellekka fish stalls,The Fremennik Trials,thieving:42,
+Medium,Steal from the Rellekka fish stalls,The Fremennik Trials,thieving:42,true
 Medium,Travel to Miscellania by fairy ring,The Fremennik Trials|Fairytale II - Cure a Queen,,true
 Medium,Catch a Snowy knight,,hunter:35,
 Medium,Pick up your pet rock from your POH menagerie,The Fremennik Trials,construction:37,
