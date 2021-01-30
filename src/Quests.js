@@ -139,6 +139,7 @@ const Quests = ({ statsData, members, getLevel }) => {
   ); // TODO members filter
   const sortedQuests = _.sortBy(filteredQuests, (quest) => [
     quest.available ? 0 : 1,
+    _.padStart(quest.enemyLvl, 3, "0"),
     difficultyOrder[quest.difficulty],
     quest.name,
   ]);
