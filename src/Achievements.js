@@ -100,7 +100,7 @@ const skillReqMet = (skill, req, statsData, getLevel) => {
       0.325 * getLevel(statsData["strength"]) +
       0.25 * getLevel(statsData["defence"]) +
       0.25 * getLevel(statsData["hitpoints"]) +
-      0.125 * getLevel(statsData["prayer"])
+      0.25 * Math.floor(getLevel(statsData["prayer"]) * 0.5)
   );
   return combatLevel >= req;
 };
