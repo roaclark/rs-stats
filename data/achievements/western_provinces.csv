@@ -12,7 +12,7 @@ Easy,Fletch an oak shortbow in the Gnome Stronghold,,fletching:20,true
 Easy,Kill a terrorbird in the terrorbird enclosure,,,true
 Medium,Take the agility shortcut from the Grand Tree to Otto's Grotto,Tree Gnome Village|The Grand Tree,agility:37,
 Medium,Travel to the Tree Gnome Stronghold by Spirit tree,Tree Gnome Village,,true
-Medium,Trap a Spined larupia,,hunter:31,
+Medium,Trap a Spined larupia,,hunter:31,true
 Medium,Fish some bass on Ape Atoll,Monkey Madness I,fishing:46,
 Medium,Chop and burn some teak logs on Ape Atoll,Monkey Madness I,woodcutting:35|firemaking:35,
 Medium,Complete an intermediate game of Pest Control,,combat:70,

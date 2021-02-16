@@ -10,19 +10,19 @@ Easy,Take the boat to Entrana,,,true
 Easy,Repair a broken strut in the Motherlode Mine,,,true
 Easy,Claim a security book from the Security Guard upstairs at Port Sarim jail,,,true
 Easy,Smith some Blurite limbs on Doric's anvil,The Knight's Sword|Doric's Quest,mining:10|smithing:13,true
-Medium,Light a bullseye lantern at the Chemist's in Rimmington,,firemaking:49,
-Medium,Telegrab some Wine of zamorak at the Chaos Temple by the Wilderness,,magic:33,
+Medium,Light a bullseye lantern at the Chemist's in Rimmington,,firemaking:49,true
+Medium,Telegrab some Wine of zamorak at the Chaos Temple by the Wilderness,,magic:33,true
 Medium,Unlock the crystal chest in Taverley,,,
-Medium,Place a Scarecrow in the Falador farm flower patch,,farming:23,
-Medium,Kill a Mogre at Mudskipper Point,Skippy and the Mogres,slayer:32,
+Medium,Place a Scarecrow in the Falador farm flower patch,,farming:23,true
+Medium,Kill a Mogre at Mudskipper Point,Skippy and the Mogres,slayer:32,true
 Medium,Visit the Port Sarim Rat Pits,Ratcatchers,,true
-Medium,Grapple up and then jump off the north Falador wall,,agility:11|strength:37|ranged:19,
-Medium,Pickpocket a Falador guard,,thieving:40,
-Medium,Pray at the Altar of Guthix in Taverley whilst wearing full Initiate armour,Recruitment Drive,prayer:10|defence:20,
+Medium,Grapple up and then jump off the north Falador wall,,agility:11|strength:37|ranged:19,true
+Medium,Pickpocket a Falador guard,,thieving:40,true
+Medium,Pray at the Altar of Guthix in Taverley whilst wearing full Initiate armour,Recruitment Drive,prayer:10|defence:20,true
 Medium,Mine some gold ore at the Crafting Guild,,crafting:40|mining:40,true
-Medium,Squeeze through the crevice in the Dwarven Mines,,agility:42,
-Medium,Chop and burn some willow logs in Taverley,,woodcutting:30|firemaking:30,
-Medium,Craft a basket on the Falador farm loom,,crafting:36,
+Medium,Squeeze through the crevice in the Dwarven Mines,,agility:42,true
+Medium,Chop and burn some willow logs in Taverley,,woodcutting:30|firemaking:30,true
+Medium,Craft a basket on the Falador farm loom,,crafting:36,true
 Medium,Teleport to Falador,,magic:37,true
 Hard,Craft 140 mind runes simultaneously,,runecrafting:56,
 Hard,Change your family crest to the Saradomin symbol,,prayer:70,

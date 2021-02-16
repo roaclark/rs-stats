@@ -13,17 +13,17 @@ Easy,Speak to Haig Halen after obtaining at least 50 Kudos,,,true
 Easy,Craft some earth runes,,runecrafting:9,true
 Easy,Catch some trout in the River Lum at Barbarian Village,,fishing:20,true
 Easy,Steal from the tea stall in Varrock,,thieving:5,true
-Medium,Have the Apothecary in Varrock make you a Strength potion,,,
+Medium,Have the Apothecary in Varrock make you a Strength potion,,,true
 Medium,Enter the Champions' Guild,,,true
-Medium,Select a colour for your kitten,Garden of Tranquillity|Gertrude's Cat,,
+Medium,Select a colour for your kitten,Garden of Tranquillity|Gertrude's Cat,,true
 Medium,Use the Spirit tree in the north-eastern corner of Grand Exchange,Tree Gnome Village,,true
 Medium,Perform the 4 emotes from the Stronghold of Security,,,true
 Medium,Enter the Tolna dungeon after completing A Soul's Bane,A Soul's Bane,,true
-Medium,Teleport to the digsite using a Digsite pendant,The Dig Site,,
+Medium,Teleport to the digsite using a Digsite pendant,The Dig Site,,true
 Medium,Cast the teleport to Varrock spell,,magic:25,true
 Medium,Get a Slayer task from Vannaka,,combat:40,true
-Medium,Make 20 mahogany planks in one go,,,
-Medium,Pick a white tree fruit,Garden of Tranquillity,farming:25,
+Medium,Make 20 mahogany planks in one go,,,true
+Medium,Pick a white tree fruit,Garden of Tranquillity,farming:25,true
 Medium,Use the balloon to travel from Varrock,Enlightened Journey,firemaking:40,
 Medium,Complete a lap of the Varrock Rooftop Course,,agility:30,true
 Hard,Trade furs with the Fancy Dress Seller for a Spottier cape and equip it,,hunter:66,
@@ -31,7 +31,7 @@ Hard,Speak to Orlando Smith when you have achieved 153 Kudos,,,
 Hard,Make a Waka canoe near Edgeville,,woodcutting:57,true
 Hard,Teleport to Paddewwa,Desert Treasure,magic:54,
 Hard,Teleport to Barbarian Village with a Skull sceptre,,,
-Hard,Chop some yew logs in Varrock and burn them at the top of the Varrock church,,woodcutting:60|firemaking:60,
+Hard,Chop some yew logs in Varrock and burn them at the top of the Varrock church,,woodcutting:60|firemaking:60,true
 Hard,Have the Varrock estate agent decorate your house with Fancy Stone,,construction:50,
 Hard,Collect at least 2 yew roots from the tree patch in Varrock Palace,,farming:68|woodcutting:60,
 Hard,Pray at the altar in Varrock Palace with Smite active,,prayer:52,

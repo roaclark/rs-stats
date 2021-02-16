@@ -10,8 +10,8 @@ Easy,Place a Scarecrow in the Morytania Flower patch,,farming:23,true
 Easy,Offer some Bonemeal at the Ectofuntus,,,true
 Easy,Kill a Werewolf in its human form using the Wolfbane dagger,,,true
 Easy,Restore your prayer points at the Nature Grotto,Nature Spirit,,true
-Medium,Catch a swamp lizard,,hunter:29,
-Medium,Complete a lap of the Canifis Rooftop Agility Course,,agility:40,
+Medium,Catch a swamp lizard,,hunter:29,true
+Medium,Complete a lap of the Canifis Rooftop Agility Course,,agility:40,true
 Medium,Obtain some bark from a hollow tree,,woodcutting:45,true
 Medium,Travel to Dragontooth Island,,,true
 Medium,Kill a terror dog,Haunted Mine|Lair of Tarn Razorlor,slayer:40,
@@ -19,7 +19,7 @@ Medium,Complete a game of Trouble Brewing,Cabin Fever,cooking:40,
 Medium,Board the Swamp boaty at the Hollows,,,true
 Medium,Make a batch of cannonballs at the Port Phasmatys furnace,Dwarf Cannon,smithing:35,true
 Medium,Kill a fever spider on Braindeath Island,Rum Deal,slayer:42,
-Medium,Use an ectophial to return to Port Phasmatys,Ghosts Ahoy,,
+Medium,Use an ectophial to return to Port Phasmatys,Ghosts Ahoy,,true
 Medium,Mix a Guthix balance potion while in Morytania,In Aid of the Myreque,herblore:22,
 Hard,Enter the Kharyrll portal in your POH through a Portal Chamber,Desert Treasure,magic:66|construction:50,
 Hard,Climb the advanced spike chain within Slayer Tower,,agility:71,
