@@ -16,12 +16,12 @@ Medium,Catch an orange salamander,,hunter:47,
 Medium,Steal a Phoenix feather from the Desert phoenix,,thieving:25,true
 Medium,Travel to Uzer via magic carpet,The Golem,,true
 Medium,Travel to the desert via the Eagle transport system,Eagles' Peak,,
-Medium,Pray at the Elidinis Statuette in Nardah,Spirits of the Elid,,
+Medium,Pray at the Elidinis Statuette in Nardah,Spirits of the Elid,,true
 Medium,Create a combat potion in the desert,,herblore:36,
 Medium,Teleport to Enakhra's Temple with the Camulet,Enakhra's Lament,,true
-Medium,Visit the genie,Spirits of the Elid,,
+Medium,Visit the genie,Spirits of the Elid,,true
 Medium,Teleport to Pollnivneach with a redirected teleport to house tablet,,construction:20,
-Medium,Chop some teak logs near Uzer,,woodcutting:35,
+Medium,Chop some teak logs near Uzer,,woodcutting:35,true
 Hard,Knock out and pickpocket a Menaphite Thug,The Feud,thieving:65,
 Hard,Mine some granite,,mining:45,true
 Hard,Refill your waterskins in the Desert using Lunar spells,Dream Mentor,magic:68,
@@ -30,7 +30,7 @@ Hard,Complete a lap of the Pollnivneach Rooftop Course,,agility:70,
 Hard,Slay a Dust devil in the desert cave with a Slayer helmet equipped,Desert Treasure,slayer:65|defence:10|crafting:55,
 Hard,Activate Ancient Magicks at the altar in the Jaldraocht Pyramid,Desert Treasure,,
 Hard,Defeat a locust rider with Keris,Contact!,attack:50,
-Hard,Burn some yew logs on the Nardah Mayor's balcony,,firemaking:60,
+Hard,Burn some yew logs on the Nardah Mayor's balcony,,firemaking:60,true
 Hard,Create a Mithril platebody in Nardah,,smithing:68,
 Elite,Bake a wild pie at the Nardah clay oven,,cooking:85,
 Elite,Cast Ice Barrage against a foe in the Desert,Desert Treasure,magic:94,

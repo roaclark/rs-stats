@@ -19,9 +19,9 @@ Medium,Complete an intermediate game of Pest Control,,combat:70,
 Medium,Travel to the Feldip Hills by Gnome glider,The Grand Tree|One Small Favour,,
 Medium,Claim a Chompy bird hat from Rantz after registering at least 125 kills,Big Chompy Bird Hunting,fletching:5|ranged:30,
 Medium,Travel from Eagles' Peak to the Feldip Hills by Eagle,Eagles' Peak,,
-Medium,Make a Chocolate bomb at the Grand Tree,,cooking:42,
-Medium,Complete a delivery for the Gnome Restaurant,,cooking:29,
-Medium,Turn your crystal saw seed into a crystal saw,The Eyes of Glouphrie,,
+Medium,Make a Chocolate bomb at the Grand Tree,,cooking:42,true
+Medium,Complete a delivery for the Gnome Restaurant,,cooking:29,truetrue
+Medium,Turn your crystal saw seed into a crystal saw,The Eyes of Glouphrie,,true
 Medium,Mine some gold ore underneath the Grand Tree,The Grand Tree,mining:40,true
 Hard,Kill an elf with a crystal bow,Roving Elves,ranged:70|agility:56,
 Hard,Catch and cook a monkfish in Piscatoris,Swan Song,fishing:62|cooking:62,
