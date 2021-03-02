@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import _ from "lodash";
-import { serverPost } from "./hooks";
+import { useServer, serverPost } from "./hooks";
+import Table from "./Table";
 
 const icons = {
   attack: "https://oldschool.runescape.wiki/images/f/fe/Attack_icon.png",
@@ -84,6 +85,11 @@ const LevelInput = styled.input`
   background: ${(props) => (props.error ? "rgb(255, 180, 180)" : "white")};
 `;
 
+const PaddedTable = styled.div`
+  margin-top: 30px;
+  margin-bottom: 50px;
+`;
+
 const LevelForm = ({ oldLevel, updateLevel, cancel }) => {
   const [error, setError] = React.useState(false);
   const handleSubmit = (e) => {
@@ -153,6 +159,37 @@ const Stat = ({ stat, experience, getLevel, filtered }) => {
   );
 };
 
+const SummaryTable = ({ statsData, getLevel }) => {
+  const levelReqs = useServer("/level_reqs");
+  if (levelReqs.loading) {
+    return null;
+  }
+
+  const data = levelReqs.data.map((req) => [
+    _.upperFirst(req.skill),
+    getLevel(statsData[req.skill]),
+    req.easy || "--",
+    req.medium || "--",
+    req.hard || "--",
+    req.elite || "--",
+    req.quest || "--",
+  ]);
+  const header = [
+    "Skill",
+    "Level",
+    "Easy diary",
+    "Medium diary",
+    "Hard diary",
+    "Elite diary",
+    "Quests",
+  ];
+  return (
+    <PaddedTable>
+      <Table data={data} header={header} />
+    </PaddedTable>
+  );
+};
+
 const Summary = ({ statsData, getLevel, skillsData, members }) => {
   const skills = _.fromPairs(
     skillsData.map(({ name, members }) => [name, members])
@@ -173,6 +210,7 @@ const Summary = ({ statsData, getLevel, skillsData, members }) => {
           ))
         )}
       </Container>
+      <SummaryTable statsData={statsData} getLevel={getLevel} />
     </>
   );
 };

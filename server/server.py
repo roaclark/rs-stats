@@ -38,6 +38,12 @@ def get_experience():
 def get_stats():
   return {skill: exp for skill, exp in get_csv('stats', line_parser(lambda x: (x[0], int(x[1]))))}
 
+def get_level_reqs():
+  return get_csv(
+    'levels',
+    line_parser(lambda line: {'skill': line[0], "easy": int(line[1] or 0), "medium": int(line[2] or 0), "hard": int(line[3] or 0), "elite": int(line[4] or 0), "quest": int(line[5] or 0)})
+  )
+
 def write_stats(stats):
   with open('./data/stats.csv','w') as f:
     f.write('skill,exp\n' + '\n'.join([','.join([k, str(stats[k])]) for k in stats]))
@@ -152,6 +158,8 @@ class StatsServer(BaseHTTPRequestHandler):
       data = get_completed_quests()
     if path_parts[0] == 'achievements':
       data = get_achievements(path_parts[1])
+    if path_parts[0] == 'level_reqs':
+      data = get_level_reqs()
     self._set_headers()
     self.wfile.write(bytes(json.dumps(data), "utf-8"))
 
