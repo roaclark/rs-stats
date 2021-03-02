@@ -195,7 +195,7 @@ const SummaryTable = ({ statsData, getLevel }) => {
           const currLevel = row[1];
           return {
             background:
-              cell < currLevel
+              cell <= currLevel
                 ? "rgba(0, 255, 0, 0.1)"
                 : "rgba(255, 0, 0, 0.1)",
           };
