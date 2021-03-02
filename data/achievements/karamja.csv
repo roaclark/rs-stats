@@ -14,11 +14,11 @@ Medium,Discover hidden wall in the dungeon below the volcano,Dragon Slayer I,,
 Medium,Visit the Isle of Crandor via the dungeon below the volcano,Dragon Slayer I,,
 Medium,Use Vigroy and Hajedy's cart service,Shilo Village,,
 Medium,Earn 100% favour in the Tai Bwo Wannai Cleanup minigame,Jungle Potion,woodcutting:10,
-Medium,Cook a Spider on stick,,cooking:16,
+Medium,Cook a Spider on stick,,cooking:16,true
 Medium,Charter the Lady of the Waves from south of Cairn Isle to Port Khazard,Shilo Village,,
 Medium,Cut a log from a teak tree,Jungle Potion,woodcutting:35,
 Medium,Cut a log from a mahogany tree,Jungle Potion,woodcutting:50,
-Medium,Catch a karambwan,Tai Bwo Wannai Trio,fishing:65,
+Medium,Catch a karambwan,Tai Bwo Wannai Trio,fishing:65,true
 Medium,Exchange gems with Safta Doc in the house with an anvil in the northern part of Tai Bwo Wannai for a machete,Jungle Potion,,
 Medium,Use the gnome glider to travel to Karamja,The Grand Tree,,true
 Medium,Grow a healthy fruit tree in the patch near Brimhaven,,farming:27,
