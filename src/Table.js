@@ -18,7 +18,12 @@ const TableBody = styled.tbody`
   }
 `;
 
-const Table = ({ data, header, rowStyles = () => ({}) }) => {
+const Table = ({
+  data,
+  header,
+  rowStyles = () => ({}),
+  cellStyles = () => ({}),
+}) => {
   return (
     <table>
       {header && (
@@ -31,10 +36,12 @@ const Table = ({ data, header, rowStyles = () => ({}) }) => {
         </thead>
       )}
       <TableBody>
-        {data.map((row, i) => (
-          <tr key={i} style={rowStyles(row, i)}>
-            {row.map((val, i) => (
-              <Cell key={i}>{val}</Cell>
+        {data.map((row, ri) => (
+          <tr key={ri} style={rowStyles(row, ri)}>
+            {row.map((val, ci) => (
+              <Cell key={ci} style={cellStyles(val, ci, row, ri)}>
+                {val}
+              </Cell>
             ))}
           </tr>
         ))}

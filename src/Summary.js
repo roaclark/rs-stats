@@ -185,7 +185,22 @@ const SummaryTable = ({ statsData, getLevel }) => {
   ];
   return (
     <PaddedTable>
-      <Table data={data} header={header} />
+      <Table
+        data={data}
+        header={header}
+        cellStyles={(cell, ci, row) => {
+          if (ci < 2 || cell === "--") {
+            return null;
+          }
+          const currLevel = row[1];
+          return {
+            background:
+              cell < currLevel
+                ? "rgba(0, 255, 0, 0.1)"
+                : "rgba(255, 0, 0, 0.1)",
+          };
+        }}
+      />
     </PaddedTable>
   );
 };
