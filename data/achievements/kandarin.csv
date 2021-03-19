@@ -15,11 +15,11 @@ Medium,Create a Superantipoison potion from scratch in the Seers/Catherby area,,
 Medium,Enter the Ranging Guild,,ranged:40,true
 Medium,Use the grapple shortcut to get from the water obelisk to Catherby shore,,agility:36|strength:22|ranged:39,
 Medium,Catch and cook a bass in Catherby,,fishing:46|cooking:43,true
-Medium,Teleport to Camelot,,magic:45,
-Medium,String a maple shortbow in Seers' Village bank,,fletching:50,
+Medium,Teleport to Camelot,,magic:45,true
+Medium,String a maple shortbow in Seers' Village bank,,fletching:50,true
 Medium,Pick some limpwurt root from the farming patch in Catherby,,farming:26,
 Medium,Create a mind helmet,Elemental Workshop II,,true
-Medium,Kill a fire giant in the Waterfall Dungeon,Waterfall Quest,,
+Medium,Kill a fire giant in the Waterfall Dungeon,Waterfall Quest,,true
 Medium,Complete a wave of Barbarian Assault,,,
 Medium,Steal from the chest in Hemenster,,thieving:47,
 Medium,Travel to McGrubor's Wood by Fairy ring,Fairytale II - Cure a Queen,,true
