@@ -12,21 +12,6 @@ const difficultyOrder = {
   Elite: 3,
 };
 
-const areas = {
-  ardougne: "Ardougne",
-  desert: "Desert",
-  falador: "Falador",
-  fremennik: "Fremennik",
-  kandarin: "Kandarin",
-  karamja: "Karamja",
-  kourend_kebos: "Kourend and Kebos",
-  lumbridge_draynor: "Lumbridge and Draynor",
-  morytania: "Morytania",
-  varrock: "Varrock",
-  western_provinces: "Western Provinces",
-  wilderness: "Wilderness",
-};
-
 const Hidable = styled.div`
   display: ${(props) => (props.show ? "block" : "none")};
 `;
@@ -151,8 +136,13 @@ const SkillReqs = ({ reqs, statsData, getLevel }) => {
   );
 };
 
-const AchivementsTable = ({ statsData, getLevel, area, completedQuests }) => {
-  const achievements = useServer("/achievements/" + area);
+const AchivementsTable = ({
+  statsData,
+  getLevel,
+  areaData,
+  completedQuests,
+}) => {
+  const { achievements, id: area } = areaData;
 
   if (achievements.loading) {
     return null;
@@ -221,8 +211,36 @@ const AchivementsTable = ({ statsData, getLevel, area, completedQuests }) => {
   );
 };
 
+const useAchievements = (area, name) => {
+  return {
+    id: area,
+    name,
+    achievements: useServer("/achievements/" + area),
+  };
+};
+
+const useAchievementData = () => {
+  const data = [
+    useAchievements("ardougne", "Ardougne"),
+    useAchievements("desert", "Desert"),
+    useAchievements("falador", "Falador"),
+    useAchievements("fremennik", "Fremennik"),
+    useAchievements("kandarin", "Kandarin"),
+    useAchievements("karamja", "Karamja"),
+    useAchievements("kourend_kebos", "Kourend and Kebos"),
+    useAchievements("lumbridge_draynor", "Lumbridge and Draynor"),
+    useAchievements("morytania", "Morytania"),
+    useAchievements("varrock", "Varrock"),
+    useAchievements("western_provinces", "Western Provinces"),
+    useAchievements("wilderness", "Wilderness"),
+  ];
+
+  return _.keyBy(data, "id");
+};
+
 const Achievements = ({ statsData, getLevel, selectedArea }) => {
   const completedQuests = useServer("/completed");
+  const achievements = useAchievementData();
 
   if (completedQuests.loading) {
     return null;
@@ -235,35 +253,35 @@ const Achievements = ({ statsData, getLevel, selectedArea }) => {
         <AreaSelect key="all" to={`/achievements`}>
           All
         </AreaSelect>
-        {_.map(_.sortBy(_.entries(areas)), ([id, name]) => (
+        {_.sortBy(_.values(achievements), "id").map(({ id, name }) => (
           <AreaSelect key={id} to={`/achievements/${id}`}>
             {name}
           </AreaSelect>
         ))}
       </AreaBar>
       <TableContainer>
-        {_.map(areas, (_name, id) => {
+        {_.map(achievements, ({ id, name }) => {
           return (
             <Hidable key={id} show={id === selectedArea}>
-              <Subtitle>{areas[id]}</Subtitle>
+              <Subtitle>{name}</Subtitle>
               <AchivementsTable
                 statsData={statsData}
                 getLevel={getLevel}
-                area={id}
+                areaData={achievements[id]}
                 completedQuests={completedQuests.data}
               />
             </Hidable>
           );
         })}
         <Hidable show={!selectedArea}>
-          {_.map(areas, (_name, id) => {
+          {_.map(achievements, ({ id, name }) => {
             return (
               <div key={id}>
-                <Subtitle>{areas[id]}</Subtitle>
+                <Subtitle>{name}</Subtitle>
                 <AchivementsTable
                   statsData={statsData}
                   getLevel={getLevel}
-                  area={id}
+                  areaData={achievements[id]}
                   completedQuests={completedQuests.data}
                 />
               </div>
