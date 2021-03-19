@@ -221,11 +221,7 @@ const AchivementsTable = ({ statsData, getLevel, area, completedQuests }) => {
   );
 };
 
-const Achievements = ({
-  statsData,
-  getLevel,
-  selectedArea = "lumbridge_draynor",
-}) => {
+const Achievements = ({ statsData, getLevel, selectedArea }) => {
   const completedQuests = useServer("/completed");
 
   if (completedQuests.loading) {
@@ -236,6 +232,9 @@ const Achievements = ({
     <>
       <Title>Achievements</Title>
       <AreaBar>
+        <AreaSelect key="all" to={`/achievements`}>
+          All
+        </AreaSelect>
         {_.map(_.sortBy(_.entries(areas)), ([id, name]) => (
           <AreaSelect key={id} to={`/achievements/${id}`}>
             {name}
@@ -256,6 +255,21 @@ const Achievements = ({
             </Hidable>
           );
         })}
+        <Hidable show={!selectedArea}>
+          {_.map(areas, (_name, id) => {
+            return (
+              <div key={id}>
+                <Subtitle>{areas[id]}</Subtitle>
+                <AchivementsTable
+                  statsData={statsData}
+                  getLevel={getLevel}
+                  area={id}
+                  completedQuests={completedQuests.data}
+                />
+              </div>
+            );
+          })}
+        </Hidable>
       </TableContainer>
     </>
   );
