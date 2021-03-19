@@ -141,6 +141,7 @@ const AchievementsTable = ({
   getLevel,
   achievements,
   completedQuests,
+  showArea = false,
 }) => {
   const filteredAchievements = _.map(
     achievements.filter((a) => !a.complete),
@@ -157,12 +158,20 @@ const AchievementsTable = ({
   const sortedAchievements = _.sortBy(filteredAchievements, (achievement) => [
     difficultyOrder[achievement.difficulty],
     achievement.available ? 0 : 1,
+    achievement.areaName,
     achievement.name,
   ]);
 
-  const headers = ["", "Difficulty", "Task", "Skills", "Quests"];
+  const headers = [
+    "",
+    "Difficulty",
+    ...(showArea ? ["Area"] : []),
+    "Task",
+    "Skills",
+    "Quests",
+  ];
   const data = sortedAchievements.map(
-    ({ area, difficulty, name, skillReqs, questReqs }) => {
+    ({ area, areaName, difficulty, name, skillReqs, questReqs }) => {
       return [
         <CompleteButton
           onClick={() =>
@@ -175,6 +184,7 @@ const AchievementsTable = ({
           ✓
         </CompleteButton>,
         difficulty,
+        ...(showArea ? [areaName] : []),
         name,
         <SkillReqs
           reqs={skillReqs}
@@ -213,7 +223,7 @@ const AreaAchievementsTable = ({
   areaData,
   completedQuests,
 }) => {
-  const { achievements, id: area } = areaData;
+  const { achievements, id: area, name: areaName } = areaData;
 
   if (achievements.loading) {
     return null;
@@ -222,6 +232,7 @@ const AreaAchievementsTable = ({
   const achievementList = achievements.data.map((achievement) => ({
     ...achievement,
     area,
+    areaName,
   }));
 
   return (
@@ -246,8 +257,12 @@ const AllAchievementsTable = ({
 
   const achievementList = _.flatMap(
     achievementsData,
-    ({ id: area, achievements }) => {
-      return achievements.data.map((achievement) => ({ ...achievement, area }));
+    ({ id: area, name: areaName, achievements }) => {
+      return achievements.data.map((achievement) => ({
+        ...achievement,
+        area,
+        areaName,
+      }));
     }
   );
 
@@ -257,6 +272,7 @@ const AllAchievementsTable = ({
       getLevel={getLevel}
       achievements={achievementList}
       completedQuests={completedQuests}
+      showArea
     />
   );
 };
