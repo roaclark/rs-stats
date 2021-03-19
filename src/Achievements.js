@@ -54,6 +54,17 @@ const AreaSelect = styled(Link)`
   }
 `;
 
+const CompletedCount = styled.span`
+  margin: 0px;
+  color: white;
+  text-decoration: none;
+
+  :not(:first-child):before {
+    margin: 0 10px;
+    content: "•";
+  }
+`;
+
 const AreaBar = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -255,6 +266,11 @@ const AllAchievementsTable = ({
     return null;
   }
 
+  const completedCounts = _.map(
+    achievementsData,
+    ({ achievements }) => achievements.data.filter((a) => a.complete).length
+  );
+
   const achievementList = _.flatMap(
     achievementsData,
     ({ id: area, name: areaName, achievements }) => {
@@ -267,13 +283,20 @@ const AllAchievementsTable = ({
   );
 
   return (
-    <AchievementsTable
-      statsData={statsData}
-      getLevel={getLevel}
-      achievements={achievementList}
-      completedQuests={completedQuests}
-      showArea
-    />
+    <>
+      <AchievementsTable
+        statsData={statsData}
+        getLevel={getLevel}
+        achievements={achievementList}
+        completedQuests={completedQuests}
+        showArea
+      />
+      <div>
+        {completedCounts.map((count) => (
+          <CompletedCount>{count}</CompletedCount>
+        ))}
+      </div>
+    </>
   );
 };
 
