@@ -136,20 +136,14 @@ const SkillReqs = ({ reqs, statsData, getLevel }) => {
   );
 };
 
-const AchivementsTable = ({
+const AchievementsTable = ({
   statsData,
   getLevel,
-  areaData,
+  achievements,
   completedQuests,
 }) => {
-  const { achievements, id: area } = areaData;
-
-  if (achievements.loading) {
-    return null;
-  }
-
   const filteredAchievements = _.map(
-    achievements.data.filter((a) => !a.complete),
+    achievements.filter((a) => !a.complete),
     (achievement) => ({
       ...achievement,
       available: achievementAvailable(
@@ -167,30 +161,32 @@ const AchivementsTable = ({
   ]);
 
   const headers = ["", "Difficulty", "Task", "Skills", "Quests"];
-  const data = sortedAchievements.map((achievement) => {
-    return [
-      <CompleteButton
-        onClick={() =>
-          serverPost("/complete_achievement", { name: achievement.name, area })
-        }
-      >
-        ✓
-      </CompleteButton>,
-      achievement.difficulty,
-      achievement.name,
-      <SkillReqs
-        reqs={achievement.skillReqs}
-        statsData={statsData}
-        getLevel={getLevel}
-      />,
-      <QuestReqs
-        reqs={achievement.questReqs}
-        completedQuests={completedQuests}
-      />,
-    ];
-  });
+  const data = sortedAchievements.map(
+    ({ area, difficulty, name, skillReqs, questReqs }) => {
+      return [
+        <CompleteButton
+          onClick={() =>
+            serverPost("/complete_achievement", {
+              name,
+              area,
+            })
+          }
+        >
+          ✓
+        </CompleteButton>,
+        difficulty,
+        name,
+        <SkillReqs
+          reqs={skillReqs}
+          statsData={statsData}
+          getLevel={getLevel}
+        />,
+        <QuestReqs reqs={questReqs} completedQuests={completedQuests} />,
+      ];
+    }
+  );
 
-  const totalCount = achievements.data.length;
+  const totalCount = achievements.length;
   const completedCount = totalCount - filteredAchievements.length;
 
   return (
@@ -208,6 +204,60 @@ const AchivementsTable = ({
         })}
       />
     </>
+  );
+};
+
+const AreaAchievementsTable = ({
+  statsData,
+  getLevel,
+  areaData,
+  completedQuests,
+}) => {
+  const { achievements, id: area } = areaData;
+
+  if (achievements.loading) {
+    return null;
+  }
+
+  const achievementList = achievements.data.map((achievement) => ({
+    ...achievement,
+    area,
+  }));
+
+  return (
+    <AchievementsTable
+      statsData={statsData}
+      getLevel={getLevel}
+      achievements={achievementList}
+      completedQuests={completedQuests}
+    />
+  );
+};
+
+const AllAchievementsTable = ({
+  statsData,
+  getLevel,
+  achievementsData,
+  completedQuests,
+}) => {
+  if (_.some(achievementsData, (area) => area.achievements.loading)) {
+    return null;
+  }
+
+  const achievementList = _.flatMap(
+    achievementsData,
+    ({ id: area, achievements }) => {
+      return achievements.data.map((achievement) => ({ ...achievement, area }));
+    }
+  );
+
+  return (
+    <AchievementsTable
+      statsData={statsData}
+      getLevel={getLevel}
+      achievements={achievementList}
+      completedQuests={completedQuests}
+    />
   );
 };
 
@@ -240,7 +290,7 @@ const useAchievementData = () => {
 
 const Achievements = ({ statsData, getLevel, selectedArea }) => {
   const completedQuests = useServer("/completed");
-  const achievements = useAchievementData();
+  const achievementsData = useAchievementData();
 
   if (completedQuests.loading) {
     return null;
@@ -253,40 +303,34 @@ const Achievements = ({ statsData, getLevel, selectedArea }) => {
         <AreaSelect key="all" to={`/achievements`}>
           All
         </AreaSelect>
-        {_.sortBy(_.values(achievements), "id").map(({ id, name }) => (
+        {_.sortBy(_.values(achievementsData), "id").map(({ id, name }) => (
           <AreaSelect key={id} to={`/achievements/${id}`}>
             {name}
           </AreaSelect>
         ))}
       </AreaBar>
       <TableContainer>
-        {_.map(achievements, ({ id, name }) => {
+        {_.map(achievementsData, ({ id, name }) => {
           return (
             <Hidable key={id} show={id === selectedArea}>
               <Subtitle>{name}</Subtitle>
-              <AchivementsTable
+              <AreaAchievementsTable
                 statsData={statsData}
                 getLevel={getLevel}
-                areaData={achievements[id]}
+                areaData={achievementsData[id]}
                 completedQuests={completedQuests.data}
               />
             </Hidable>
           );
         })}
         <Hidable show={!selectedArea}>
-          {_.map(achievements, ({ id, name }) => {
-            return (
-              <div key={id}>
-                <Subtitle>{name}</Subtitle>
-                <AchivementsTable
-                  statsData={statsData}
-                  getLevel={getLevel}
-                  areaData={achievements[id]}
-                  completedQuests={completedQuests.data}
-                />
-              </div>
-            );
-          })}
+          <Subtitle>All</Subtitle>
+          <AllAchievementsTable
+            statsData={statsData}
+            getLevel={getLevel}
+            achievementsData={achievementsData}
+            completedQuests={completedQuests.data}
+          />
         </Hidable>
       </TableContainer>
     </>
