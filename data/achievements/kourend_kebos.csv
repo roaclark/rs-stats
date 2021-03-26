@@ -15,15 +15,15 @@ Medium,Travel to the fairy ring south of Mount Karuulm,Fairytale II - Cure a Que
 Medium,Kill a lizardman,,,true
 Medium,Use Kharedst's memoirs to teleport to all five cities in Great Kourend,The Depths of Despair|The Queen of Thieves|Tale of the Righteous|The Forsaken Tower|The Ascent of Arceuus,,true
 Medium,Mine some volcanic sulphur,,mining:42,true
-Medium,Enter the Farming Guild,,farming:45,
+Medium,Enter the Farming Guild,,farming:45,true
 Medium,Switch to the Arceuus spellbook via Tyss,,,true
 Medium,Repair a crane within Port Piscarilius,,crafting:30,true
 Medium,Deliver some intelligence to Captain Ginea,,,true
-Medium,Catch a Bluegill on Lake Molch,,fishing:43|hunter:35,
-Medium,Use the boulder leap shortcut in the Arceuus essence mine,,agility:49,
+Medium,Catch a Bluegill on Lake Molch,,fishing:43|hunter:35,true
+Medium,Use the boulder leap shortcut in the Arceuus essence mine,,agility:49,true
 Medium,Subdue the Wintertodt,,firemaking:50,
 Medium,Catch a chinchompa in the Kourend Woodland,Eagles' Peak,hunter:53,
-Medium,Chop some mahogany logs north of the Farming Guild,,woodcutting:50,
+Medium,Chop some mahogany logs north of the Farming Guild,,woodcutting:50,true
 Hard,Enter the Woodcutting Guild,,woodcutting:60,true
 Hard,Smelt an adamantite bar in The Forsaken Tower,The Forsaken Tower,smithing:70,
 Hard,Kill a lizardman shaman in the Lizardman Temple,,,

@@ -9,7 +9,7 @@ Easy,Steal from the Keldagrim crafting or baker's stall,The Giant Dwarf,thieving
 Easy,Fill a bucket with water at the Rellekka well,,,true
 Easy,Enter the Troll Stronghold,Troll Stronghold|Death Plateau,,true
 Easy,Chop and burn some oak logs in the Fremennik Province,,woodcutting:15|firemaking:15,true
-Medium,Slay a brine rat,Olaf's Quest,slayer:47,
+Medium,Slay a brine rat,Olaf's Quest,slayer:47,true
 Medium,Travel to the Snowy Hunter Area via Eagle,Eagles' Peak,,true
 Medium,Mine some coal in Rellekka,The Fremennik Trials,mining:30,true
 Medium,Steal from the Rellekka fish stalls,The Fremennik Trials,thieving:42,true
