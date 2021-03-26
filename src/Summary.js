@@ -90,6 +90,11 @@ const PaddedTable = styled.div`
   margin-bottom: 50px;
 `;
 
+const Refresh = styled.p`
+  margin: 0;
+  margin-top: 4px;
+`;
+
 const LevelForm = ({ oldLevel, updateLevel, cancel }) => {
   const [error, setError] = React.useState(false);
   const handleSubmit = (e) => {
@@ -224,6 +229,7 @@ const Summary = ({ statsData, getLevel, skillsData, members }) => {
             />
           ))
         )}
+        <Refresh onClick={() => serverPost("/refresh_stats")}>↺</Refresh>
       </Container>
       <SummaryTable statsData={statsData} getLevel={getLevel} />
     </>
