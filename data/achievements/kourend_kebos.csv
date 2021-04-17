@@ -21,8 +21,8 @@ Medium,Repair a crane within Port Piscarilius,,crafting:30,true
 Medium,Deliver some intelligence to Captain Ginea,,,true
 Medium,Catch a Bluegill on Lake Molch,,fishing:43|hunter:35,true
 Medium,Use the boulder leap shortcut in the Arceuus essence mine,,agility:49,true
-Medium,Subdue the Wintertodt,,firemaking:50,
-Medium,Catch a chinchompa in the Kourend Woodland,Eagles' Peak,hunter:53,
+Medium,Subdue the Wintertodt,,firemaking:50,true
+Medium,Catch a chinchompa in the Kourend Woodland,Eagles' Peak,hunter:53,true
 Medium,Chop some mahogany logs north of the Farming Guild,,woodcutting:50,true
 Hard,Enter the Woodcutting Guild,,woodcutting:60,true
 Hard,Smelt an adamantite bar in The Forsaken Tower,The Forsaken Tower,smithing:70,

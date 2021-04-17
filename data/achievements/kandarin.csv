@@ -17,11 +17,11 @@ Medium,Use the grapple shortcut to get from the water obelisk to Catherby shore,
 Medium,Catch and cook a bass in Catherby,,fishing:46|cooking:43,true
 Medium,Teleport to Camelot,,magic:45,true
 Medium,String a maple shortbow in Seers' Village bank,,fletching:50,true
-Medium,Pick some limpwurt root from the farming patch in Catherby,,farming:26,
+Medium,Pick some limpwurt root from the farming patch in Catherby,,farming:26,true
 Medium,Create a mind helmet,Elemental Workshop II,,true
 Medium,Kill a fire giant in the Waterfall Dungeon,Waterfall Quest,,true
 Medium,Complete a wave of Barbarian Assault,,,
-Medium,Steal from the chest in Hemenster,,thieving:47,
+Medium,Steal from the chest in Hemenster,,thieving:47,true
 Medium,Travel to McGrubor's Wood by Fairy ring,Fairytale II - Cure a Queen,,true
 Medium,Mine some coal near the coal trucks,,mining:30,true
 Hard,Catch a leaping sturgeon,,fishing:70|agility:45|strength:45,
