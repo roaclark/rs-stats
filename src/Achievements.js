@@ -175,6 +175,7 @@ const AchievementsTable = ({
 
   const headers = [
     "",
+    "",
     "Difficulty",
     ...(showArea ? ["Area"] : []),
     "Task",
@@ -182,8 +183,9 @@ const AchievementsTable = ({
     "Quests",
   ];
   const data = sortedAchievements.map(
-    ({ area, areaName, difficulty, name, skillReqs, questReqs }) => {
+    ({ area, areaName, difficulty, name, skillReqs, questReqs }, i) => {
       return [
+        i + 1,
         <CompleteButton
           onClick={() =>
             serverPost("/complete_achievement", {
