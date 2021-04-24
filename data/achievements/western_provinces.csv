@@ -13,11 +13,11 @@ Easy,Kill a terrorbird in the terrorbird enclosure,,,true
 Medium,Take the agility shortcut from the Grand Tree to Otto's Grotto,Tree Gnome Village|The Grand Tree,agility:37,true
 Medium,Travel to the Tree Gnome Stronghold by Spirit tree,Tree Gnome Village,,true
 Medium,Trap a Spined larupia,,hunter:31,true
-Medium,Fish some bass on Ape Atoll,Monkey Madness I,fishing:46,
-Medium,Chop and burn some teak logs on Ape Atoll,Monkey Madness I,woodcutting:35|firemaking:35,
-Medium,Complete an intermediate game of Pest Control,,combat:70,
+Medium,Fish some bass on Ape Atoll,Monkey Madness I,fishing:46,true
+Medium,Chop and burn some teak logs on Ape Atoll,Monkey Madness I,woodcutting:35|firemaking:35,true
+Medium,Complete an intermediate game of Pest Control,,combat:70,true
 Medium,Travel to the Feldip Hills by Gnome glider,The Grand Tree|One Small Favour,,true
-Medium,Claim a Chompy bird hat from Rantz after registering at least 125 kills,Big Chompy Bird Hunting,fletching:5|ranged:30,
+Medium,Claim a Chompy bird hat from Rantz after registering at least 125 kills,Big Chompy Bird Hunting,fletching:5|ranged:30,true
 Medium,Travel from Eagles' Peak to the Feldip Hills by Eagle,Eagles' Peak,,true
 Medium,Make a Chocolate bomb at the Grand Tree,,cooking:42,true
 Medium,Complete a delivery for the Gnome Restaurant,,cooking:29,truetrue

@@ -11,7 +11,7 @@ Easy,Collect 5 red spider's eggs from the Wilderness,,,true
 Easy,Mine some iron ore in the Wilderness,,mining:15,true
 Easy,Have the Mage of Zamorak teleport you to the Abyss,Enter the Abyss,,true
 Easy,Equip any team cape in the Wilderness,,,true
-Medium,Mine some mithril ore in the Wilderness,,mining:55,
+Medium,Mine some mithril ore in the Wilderness,,mining:55,true
 Medium,Chop some yew logs from an ent,,woodcutting:61,
 Medium,Enter the Wilderness God Wars Dungeon,,strength:60,
 Medium,Complete a lap of the Wilderness Agility Course,,agility:52,
@@ -21,7 +21,7 @@ Medium,Charge an earth orb,,magic:60,
 Medium,Kill a bloodveld in the Wilderness God Wars Dungeon,,slayer:50,
 Medium,Talk to the Emblem Trader in Edgeville about emblems,,,true
 Medium,Smith a Gold helmet in the Resource Area,Between a Rock...,smithing:50,
-Medium,Open the muddy chest in the Lava Maze,,,
+Medium,Open the muddy chest in the Lava Maze,,,true
 Hard,Cast one of the 3 God spells against another player in the Wilderness,The Mage Arena,magic:60,
 Hard,Charge an air orb,,magic:66,
 Hard,Catch a black salamander,,hunter:67,
@@ -31,7 +31,7 @@ Hard,Kill the Chaos Elemental,,,
 Hard,Kill the Crazy archaeologist & Chaos Fanatic & Scorpia,,,
 Hard,Take the Agility Shortcut from Trollheim into the Wilderness,Death Plateau,agility:64,
 Hard,Kill a spiritual warrior in the Wilderness God Wars Dungeon,,slayer:68,
-Hard,Fish some raw lava eel in the Wilderness,,fishing:53,
+Hard,Fish some raw lava eel in the Wilderness,,fishing:53,true
 Elite,Kill Callisto & Venenatis & Vet'ion,,,
 Elite,Teleport to Ghorrock,Desert Treasure,magic:96,
 Elite,Fish and cook a dark crab in the Resource Area,,fishing:85|cooking:90,
