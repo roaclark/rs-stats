@@ -10,17 +10,17 @@ Easy,Sell some artefacts to Simon Templeton,,,true
 Easy,Open the sarcophagus in the first room of Pyramid Plunder,Icthlarin's Little Helper,thieving:21,true
 Easy,Cut a desert cactus open to fill a waterskin,,,true
 Easy,Travel from the Shantay Pass to Pollnivneach by magic carpet,,,true
-Medium,Climb to the summit of the Agility Pyramid,,agility:30,
+Medium,Climb to the summit of the Agility Pyramid,,agility:30,true
 Medium,Slay a desert lizard,,slayer:22,true
-Medium,Catch an orange salamander,,hunter:47,
+Medium,Catch an orange salamander,,hunter:47,true
 Medium,Steal a Phoenix feather from the Desert phoenix,,thieving:25,true
 Medium,Travel to Uzer via magic carpet,The Golem,,true
 Medium,Travel to the desert via the Eagle transport system,Eagles' Peak,,true
 Medium,Pray at the Elidinis Statuette in Nardah,Spirits of the Elid,,true
-Medium,Create a combat potion in the desert,,herblore:36,
+Medium,Create a combat potion in the desert,,herblore:36,true
 Medium,Teleport to Enakhra's Temple with the Camulet,Enakhra's Lament,,true
 Medium,Visit the genie,Spirits of the Elid,,true
-Medium,Teleport to Pollnivneach with a redirected teleport to house tablet,,construction:20,
+Medium,Teleport to Pollnivneach with a redirected teleport to house tablet,,construction:20,true
 Medium,Chop some teak logs near Uzer,,woodcutting:35,true
 Hard,Knock out and pickpocket a Menaphite Thug,The Feud,thieving:65,
 Hard,Mine some granite,,mining:45,true
