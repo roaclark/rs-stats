@@ -21,10 +21,17 @@ def get_csv(filename, parser):
     return [l for l in parsed_lines if l is not None]
 
 def get_rewards(name):
-  return get_csv(
+  rewards = get_csv(
     'rewards/' + name,
     line_parser(lambda line: {'name': line[0], "level": int(line[1]), "members": bool(line[2])})
-  ) + [{'name': 'Max', "level": 99, "members": False}]
+  )
+  max_level = [{'name': 'Max', "level": 99, "members": False}]
+  quest_rewards = [({
+    'name': q['name'],
+    "level": q['skillReqs'][name],
+    "members": True
+  }) for q in get_quests() if name in q['skillReqs']]
+  return sorted(rewards + max_level + quest_rewards, key=lambda x: x['level'])
 
 def get_actions(name):
   return get_csv(
