@@ -20,7 +20,7 @@ Cold War,Intermediate,30,,34,30,,,,,,,,,10,,,,,,,,,15,,,51,,
 Contact!,Master,,,,,,,,,,,,,,,,,,,,,,,,,191,,Icthlarin's Little Helper|Prince Ali Rescue
 Cook's Assistant,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Creature of Fenkenstrain,Intermediate,,,,20,,,,,,,,,,,,,,,,,,25,,,51,,Priest in Peril|The Restless Ghost
-Curse of the Empty Lord,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,113,,Desert Treasure
+Curse of the Empty Lord,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,,,Desert Treasure
 Daddy's Home,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Darkness of Hallowvale,Intermediate,26,,5,32,,,,,,,,,,33,20,,,,,,40,22,,,169,,In Aid of the Myreque
 Death Plateau,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -46,7 +46,7 @@ Ernest the Chicken,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Fairytale I - Growing Pains,Experienced,,,,31,,,,,,,,,,,,,,,,,,,36,,111,,Lost City|Nature Spirit
 Fairytale II - Cure a Queen,Experienced,,,,31,,,,,,49,57,,,,,,,,,,,40,36,,145,,Fairytale I - Growing Pains
 Family Crest,Experienced,,,,40,,,,,,,,,,59,40,,,,,40,,,,,170,,
-Family Pest,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,170,,Family Crest
+Family Pest,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,,,Family Crest
 Fight Arena,Experienced,,,,,,,,,,,,,,,,,,,,,,,,,137,,
 Fishing Contest,Novice,,,,,,,,10,,,,,,,,,,,,,,,,,,,
 Forgettable Tale...,Intermediate,,,,12,22,,16,10,,17,,,,33,,,,,,,,14,,,,,The Giant Dwarf|Fishing Contest
@@ -67,8 +67,8 @@ In Aid of the Myreque,Intermediate,25,,,25,,,,,,,,,,7,15,,,,,,,,,,97,,In Search 
 In Search of Knowledge,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,105,,
 In Search of the Myreque,Intermediate,25,,,,,,,,,,,,,,,,,,,,,,,,97,,Nature Spirit
 Jungle Potion,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,Druidic Ritual
-King's Ransom,Experienced,36,20,,25,,65,,,,,18,,,45,,,,,,30,,,,,120,,Black Knights' Fortress|Holy Grail|Murder Mystery|One Small Favour
-Lair of Tarn Razorlor,Miniquest,,,,,,,,,,,,,,,,,,,40,,,,,,95,,Haunted Mine
+King's Ransom,Experienced,36,20,,25,,65,,,,,18,,,45,,,,,,30,,,,,,,Black Knights' Fortress|Holy Grail|Murder Mystery|One Small Favour
+Lair of Tarn Razorlor,Miniquest,,,,,,,,,,,,,,,,,,,40,,,,,,100,,Haunted Mine
 Legends' Quest,Master,50,,,50,53,,,53,,,45,,,59,52,42,25,,,50,50,50,50,,187,107,Family Crest|Heroes' Quest|Shilo Village|Underground Pass|Waterfall Quest
 Lost City,Experienced,,,,31,,,,,,,,,,,,,,,,,,,36,,101,,
 Lunar Diplomacy,Experienced,32,,,61,,40,49,,,,5,,,65,60,,,,,,,,55,,111,,The Fremennik Trials|Lost City|Rune Mysteries|Shilo Village
@@ -78,10 +78,10 @@ Merlin's Crystal,Intermediate,,,,,,,,,,,,,,,,,,,,,,,,,39,,
 Misthalin Mystery,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Monk's Friend,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Monkey Madness I,Master,25,,,,,,,,,,,,,,,,,,,,,,,,195,,The Grand Tree|Tree Gnome Village
-Monkey Madness II,Grandmaster,55,,5,70,70,,60,,,30,14,,60,46,40,,,,69,,,55,,,378,,Enlightened Journey|The Eyes of Glouphrie|Recipe for Disaster|Troll Stronghold|Watchtower
+Monkey Madness II,Grandmaster,55,,5,70,70,,60,,,30,14,,60,46,40,,,,69,,,55,,,431,,Enlightened Journey|The Eyes of Glouphrie|Recipe for Disaster|Troll Stronghold|Watchtower
 Mountain Daughter,Intermediate,20,,,,,,,,,,,,,,,,,,,,,,,,70,,
-Mourning's End Part I,Master,56,,,10,30,,,,5,,,,,,,,60,,,,,50,,,110,,Big Chompy Bird Hunting|Sheep Herder|Roving Elves
-Mourning's End Part II,Master,56,,,10,30,,,,5,,,,,,,,60,,,,,50,,,110,,Mourning's End Part I
+Mourning's End Part I,Master,56,,,10,30,,,,5,,,,,,,,60,,,,,50,,,11,,Big Chompy Bird Hunting|Sheep Herder|Roving Elves
+Mourning's End Part II,Master,56,,,10,30,,,,5,,,,,,,,60,,,,,50,,,,,Mourning's End Part I
 Murder Mystery,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 My Arm's Big Adventure,Intermediate,15,,,,,,,,,29,31,,,,,,,,,,,30,10,,172,,Eadgar's Ruse|The Feud|Jungle Potion
 Nature Spirit,Novice,,,,,,,,,,,,,,,,,,,,,,,,,30,,Priest in Peril|The Restless Ghost
@@ -99,7 +99,7 @@ Recipe for Disaster,Master,48,,,40,70,,50,53,10,,25,,,59,50,,40,,10,40,,53,36,,2
 Recruitment Drive,Novice,,,,,,,,,,,,,,,,,,,,,,,,,20,12,Black Knights' Fortress|Druidic Ritual
 Regicide,Master,56,,,10,,,,,,,,,,,,,25,,,,,,,,110,,Underground Pass
 Romeo & Juliet,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Roving Elves,Master,56,,,10,,,,,,,,,,,,,25,,,,,,,,110,,Waterfall Quest|Regicide
+Roving Elves,Master,56,,,10,,,,,,,,,,,,,25,,,,,,,,84,,Waterfall Quest|Regicide
 Royal Trouble,Experienced,40,,,31,53,,,53,,10,35,,,,50,,,,40,,,,45,,149,,Throne of Miscellania
 Rum Deal,Experienced,,,,42,30,,,50,5,40,8,,,,,47,30,,42,4,,,,,150,,Zogre Flesh Eaters|Priest in Peril
 Rune Mysteries,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
