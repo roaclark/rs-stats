@@ -28,7 +28,7 @@ Hard,Catch and cook a monkfish in Piscatoris,Swan Song,fishing:62|cooking:62,
 Hard,Complete a veteran game of Pest Control,,combat:100,
 Hard,Catch a dashing kebbit,,hunter:69,
 Hard,Complete a lap of the Ape Atoll Agility Course,Monkey Madness I,agility:48,
-Hard,Chop and burn some mahogany logs on Ape Atoll,Monkey Madness I,woodcutting:50|firemaking:50,
+Hard,Chop and burn some mahogany logs on Ape Atoll,Monkey Madness I,woodcutting:50|firemaking:50,true
 Hard,Mine some adamantite ore in Tirannwn,Regicide,mining:70,
 Hard,Check the health of your palm tree in Lletya,Mourning's End Part I,farming:68,
 Hard,Claim a Chompy bird hat from Rantz after registering at least 300 kills,Big Chompy Bird Hunting,fletching:5|ranged:30,

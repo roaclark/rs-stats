@@ -21,11 +21,11 @@ Medium,Collect some cave nightshade from the Skavid caves,Watchtower,,true
 Medium,Kill a swordchick in the Tower of Life,Tower of Life,,true
 Medium,Equip an Iban's upgraded staff or upgrade an Iban's staff,Underground Pass,magic:50|attack:50,true
 Medium,Visit the island east of the Necromancer Tower,Fairytale II - Cure a Queen,,true
-Hard,Recharge some jewellery at the Totem pole in the Legends' Guild,Legends' Quest,,
+Hard,Recharge some jewellery at the Totem pole in the Legends' Guild,Legends' Quest,,true
 Hard,Enter the Magic Guild,,magic:66,
 Hard,Attempt to steal from a chest in Ardougne Castle,,thieving:72,
 Hard,Have a zookeeper put you in Ardougne Zoo's monkey cage,Monkey Madness I,,true
-Hard,Teleport to the Watchtower,Watchtower,magic:58,
+Hard,Teleport to the Watchtower,Watchtower,magic:58,true
 Hard,Catch a Red Salamander,,hunter:59,
 Hard,Check the health of a palm tree near Tree Gnome Village,,farming:68,
 Hard,Pick some poison ivy berries from the patch south of East Ardougne,,farming:70,

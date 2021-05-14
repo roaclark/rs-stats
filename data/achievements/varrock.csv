@@ -35,7 +35,7 @@ Hard,Chop some yew logs in Varrock and burn them at the top of the Varrock churc
 Hard,Have the Varrock estate agent decorate your house with Fancy Stone,,construction:50,
 Hard,Collect at least 2 yew roots from the tree patch in Varrock Palace,,farming:68|woodcutting:60,
 Hard,Pray at the altar in Varrock Palace with Smite active,,prayer:52,
-Hard,Squeeze through the obstacle pipe in Edgeville Dungeon,,agility:51,
+Hard,Squeeze through the obstacle pipe in Edgeville Dungeon,,agility:51,true
 Elite,Create a Super combat potion in Varrock West Bank,Druidic Ritual,herblore:90,
 Elite,Use Lunar magic to make 20 mahogany planks in the Varrock Lumber Yard (Plank Make),Dream Mentor,magic:86,
 Elite,Bake a summer pie in the Cooking Guild,,cooking:95,

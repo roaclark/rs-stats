@@ -28,12 +28,12 @@ Hard,Squeeze past the jutting wall on your way to the cosmic altar,Lost City,agi
 Hard,Craft 56 cosmic runes simultaneously,Lost City,runecrafting:59,
 Hard,Travel from Lumbridge to Edgeville on a waka canoe,,woodcutting:57,true
 Hard,Collect at least 100 Tears of Guthix in one visit,Tears of Guthix,,true
-Hard,Take the train from Dorgesh-Kaan to Keldagrim,Another Slice of H.A.M.,,
+Hard,Take the train from Dorgesh-Kaan to Keldagrim,Another Slice of H.A.M.,,true
 Hard,Purchase some Barrows gloves from the Culinaromancer's Chest,Recipe for Disaster,,
 Hard,Pick some belladonna from the farming patch at Draynor Manor,,farming:63,
 Hard,Light your mining helmet in the Lumbridge Castle basement,,firemaking:65,
 Hard,Recharge your prayer at Duel Arena with Smite activated,,prayer:52,
-Hard,Craft and enchant an amulet of power in Lumbridge,,crafting:70|magic:57,
+Hard,Craft and enchant an amulet of power in Lumbridge,,crafting:70|magic:57,true
 Elite,Steal from a Dorgesh-Kaan rich chest,Death to the Dorgeshuun,thieving:78,
 Elite,Pickpocket Movario on the Dorgesh-Kaan Agility Course,Death to the Dorgeshuun|Temple of Ikov,agility:70|ranged:70|strength:70,
 Elite,Chop some magic logs at the Mage Training Arena,,woodcutting:75,

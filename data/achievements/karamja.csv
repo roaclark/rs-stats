@@ -30,12 +30,12 @@ Medium,Charter a ship from the shipyard in the far east of Karamja,The Grand Tre
 Medium,Mine a red topaz from a gem rock,Shilo Village,mining:40,true
 Hard,Become the champion of the Fight Pit,,,
 Hard,Kill a Ket-Zek in the Fight Caves,,,
-Hard,Eat an oomlie wrap,,,
-Hard,Craft some nature runes,,runecrafting:44,
-Hard,Cook a raw karambwan thoroughly,Tai Bwo Wannai Trio,cooking:30,
-Hard,Kill a deathwing in the dungeon under the Kharazi Jungle,Legends' Quest,woodcutting:15|strength:50|agility:50|thieving:50|mining:52,
+Hard,Eat an oomlie wrap,,,true
+Hard,Craft some nature runes,,runecrafting:44,true
+Hard,Cook a raw karambwan thoroughly,Tai Bwo Wannai Trio,cooking:30,true
+Hard,Kill a deathwing in the dungeon under the Kharazi Jungle,Legends' Quest,woodcutting:15|strength:50|agility:50|thieving:50|mining:52,true
 Hard,Use the crossbow shortcut south of the volcano,,agility:53|ranged:42|strength:21,
-Hard,Collect 5 palm leaves,Legends' Quest,woodcutting:15,
+Hard,Collect 5 palm leaves,Legends' Quest,woodcutting:15,true
 Hard,Be assigned a Slayer task by Duradel in Shilo Village,Shilo Village,combat:100|slayer:50,
 Hard,Kill a metal dragon in Brimhaven Dungeon,,,
 Elite,Craft 56 nature runes at once,,runecrafting:91,
