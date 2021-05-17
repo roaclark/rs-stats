@@ -31,7 +31,14 @@ def get_rewards(name):
     "level": q['skillReqs'][name],
     "members": True
   }) for q in get_quests() if name in q['skillReqs']]
-  return sorted(rewards + max_level + quest_rewards, key=lambda x: x['level'])
+  level_reqs = next(l for l in get_level_reqs() if l['skill'] == name)
+  diaries = ["easy", "medium", "hard", "elite"]
+  diary_reqs = [({
+    "name": d.capitalize() + ' diary',
+    "level": level_reqs[d],
+    "members": True
+  }) for d in diaries if level_reqs[d]]
+  return sorted(rewards + max_level + quest_rewards + diary_reqs, key=lambda x: x['level'])
 
 def get_actions(name):
   return get_csv(
