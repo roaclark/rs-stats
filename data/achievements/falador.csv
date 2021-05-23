@@ -32,7 +32,7 @@ Hard,Complete a lap of the Falador Rooftop Agility Course,,agility:50,true
 Hard,Enter the Mining Guild wearing full Prospector,,mining:60,
 Hard,Kill the blue dragon under the Heroes' Guild,Heroes' Quest,,true
 Hard,Crack a wall safe within Rogues' Den,,thieving:50,true
-Hard,Recharge your Prayer in the Port Sarim church while wearing full Proselyte,The Slug Menace,defence:30,
+Hard,Recharge your Prayer in the Port Sarim church while wearing full Proselyte,The Slug Menace,defence:30,true
 Hard,Enter the Warriors' Guild,,attack:65|strength:65,true
 Hard,Equip a Dwarven helmet within the Dwarven Mines,Grim Tales,defence:50,
 Elite,Craft 252 air runes simultaneously,,runecrafting:88,
