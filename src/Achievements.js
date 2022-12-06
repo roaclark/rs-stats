@@ -87,6 +87,21 @@ const CompleteButton = styled.button`
   }
 `;
 
+const AllCountContainer = styled.div`
+  display: grid;
+  grid-template-columns: auto 1fr auto 1fr;
+  max-width: 800px;
+  margin: auto;
+
+  p:nth-child(odd) {
+    justify-self: end;
+  }
+
+  p {
+    margin: 0;
+  }
+`;
+
 const skillReqMet = (skill, req, statsData, getLevel) => {
   if (skill !== "combat") {
     return getLevel(statsData[skill]) >= req;
@@ -268,10 +283,12 @@ const AllAchievementsTable = ({
     return null;
   }
 
-  const completedCounts = _.map(
-    achievementsData,
-    ({ achievements }) => achievements.data.filter((a) => a.complete).length
-  );
+  const completedCounts = _.map(achievementsData, ({ name, achievements }) => [
+    name,
+    `${achievements.data.filter((a) => a.complete).length} / ${
+      achievements.data.length
+    }`,
+  ]);
 
   const achievementList = _.flatMap(
     achievementsData,
@@ -286,6 +303,14 @@ const AllAchievementsTable = ({
 
   return (
     <>
+      <AllCountContainer>
+        {completedCounts.map(([name, count]) => (
+          <>
+            <p>{name}</p>
+            <p>{count}</p>
+          </>
+        ))}
+      </AllCountContainer>
       <AchievementsTable
         statsData={statsData}
         getLevel={getLevel}
@@ -293,11 +318,6 @@ const AllAchievementsTable = ({
         completedQuests={completedQuests}
         showArea
       />
-      <div>
-        {completedCounts.map((count) => (
-          <CompletedCount>{count}</CompletedCount>
-        ))}
-      </div>
     </>
   );
 };
@@ -341,8 +361,8 @@ const Achievements = ({ statsData, getLevel, selectedArea }) => {
     <>
       <Title>Achievements</Title>
       <AreaBar>
-        <AreaSelect key="all" to={`/achievements`}>
-          All
+        <AreaSelect key="overview" to={`/achievements`}>
+          Overview
         </AreaSelect>
         {_.sortBy(_.values(achievementsData), "id").map(({ id, name }) => (
           <AreaSelect key={id} to={`/achievements/${id}`}>
@@ -365,7 +385,7 @@ const Achievements = ({ statsData, getLevel, selectedArea }) => {
           );
         })}
         <Hidable show={!selectedArea}>
-          <Subtitle>All</Subtitle>
+          <Subtitle>Overview</Subtitle>
           <AllAchievementsTable
             statsData={statsData}
             getLevel={getLevel}
