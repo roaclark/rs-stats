@@ -46,6 +46,14 @@ const NavHeader = styled.div`
   max-width: 800px;
 `;
 
+const Divider = styled.div`
+  margin: 20px;
+  border-bottom: solid rgba(255, 255, 255, 0.5) 1px;
+  height: 1px;
+  width: 90%;
+  max-width: 850px;
+`;
+
 const TabData = ({
   skillsData,
   experienceData,
@@ -101,14 +109,17 @@ const AppInner = ({ experienceData, skillsData, statsData, members }) => {
   return (
     <Router>
       <NavHeader>
-        <NavLabel to="/">All</NavLabel>
+        <NavLabel to="/">Overview</NavLabel>
+        <NavLabel to="/quests">Quests</NavLabel>
+        {members && <NavLabel to="/achievements">Achievements</NavLabel>}
+      </NavHeader>
+      <Divider />
+      <NavHeader>
         {filteredSkillsData.map((skill) => (
           <NavLabel key={skill.name} to={`/${skill.name}`}>
             {skill.name}
           </NavLabel>
         ))}
-        <NavLabel to="/quests">Quests</NavLabel>
-        {members && <NavLabel to="/achievements">Achievements</NavLabel>}
       </NavHeader>
       <Switch>
         <Route path={["/:selected/:area", "/:selected", "/"]}>
