@@ -30,7 +30,7 @@ Hard,Create a yew longbow from scratch around Seers' Village,,fletching:70|woodc
 Hard,Enter the Seers' Village courthouse with Piety turned on,King's Ransom,prayer:70|defence:70,
 Hard,Charge a water orb,,magic:56,true
 Hard,Burn some maple logs with a bow in Seers' Village,,firemaking:65,
-Hard,Kill a shadow hound in the Shadow Dungeon,Desert Treasure,thieving:53,
+Hard,Kill a shadow hound in the Shadow Dungeon,Desert Treasure,thieving:53,true
 Hard,Kill a Mithril dragon,,,
 Hard,Purchase and equip a granite body from Barbarian Assault,,strength:50|defence:50,
 Hard,Have the Seers estate agent decorate your house with Fancy Stone,,construction:50,
