@@ -24,7 +24,7 @@ Medium,Complete a delivery for the Gnome Restaurant,,cooking:29,truetrue
 Medium,Turn your crystal saw seed into a crystal saw,The Eyes of Glouphrie,,true
 Medium,Mine some gold ore underneath the Grand Tree,The Grand Tree,mining:40,true
 Hard,Kill an elf with a crystal bow,Roving Elves,ranged:70|agility:56,
-Hard,Catch and cook a monkfish in Piscatoris,Swan Song,fishing:62|cooking:62,
+Hard,Catch and cook a monkfish in Piscatoris,Swan Song,fishing:62|cooking:62,true
 Hard,Complete a veteran game of Pest Control,,combat:100,
 Hard,Catch a dashing kebbit,,hunter:69,
 Hard,Complete a lap of the Ape Atoll Agility Course,Monkey Madness I,agility:48,true
