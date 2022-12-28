@@ -173,20 +173,20 @@ const SummaryTable = ({ statsData, getLevel }) => {
   const data = levelReqs.data.map((req) => [
     _.upperFirst(req.skill),
     getLevel(statsData[req.skill]),
+    req.quest || "--",
     req.easy || "--",
     req.medium || "--",
     req.hard || "--",
     req.elite || "--",
-    req.quest || "--",
   ]);
   const header = [
     "Skill",
     "Level",
+    "Quests",
     "Easy diary",
     "Medium diary",
     "Hard diary",
     "Elite diary",
-    "Quests",
   ];
   return (
     <PaddedTable>
