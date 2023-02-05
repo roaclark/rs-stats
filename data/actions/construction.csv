@@ -1,21 +1,21 @@
 action,exp,level,members,cost
-Plank,1,29,true,289
-Crude wooden chair,1,58,true,622
-Bolt of cloth,2,15,true,736
-Soft clay,3,10,true,132
-Wooden bookcase,4,115,true,1244
-Iron bar,5,10,true,131
-Limestone brick,5,20,true,126
-Steel bar,7,20,true,362
-Oak plank,15,60,true,438
-Oak chair,19,120,true,876
-Oak dining table,19,240,true,1752
-Long bone,30,4500,true,0
-Curved bone,30,6750,true,0
-Oak larder,33,480,true,3504
-Teak plank,35,90,true,822
-Mahogany plank,40,140,true,2213
-Mythical cape,47,370,true,2850
-Mahogany table,52,840,true,13278
-Teak garden bench,66,540,true,4932
-Oak door,74,600,true,4380
+Plank,29,1,true,289
+Crude wooden chair,58,1,true,622
+Bolt of cloth,15,2,true,736
+Soft clay,10,3,true,132
+Wooden bookcase,115,4,true,1244
+Iron bar,10,5,true,131
+Limestone brick,20,5,true,126
+Steel bar,20,7,true,362
+Oak plank,60,15,true,438
+Oak chair,120,19,true,876
+Oak dining table,240,19,true,1752
+Long bone,4500,30,true,0
+Curved bone,6750,30,true,0
+Oak larder,480,33,true,3504
+Teak plank,90,35,true,822
+Mahogany plank,140,40,true,2213
+Mythical cape,370,47,true,2850
+Mahogany table,840,52,true,13278
+Teak garden bench,540,66,true,4932
+Oak door,600,74,true,4380
