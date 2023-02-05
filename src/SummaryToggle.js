@@ -12,7 +12,7 @@ const ToggleBackground = styled.div`
   border: 3px solid #ccc;
   height: 20px;
   width: 32px;
-  margin-right: 10px;
+  margin-left: 10px;
   transition: background 0.3s;
   background: ${(props) => (props.checked ? "#f80" : "#999")};
 
@@ -34,20 +34,20 @@ const ToggleContainer = styled.div`
   align-items: center;
 `;
 
-const MembersToggle = ({ members, setMembers }) => {
+const SummaryToggle = ({ showDifference, setShowDifference }) => {
   return (
     <label>
       <ToggleContainer>
+        <span>Show difference</span>
         <HiddenCheckbox
           type="checkbox"
-          checked={members}
-          onChange={(e) => setMembers(e.target.checked)}
+          checked={showDifference}
+          onChange={(e) => setShowDifference(e.target.checked)}
         />
-        <ToggleBackground checked={members} />
-        <span>Members</span>
+        <ToggleBackground checked={showDifference} />
       </ToggleContainer>
     </label>
   );
 };
 
-export default MembersToggle;
+export default SummaryToggle;

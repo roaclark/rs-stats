@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import _ from "lodash";
 import { useServer, serverPost } from "./hooks";
 import Table from "./Table";
+import SummaryToggle from "./SummaryToggle";
 
 const icons = {
   attack: "https://oldschool.runescape.wiki/images/f/fe/Attack_icon.png",
@@ -88,6 +89,10 @@ const LevelInput = styled.input`
 const PaddedTable = styled.div`
   margin-top: 30px;
   margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
 `;
 
 const Refresh = styled.p`
@@ -166,19 +171,24 @@ const Stat = ({ stat, experience, getLevel, filtered }) => {
 
 const SummaryTable = ({ statsData, getLevel }) => {
   const levelReqs = useServer("/level_reqs");
+  const [showDifference, setShowDifference] = useState(false);
   if (levelReqs.loading) {
     return null;
   }
 
-  const data = levelReqs.data.map((req) => [
-    _.upperFirst(req.skill),
-    getLevel(statsData[req.skill]),
-    req.quest || "--",
-    req.easy || "--",
-    req.medium || "--",
-    req.hard || "--",
-    req.elite || "--",
-  ]);
+  const data = levelReqs.data.map((req) => {
+    const skillLevel = getLevel(statsData[req.skill]);
+    var reqs = [req.quest, req.easy, req.medium, req.hard, req.elite].map(
+      (req) => {
+        if (!req) {
+          return "--";
+        }
+        var displayValue = showDifference ? req - skillLevel : req;
+        return displayValue > 0 ? displayValue : "--";
+      }
+    );
+    return [_.upperFirst(req.skill), skillLevel, ...reqs];
+  });
   const header = [
     "Skill",
     "Level",
@@ -200,11 +210,15 @@ const SummaryTable = ({ statsData, getLevel }) => {
           const currLevel = row[1];
           return {
             background:
-              cell <= currLevel
+              (cell <= currLevel) ^ showDifference
                 ? "rgba(0, 255, 0, 0.1)"
                 : "rgba(255, 0, 0, 0.1)",
           };
         }}
+      />
+      <SummaryToggle
+        showDifference={showDifference}
+        setShowDifference={setShowDifference}
       />
     </PaddedTable>
   );
