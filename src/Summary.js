@@ -3,7 +3,7 @@ import styled from "styled-components";
 import _ from "lodash";
 import { useServer, serverPost } from "./hooks";
 import Table from "./Table";
-import SummaryToggle from "./SummaryToggle";
+import Toggle from "./Toggle";
 
 const icons = {
   attack: "https://oldschool.runescape.wiki/images/f/fe/Attack_icon.png",
@@ -216,9 +216,10 @@ const SummaryTable = ({ statsData, getLevel }) => {
           };
         }}
       />
-      <SummaryToggle
-        showDifference={showDifference}
-        setShowDifference={setShowDifference}
+      <Toggle
+        checked={showDifference}
+        setChecked={setShowDifference}
+        label="Show difference"
       />
     </PaddedTable>
   );

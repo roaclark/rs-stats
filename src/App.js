@@ -12,11 +12,11 @@ import Stat from "./Stat.js";
 import Quests from "./Quests.js";
 import Achievements from "./Achievements.js";
 import Summary from "./Summary.js";
-import MembersToggle from "./MembersToggle.js";
+import Toggle from "./Toggle.js";
 import { useServer } from "./hooks.js";
 import "./App.css";
 
-const Toggle = styled.div`
+const ToggleContainer = styled.div`
   position: fixed;
   left: 0;
   bottom: 0;
@@ -154,9 +154,14 @@ function App() {
         statsData={stats.data}
         members={members}
       />
-      <Toggle>
-        <MembersToggle members={members} setMembers={setMembers} />
-      </Toggle>
+      <ToggleContainer>
+        <Toggle
+          checked={members}
+          setChecked={setMembers}
+          labelSide="right"
+          label="Members"
+        />
+      </ToggleContainer>
     </div>
   );
 }

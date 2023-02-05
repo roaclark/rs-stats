@@ -12,7 +12,8 @@ const ToggleBackground = styled.div`
   border: 3px solid #ccc;
   height: 20px;
   width: 32px;
-  margin-left: 10px;
+  margin-left: ${(props) => (props.labelSide === "left" ? "10px" : "0px")};
+  margin-right: ${(props) => (props.labelSide === "right" ? "10px" : "0px")};
   transition: background 0.3s;
   background: ${(props) => (props.checked ? "#f80" : "#999")};
 
@@ -34,20 +35,21 @@ const ToggleContainer = styled.div`
   align-items: center;
 `;
 
-const SummaryToggle = ({ showDifference, setShowDifference }) => {
+const Toggle = ({ checked, setChecked, labelSide = "left", label }) => {
   return (
     <label>
       <ToggleContainer>
-        <span>Show difference</span>
+        {labelSide === "left" && <span>{label}</span>}
         <HiddenCheckbox
           type="checkbox"
-          checked={showDifference}
-          onChange={(e) => setShowDifference(e.target.checked)}
+          checked={checked}
+          onChange={(e) => setChecked(e.target.checked)}
         />
-        <ToggleBackground checked={showDifference} />
+        <ToggleBackground checked={checked} labelSide={labelSide} />
+        {labelSide === "right" && <span>{label}</span>}
       </ToggleContainer>
     </label>
   );
 };
 
-export default SummaryToggle;
+export default Toggle;
