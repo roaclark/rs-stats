@@ -28,7 +28,7 @@ Hard,Refill your waterskins in the Desert using Lunar spells,Dream Mentor,magic:
 Hard,Kill the Kalphite Queen,,,
 Hard,Complete a lap of the Pollnivneach Rooftop Course,,agility:70,
 Hard,Slay a Dust devil in the desert cave with a Slayer helmet equipped,Desert Treasure,slayer:65|defence:10|crafting:55,
-Hard,Activate Ancient Magicks at the altar in the Jaldraocht Pyramid,Desert Treasure,,
+Hard,Activate Ancient Magicks at the altar in the Jaldraocht Pyramid,Desert Treasure,,true
 Hard,Defeat a locust rider with Keris,Contact!,attack:50,
 Hard,Burn some yew logs on the Nardah Mayor's balcony,,firemaking:60,true
 Hard,Create a Mithril platebody in Nardah,,smithing:68,

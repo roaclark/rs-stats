@@ -37,7 +37,7 @@ Hard,Kill a deathwing in the dungeon under the Kharazi Jungle,Legends' Quest,woo
 Hard,Use the crossbow shortcut south of the volcano,,agility:53|ranged:42|strength:21,
 Hard,Collect 5 palm leaves,Legends' Quest,woodcutting:15,true
 Hard,Be assigned a Slayer task by Duradel in Shilo Village,Shilo Village,combat:100|slayer:50,
-Hard,Kill a metal dragon in Brimhaven Dungeon,,,
+Hard,Kill a metal dragon in Brimhaven Dungeon,,,true
 Elite,Craft 56 nature runes at once,,runecrafting:91,
 Elite,Equip a fire cape or infernal cape in the Tzhaar city,,,
 Elite,Check the health of a palm tree in Brimhaven,,farming:68,

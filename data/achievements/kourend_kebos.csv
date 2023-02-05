@@ -26,10 +26,10 @@ Medium,Catch a chinchompa in the Kourend Woodland,Eagles' Peak,hunter:53,true
 Medium,Chop some mahogany logs north of the Farming Guild,,woodcutting:50,true
 Hard,Enter the Woodcutting Guild,,woodcutting:60,true
 Hard,Smelt an adamantite bar in The Forsaken Tower,The Forsaken Tower,smithing:70,
-Hard,Kill a lizardman shaman in the Lizardman Temple,,,
-Hard,Mine some Lovakite ore,,mining:65,
+Hard,Kill a lizardman shaman in the Lizardman Temple,,,true
+Hard,Mine some Lovakite ore,,mining:65,true
 Hard,Plant some Logavano seeds at the Tithe Farm,,farming:74,
-Hard,Kill a zombie in the Shayzien Crypts,,,
+Hard,Kill a zombie in the Shayzien Crypts,,,true
 Hard,Teleport to Xeric's Heart using Xeric's talisman,Architectural Alliance,,
 Hard,Deliver an artefact to Captain Khaled,,thieving:49,true
 Hard,Kill a wyrm in the Karuulm Slayer Dungeon,,slayer:62,
