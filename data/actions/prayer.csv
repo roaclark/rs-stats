@@ -1,4 +1,9 @@
 action,exp,level,members,cost
+Fiendish ashes,10,1,,1242
+Malicious ashes,65,1,true,2874
+Vile ashes,25,1,,2604
+Abyssal ashes,85,1,true,2356
+Infernal ashes,110,1,true,3994
 Bones,4.5,1,,98
 Monkey bones,5,1,,325
 Bat bones,5,1,true,271
