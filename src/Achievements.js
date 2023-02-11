@@ -184,6 +184,8 @@ const AchievementsTable = ({
   const sortedAchievements = _.sortBy(filteredAchievements, (achievement) => [
     difficultyOrder[achievement.difficulty],
     achievement.available ? 0 : 1,
+    _.padStart(achievement.cost, 8, "0"),
+    _.padStart(achievement.enemyLevel, 3, "0"),
     achievement.areaName,
     achievement.name,
   ]);
