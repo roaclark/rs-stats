@@ -26,11 +26,11 @@ Hard,Cast one of the 3 God spells against another player in the Wilderness,The M
 Hard,Charge an air orb,,magic:66,,,
 Hard,Catch a black salamander,,hunter:67,,,
 Hard,Smith an adamant scimitar in the Resource Area,,smithing:75,,,
-Hard,Kill a lava dragon and bury the bones on Lava Dragon Isle,,,,,
-Hard,Kill the Chaos Elemental,,,,,
-Hard,Kill the Crazy archaeologist & Chaos Fanatic & Scorpia,,,,,
+Hard,Kill a lava dragon and bury the bones on Lava Dragon Isle,,,,,252
+Hard,Kill the Chaos Elemental,,,,,305
+Hard,Kill the Crazy archaeologist & Chaos Fanatic & Scorpia,,,,,225
 Hard,Take the Agility Shortcut from Trollheim into the Wilderness,Death Plateau,agility:64,,,
-Hard,Kill a spiritual warrior in the Wilderness God Wars Dungeon,,slayer:68,,,
+Hard,Kill a spiritual warrior in the Wilderness God Wars Dungeon,,slayer:68,,,115
 Hard,Fish some raw lava eel in the Wilderness,,fishing:53,true,,
 Elite,Kill Callisto & Venenatis & Vet'ion,,,,,
 Elite,Teleport to Ghorrock,Desert Treasure,magic:96,,,

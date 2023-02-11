@@ -31,9 +31,9 @@ Hard,Enter the Seers' Village courthouse with Piety turned on,King's Ransom,pray
 Hard,Charge a water orb,,magic:56,true,,
 Hard,Burn some maple logs with a bow in Seers' Village,,firemaking:65,,,
 Hard,Kill a shadow hound in the Shadow Dungeon,Desert Treasure,thieving:53,true,,
-Hard,Kill a Mithril dragon,,,,,
+Hard,Kill a Mithril dragon,,,,,304
 Hard,Purchase and equip a granite body from Barbarian Assault,,strength:50|defence:50,,,
-Hard,Have the Seers estate agent decorate your house with Fancy Stone,,construction:50,,,
+Hard,Have the Seers estate agent decorate your house with Fancy Stone,,construction:50,,25000,
 Hard,Smith an adamant spear at Otto's Grotto,,smithing:75,,,
 Elite,Read the blackboard at Barbarian Assault after reaching level 5 in every role,,,,,
 Elite,Pick some dwarf weed from the herb patch at Catherby,,farming:79,,,
