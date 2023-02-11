@@ -1,35 +1,35 @@
-difficulty,name,quests,skills,complete
-Easy,Catch a cerulean twitch,,hunter:11,true
-Easy,Change your boots at Yrsa's Shoe Store,The Fremennik Trials,,true
-Easy,Kill 5 Rock Crabs,,,true
-Easy,Craft a tiara from scratch in Rellekka,The Fremennik Trials,crafting:23|mining:20|smithing:20,true
-Easy,Browse the Stonemason's shop,The Giant Dwarf,,true
-Easy,Collect 5 snape grass on Waterbirth Island,The Fremennik Trials,,true
-Easy,Steal from the Keldagrim crafting or baker's stall,The Giant Dwarf,thieving:5,truetrue
-Easy,Fill a bucket with water at the Rellekka well,,,true
-Easy,Enter the Troll Stronghold,Troll Stronghold|Death Plateau,,true
-Easy,Chop and burn some oak logs in the Fremennik Province,,woodcutting:15|firemaking:15,true
-Medium,Slay a brine rat,Olaf's Quest,slayer:47,true
-Medium,Travel to the Snowy Hunter Area via Eagle,Eagles' Peak,,true
-Medium,Mine some coal in Rellekka,The Fremennik Trials,mining:30,true
-Medium,Steal from the Rellekka fish stalls,The Fremennik Trials,thieving:42,true
-Medium,Travel to Miscellania by fairy ring,The Fremennik Trials|Fairytale II - Cure a Queen,,true
-Medium,Catch a Snowy knight,,hunter:35,true
-Medium,Pick up your pet rock from your POH menagerie,The Fremennik Trials,construction:37,true
-Medium,Visit the Lighthouse from Waterbirth Island,Horror from the Deep|The Fremennik Trials,,true
-Medium,Mine some gold at the Arzinian Mine,Between a Rock...,mining:40,true
-Hard,Teleport to Trollheim,Eadgar's Ruse,magic:61,true
-Hard,Catch a Sabre-toothed kyatt,,hunter:55,true
-Hard,Mix a Super defence potion in the Fremennik Province,,herblore:66,
-Hard,Steal from the Keldagrim Gem Stall,The Giant Dwarf,thieving:75,
-Hard,Craft a Fremennik shield on Neitiznot,The Fremennik Isles,woodcutting:56,true
-Hard,Mine 5 adamantite ores on Jatizso,The Fremennik Isles,mining:70,
-Hard,Obtain 100% support from your kingdom subjects,Throne of Miscellania,,true
-Hard,Teleport to Waterbirth Island,Lunar Diplomacy,magic:72,
-Hard,Obtain the Blast Furnace Foreman's permission to use the Blast Furnace for free,The Giant Dwarf,smithing:60,true
-Elite,Kill each of the Dagannoth Kings,,,
-Elite,Craft 56 astral runes at once,Lunar Diplomacy,runecrafting:82,
-Elite,Create a dragonstone amulet in the Neitiznot furnace,The Fremennik Isles,crafting:80,
-Elite,Complete a lap of the Rellekka Rooftop Course,,agility:80,
-Elite,Kill each of the God Wars Dungeon generals,Troll Stronghold,agility:70|strength:70|hitpoints:70|ranged:70,
-Elite,Slay a Spiritual mage within the God Wars Dungeon,Troll Stronghold,slayer:83,
+difficulty,name,quests,skills,complete,cost,enemy lvl
+Easy,Catch a cerulean twitch,,hunter:11,true,,
+Easy,Change your boots at Yrsa's Shoe Store,The Fremennik Trials,,true,,
+Easy,Kill 5 Rock Crabs,,,true,,
+Easy,Craft a tiara from scratch in Rellekka,The Fremennik Trials,crafting:23|mining:20|smithing:20,true,,
+Easy,Browse the Stonemason's shop,The Giant Dwarf,,true,,
+Easy,Collect 5 snape grass on Waterbirth Island,The Fremennik Trials,,true,,
+Easy,Steal from the Keldagrim crafting or baker's stall,The Giant Dwarf,thieving:5,truetrue,,
+Easy,Fill a bucket with water at the Rellekka well,,,true,,
+Easy,Enter the Troll Stronghold,Troll Stronghold|Death Plateau,,true,,
+Easy,Chop and burn some oak logs in the Fremennik Province,,woodcutting:15|firemaking:15,true,,
+Medium,Slay a brine rat,Olaf's Quest,slayer:47,true,,
+Medium,Travel to the Snowy Hunter Area via Eagle,Eagles' Peak,,true,,
+Medium,Mine some coal in Rellekka,The Fremennik Trials,mining:30,true,,
+Medium,Steal from the Rellekka fish stalls,The Fremennik Trials,thieving:42,true,,
+Medium,Travel to Miscellania by fairy ring,The Fremennik Trials|Fairytale II - Cure a Queen,,true,,
+Medium,Catch a Snowy knight,,hunter:35,true,,
+Medium,Pick up your pet rock from your POH menagerie,The Fremennik Trials,construction:37,true,,
+Medium,Visit the Lighthouse from Waterbirth Island,Horror from the Deep|The Fremennik Trials,,true,,
+Medium,Mine some gold at the Arzinian Mine,Between a Rock...,mining:40,true,,
+Hard,Teleport to Trollheim,Eadgar's Ruse,magic:61,true,,
+Hard,Catch a Sabre-toothed kyatt,,hunter:55,true,,
+Hard,Mix a Super defence potion in the Fremennik Province,,herblore:66,,,
+Hard,Steal from the Keldagrim Gem Stall,The Giant Dwarf,thieving:75,,,
+Hard,Craft a Fremennik shield on Neitiznot,The Fremennik Isles,woodcutting:56,true,,
+Hard,Mine 5 adamantite ores on Jatizso,The Fremennik Isles,mining:70,,,
+Hard,Obtain 100% support from your kingdom subjects,Throne of Miscellania,,true,,
+Hard,Teleport to Waterbirth Island,Lunar Diplomacy,magic:72,,,
+Hard,Obtain the Blast Furnace Foreman's permission to use the Blast Furnace for free,The Giant Dwarf,smithing:60,true,,
+Elite,Kill each of the Dagannoth Kings,,,,,
+Elite,Craft 56 astral runes at once,Lunar Diplomacy,runecrafting:82,,,
+Elite,Create a dragonstone amulet in the Neitiznot furnace,The Fremennik Isles,crafting:80,,,
+Elite,Complete a lap of the Rellekka Rooftop Course,,agility:80,,,
+Elite,Kill each of the God Wars Dungeon generals,Troll Stronghold,agility:70|strength:70|hitpoints:70|ranged:70,,,
+Elite,Slay a Spiritual mage within the God Wars Dungeon,Troll Stronghold,slayer:83,,

@@ -1,40 +1,40 @@
-difficulty,name,quests,skills,complete
-Easy,Catch a golden warbler,,hunter:5,true
-Easy,Mine five clay in the north-eastern desert,,,true
-Easy,Enter the Kalphite Hive,,,true
-Easy,Enter the Desert with a set of desert robes equipped,,,true
-Easy,Kill a vulture,,,true
-Easy,Have the Nardah herbalist clean a herb for you,,,true
-Easy,Collect 5 potato cacti from the Kalphite Hive,,,true
-Easy,Sell some artefacts to Simon Templeton,,,true
-Easy,Open the sarcophagus in the first room of Pyramid Plunder,Icthlarin's Little Helper,thieving:21,true
-Easy,Cut a desert cactus open to fill a waterskin,,,true
-Easy,Travel from the Shantay Pass to Pollnivneach by magic carpet,,,true
-Medium,Climb to the summit of the Agility Pyramid,,agility:30,true
-Medium,Slay a desert lizard,,slayer:22,true
-Medium,Catch an orange salamander,,hunter:47,true
-Medium,Steal a Phoenix feather from the Desert phoenix,,thieving:25,true
-Medium,Travel to Uzer via magic carpet,The Golem,,true
-Medium,Travel to the desert via the Eagle transport system,Eagles' Peak,,true
-Medium,Pray at the Elidinis Statuette in Nardah,Spirits of the Elid,,true
-Medium,Create a combat potion in the desert,,herblore:36,true
-Medium,Teleport to Enakhra's Temple with the Camulet,Enakhra's Lament,,true
-Medium,Visit the genie,Spirits of the Elid,,true
-Medium,Teleport to Pollnivneach with a redirected teleport to house tablet,,construction:20,true
-Medium,Chop some teak logs near Uzer,,woodcutting:35,true
-Hard,Knock out and pickpocket a Menaphite Thug,The Feud,thieving:65,
-Hard,Mine some granite,,mining:45,true
-Hard,Refill your waterskins in the Desert using Lunar spells,Dream Mentor,magic:68,
-Hard,Kill the Kalphite Queen,,,
-Hard,Complete a lap of the Pollnivneach Rooftop Course,,agility:70,
-Hard,Slay a Dust devil in the desert cave with a Slayer helmet equipped,Desert Treasure,slayer:65|defence:10|crafting:55,
-Hard,Activate Ancient Magicks at the altar in the Jaldraocht Pyramid,Desert Treasure,,true
-Hard,Defeat a locust rider with Keris,Contact!,attack:50,
-Hard,Burn some yew logs on the Nardah Mayor's balcony,,firemaking:60,true
-Hard,Create a Mithril platebody in Nardah,,smithing:68,
-Elite,Bake a wild pie at the Nardah clay oven,,cooking:85,
-Elite,Cast Ice Barrage against a foe in the Desert,Desert Treasure,magic:94,
-Elite,Fletch some Dragon darts at the Bedabin Camp,The Tourist Trap,fletching:95,
-Elite,Speak to the Kq head in your POH,Priest in Peril,construction:78,
-Elite,Steal from the Grand Gold Chest in the final room of Pyramid Plunder,Icthlarin's Little Helper,thieving:91,
-Elite,Restore at least 85 Prayer points when praying at the altar in Sophanem,Icthlarin's Little Helper,prayer:85,
+difficulty,name,quests,skills,complete,cost,enemy lvl
+Easy,Catch a golden warbler,,hunter:5,true,,
+Easy,Mine five clay in the north-eastern desert,,,true,,
+Easy,Enter the Kalphite Hive,,,true,,
+Easy,Enter the Desert with a set of desert robes equipped,,,true,,
+Easy,Kill a vulture,,,true,,
+Easy,Have the Nardah herbalist clean a herb for you,,,true,,
+Easy,Collect 5 potato cacti from the Kalphite Hive,,,true,,
+Easy,Sell some artefacts to Simon Templeton,,,true,,
+Easy,Open the sarcophagus in the first room of Pyramid Plunder,Icthlarin's Little Helper,thieving:21,true,,
+Easy,Cut a desert cactus open to fill a waterskin,,,true,,
+Easy,Travel from the Shantay Pass to Pollnivneach by magic carpet,,,true,,
+Medium,Climb to the summit of the Agility Pyramid,,agility:30,true,,
+Medium,Slay a desert lizard,,slayer:22,true,,
+Medium,Catch an orange salamander,,hunter:47,true,,
+Medium,Steal a Phoenix feather from the Desert phoenix,,thieving:25,true,,
+Medium,Travel to Uzer via magic carpet,The Golem,,true,,
+Medium,Travel to the desert via the Eagle transport system,Eagles' Peak,,true,,
+Medium,Pray at the Elidinis Statuette in Nardah,Spirits of the Elid,,true,,
+Medium,Create a combat potion in the desert,,herblore:36,true,,
+Medium,Teleport to Enakhra's Temple with the Camulet,Enakhra's Lament,,true,,
+Medium,Visit the genie,Spirits of the Elid,,true,,
+Medium,Teleport to Pollnivneach with a redirected teleport to house tablet,,construction:20,true,,
+Medium,Chop some teak logs near Uzer,,woodcutting:35,true,,
+Hard,Knock out and pickpocket a Menaphite Thug,The Feud,thieving:65,,,
+Hard,Mine some granite,,mining:45,true,,
+Hard,Refill your waterskins in the Desert using Lunar spells,Dream Mentor,magic:68,,,
+Hard,Kill the Kalphite Queen,,,,,
+Hard,Complete a lap of the Pollnivneach Rooftop Course,,agility:70,,,
+Hard,Slay a Dust devil in the desert cave with a Slayer helmet equipped,Desert Treasure,slayer:65|defence:10|crafting:55,,,
+Hard,Activate Ancient Magicks at the altar in the Jaldraocht Pyramid,Desert Treasure,,true,,
+Hard,Defeat a locust rider with Keris,Contact!,attack:50,,,
+Hard,Burn some yew logs on the Nardah Mayor's balcony,,firemaking:60,true,,
+Hard,Create a Mithril platebody in Nardah,,smithing:68,,,
+Elite,Bake a wild pie at the Nardah clay oven,,cooking:85,,,
+Elite,Cast Ice Barrage against a foe in the Desert,Desert Treasure,magic:94,,,
+Elite,Fletch some Dragon darts at the Bedabin Camp,The Tourist Trap,fletching:95,,,
+Elite,Speak to the Kq head in your POH,Priest in Peril,construction:78,,,
+Elite,Steal from the Grand Gold Chest in the final room of Pyramid Plunder,Icthlarin's Little Helper,thieving:91,,,
+Elite,Restore at least 85 Prayer points when praying at the altar in Sophanem,Icthlarin's Little Helper,prayer:85,,

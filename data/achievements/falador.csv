@@ -1,43 +1,43 @@
-difficulty,name,quests,skills,complete
-Easy,Find out what your family crest is from Sir Renitee,,construction:16,true
-Easy,Climb over the western Falador wall,,agility:5,true
-Easy,Browse Sarah's Farming Shop,,,true
-Easy,Get a haircut from the Falador hairdresser,,,true
-Easy,Fill a bucket from the pump north of Falador West Bank,,,true
-Easy,Kill a duck in Falador Park,,,true
-Easy,Make a mind tiara,,,true
-Easy,Take the boat to Entrana,,,true
-Easy,Repair a broken strut in the Motherlode Mine,,,true
-Easy,Claim a security book from the Security Guard upstairs at Port Sarim jail,,,true
-Easy,Smith some Blurite limbs on Doric's anvil,The Knight's Sword|Doric's Quest,mining:10|smithing:13,true
-Medium,Light a bullseye lantern at the Chemist's in Rimmington,,firemaking:49,true
-Medium,Telegrab some Wine of zamorak at the Chaos Temple by the Wilderness,,magic:33,true
-Medium,Unlock the crystal chest in Taverley,,,true
-Medium,Place a Scarecrow in the Falador farm flower patch,,farming:23,true
-Medium,Kill a Mogre at Mudskipper Point,Skippy and the Mogres,slayer:32,true
-Medium,Visit the Port Sarim Rat Pits,Ratcatchers,,true
-Medium,Grapple up and then jump off the north Falador wall,,agility:11|strength:37|ranged:19,true
-Medium,Pickpocket a Falador guard,,thieving:40,true
-Medium,Pray at the Altar of Guthix in Taverley whilst wearing full Initiate armour,Recruitment Drive,prayer:10|defence:20,true
-Medium,Mine some gold ore at the Crafting Guild,,crafting:40|mining:40,true
-Medium,Squeeze through the crevice in the Dwarven Mines,,agility:42,true
-Medium,Chop and burn some willow logs in Taverley,,woodcutting:30|firemaking:30,true
-Medium,Craft a basket on the Falador farm loom,,crafting:36,true
-Medium,Teleport to Falador,,magic:37,true
-Hard,Craft 140 mind runes simultaneously,,runecrafting:56,
-Hard,Change your family crest to the Saradomin symbol,,prayer:70,
-Hard,Kill the Giant Mole beneath Falador Park,,,true
-Hard,Kill a Skeletal Wyvern in the Asgarnia Ice Dungeon,,slayer:72,
-Hard,Complete a lap of the Falador Rooftop Agility Course,,agility:50,true
-Hard,Enter the Mining Guild wearing full Prospector,,mining:60,
-Hard,Kill the blue dragon under the Heroes' Guild,Heroes' Quest,,true
-Hard,Crack a wall safe within Rogues' Den,,thieving:50,true
-Hard,Recharge your Prayer in the Port Sarim church while wearing full Proselyte,The Slug Menace,defence:30,true
-Hard,Enter the Warriors' Guild,,attack:65|strength:65,true
-Hard,Equip a Dwarven helmet within the Dwarven Mines,Grim Tales,defence:50,
-Elite,Craft 252 air runes simultaneously,,runecrafting:88,
-Elite,Purchase a white 2h sword from Sir Vyvin,Wanted!,,
-Elite,Find at least 3 magic roots at once when digging up your magic tree in Falador,,farming:91|woodcutting:75,
-Elite,Perform a Cape of Accomplishment or Quest point cape emote at the top of White Knights' Castle,All quests,,
-Elite,Jump over the strange floor in Taverley Dungeon,,agility:80,
-Elite,Mix a Saradomin brew in Falador East Bank,,herblore:81,
+difficulty,name,quests,skills,complete,cost,enemy lvl
+Easy,Find out what your family crest is from Sir Renitee,,construction:16,true,,
+Easy,Climb over the western Falador wall,,agility:5,true,,
+Easy,Browse Sarah's Farming Shop,,,true,,
+Easy,Get a haircut from the Falador hairdresser,,,true,,
+Easy,Fill a bucket from the pump north of Falador West Bank,,,true,,
+Easy,Kill a duck in Falador Park,,,true,,
+Easy,Make a mind tiara,,,true,,
+Easy,Take the boat to Entrana,,,true,,
+Easy,Repair a broken strut in the Motherlode Mine,,,true,,
+Easy,Claim a security book from the Security Guard upstairs at Port Sarim jail,,,true,,
+Easy,Smith some Blurite limbs on Doric's anvil,The Knight's Sword|Doric's Quest,mining:10|smithing:13,true,,
+Medium,Light a bullseye lantern at the Chemist's in Rimmington,,firemaking:49,true,,
+Medium,Telegrab some Wine of zamorak at the Chaos Temple by the Wilderness,,magic:33,true,,
+Medium,Unlock the crystal chest in Taverley,,,true,,
+Medium,Place a Scarecrow in the Falador farm flower patch,,farming:23,true,,
+Medium,Kill a Mogre at Mudskipper Point,Skippy and the Mogres,slayer:32,true,,
+Medium,Visit the Port Sarim Rat Pits,Ratcatchers,,true,,
+Medium,Grapple up and then jump off the north Falador wall,,agility:11|strength:37|ranged:19,true,,
+Medium,Pickpocket a Falador guard,,thieving:40,true,,
+Medium,Pray at the Altar of Guthix in Taverley whilst wearing full Initiate armour,Recruitment Drive,prayer:10|defence:20,true,,
+Medium,Mine some gold ore at the Crafting Guild,,crafting:40|mining:40,true,,
+Medium,Squeeze through the crevice in the Dwarven Mines,,agility:42,true,,
+Medium,Chop and burn some willow logs in Taverley,,woodcutting:30|firemaking:30,true,,
+Medium,Craft a basket on the Falador farm loom,,crafting:36,true,,
+Medium,Teleport to Falador,,magic:37,true,,
+Hard,Craft 140 mind runes simultaneously,,runecrafting:56,,,
+Hard,Change your family crest to the Saradomin symbol,,prayer:70,,,
+Hard,Kill the Giant Mole beneath Falador Park,,,true,,
+Hard,Kill a Skeletal Wyvern in the Asgarnia Ice Dungeon,,slayer:72,,,
+Hard,Complete a lap of the Falador Rooftop Agility Course,,agility:50,true,,
+Hard,Enter the Mining Guild wearing full Prospector,,mining:60,,,
+Hard,Kill the blue dragon under the Heroes' Guild,Heroes' Quest,,true,,
+Hard,Crack a wall safe within Rogues' Den,,thieving:50,true,,
+Hard,Recharge your Prayer in the Port Sarim church while wearing full Proselyte,The Slug Menace,defence:30,true,,
+Hard,Enter the Warriors' Guild,,attack:65|strength:65,true,,
+Hard,Equip a Dwarven helmet within the Dwarven Mines,Grim Tales,defence:50,,,
+Elite,Craft 252 air runes simultaneously,,runecrafting:88,,,
+Elite,Purchase a white 2h sword from Sir Vyvin,Wanted!,,,,
+Elite,Find at least 3 magic roots at once when digging up your magic tree in Falador,,farming:91|woodcutting:75,,,
+Elite,Perform a Cape of Accomplishment or Quest point cape emote at the top of White Knights' Castle,All quests,,,,
+Elite,Jump over the strange floor in Taverley Dungeon,,agility:80,,,
+Elite,Mix a Saradomin brew in Falador East Bank,,herblore:81,,

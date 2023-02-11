@@ -196,9 +196,23 @@ const AchievementsTable = ({
     "Task",
     "Skills",
     "Quests",
+    "Cost",
+    "Enemy Level",
   ];
   const data = sortedAchievements.map(
-    ({ area, areaName, difficulty, name, skillReqs, questReqs }, i) => {
+    (
+      {
+        area,
+        areaName,
+        difficulty,
+        name,
+        skillReqs,
+        questReqs,
+        cost,
+        enemyLevel,
+      },
+      i
+    ) => {
       return [
         i + 1,
         <CompleteButton
@@ -220,6 +234,8 @@ const AchievementsTable = ({
           getLevel={getLevel}
         />,
         <QuestReqs reqs={questReqs} completedQuests={completedQuests} />,
+        cost ? cost.toLocaleString() : "",
+        enemyLevel || "",
       ];
     }
   );

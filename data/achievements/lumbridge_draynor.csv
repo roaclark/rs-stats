@@ -1,42 +1,42 @@
-difficulty,name,quests,skills,complete
-Easy,Complete a lap of the Draynor Village Rooftop Course,,agility:10,true
-Easy,Slay a cave bug in the Lumbridge Swamp Caves,,slayer:7,true
-Easy,Have Sedridor teleport you to the Rune essence mine,Rune Mysteries,,true
-Easy,Craft some water runes,,runecrafting:5,true
-Easy,Learn your age from Hans in Lumbridge,,,true
-Easy,Pickpocket a man or woman in Lumbridge,,,true
-Easy,Chop and burn some oak logs in Lumbridge,,woodcutting:15|firemaking:15,true
-Easy,Kill a zombie in the Draynor Sewers,,,true
-Easy,Catch some anchovies in Al-Kharid,,fishing:15,true
-Easy,Bake some bread on the Lumbridge castle kitchen range,Cook's Assistant,,true
-Easy,Mine some iron ore at the Al-Kharid mine,,mining:15,true
-Easy,Enter the H.A.M. Hideout,,,true
-Medium,Complete a lap of the Al Kharid Rooftop Course,,agility:20,true
-Medium,Grapple across the River Lum,,agility:8|strength:19|ranged:37,true
-Medium,Purchase an upgraded device from Ava,Animal Magnetism,ranged:50,true
-Medium,Travel to the Wizards' Tower by Fairy ring,Fairytale II - Cure a Queen,,true
-Medium,Cast the Lumbridge Teleport spell,,magic:31,true
-Medium,Catch some salmon in Lumbridge,,fishing:30,true
-Medium,Craft a coif in the Lumbridge cow pen,,crafting:38,true
-Medium,Chop some willow logs in Draynor Village,,woodcutting:30,true
-Medium,Pickpocket Martin the Master Gardener,,thieving:38,true
-Medium,Get a Slayer task from Chaeldar,Lost City,combat:70,true
-Medium,Catch an essence or eclectic impling in Puro-Puro,Lost City,hunter:42,true
-Medium,Craft some lava runes at the fire altar in Al Kharid,,runecrafting:23,true
-Hard,Cast Bones to Peaches in Al Kharid Palace,,magic:60,
-Hard,Squeeze past the jutting wall on your way to the cosmic altar,Lost City,agility:46,true
-Hard,Craft 56 cosmic runes simultaneously,Lost City,runecrafting:59,
-Hard,Travel from Lumbridge to Edgeville on a waka canoe,,woodcutting:57,true
-Hard,Collect at least 100 Tears of Guthix in one visit,Tears of Guthix,,true
-Hard,Take the train from Dorgesh-Kaan to Keldagrim,Another Slice of H.A.M.,,true
-Hard,Purchase some Barrows gloves from the Culinaromancer's Chest,Recipe for Disaster,,
-Hard,Pick some belladonna from the farming patch at Draynor Manor,,farming:63,
-Hard,Light your mining helmet in the Lumbridge Castle basement,,firemaking:65,
-Hard,Recharge your prayer at Duel Arena with Smite activated,,prayer:52,
-Hard,Craft and enchant an amulet of power in Lumbridge,,crafting:70|magic:57,true
-Elite,Steal from a Dorgesh-Kaan rich chest,Death to the Dorgeshuun,thieving:78,
-Elite,Pickpocket Movario on the Dorgesh-Kaan Agility Course,Death to the Dorgeshuun|Temple of Ikov,agility:70|ranged:70|strength:70,
-Elite,Chop some magic logs at the Mage Training Arena,,woodcutting:75,
-Elite,Smith an adamant platebody down in Draynor Sewer,,smithing:88,
-Elite,Craft 140 or more water runes at once,,runecrafting:76,
-Elite,Perform the Quest point cape emote in the Wise Old Man's house,All quests,,
+difficulty,name,quests,skills,complete,cost,enemy lvl
+Easy,Complete a lap of the Draynor Village Rooftop Course,,agility:10,true,,
+Easy,Slay a cave bug in the Lumbridge Swamp Caves,,slayer:7,true,,
+Easy,Have Sedridor teleport you to the Rune essence mine,Rune Mysteries,,true,,
+Easy,Craft some water runes,,runecrafting:5,true,,
+Easy,Learn your age from Hans in Lumbridge,,,true,,
+Easy,Pickpocket a man or woman in Lumbridge,,,true,,
+Easy,Chop and burn some oak logs in Lumbridge,,woodcutting:15|firemaking:15,true,,
+Easy,Kill a zombie in the Draynor Sewers,,,true,,
+Easy,Catch some anchovies in Al-Kharid,,fishing:15,true,,
+Easy,Bake some bread on the Lumbridge castle kitchen range,Cook's Assistant,,true,,
+Easy,Mine some iron ore at the Al-Kharid mine,,mining:15,true,,
+Easy,Enter the H.A.M. Hideout,,,true,,
+Medium,Complete a lap of the Al Kharid Rooftop Course,,agility:20,true,,
+Medium,Grapple across the River Lum,,agility:8|strength:19|ranged:37,true,,
+Medium,Purchase an upgraded device from Ava,Animal Magnetism,ranged:50,true,,
+Medium,Travel to the Wizards' Tower by Fairy ring,Fairytale II - Cure a Queen,,true,,
+Medium,Cast the Lumbridge Teleport spell,,magic:31,true,,
+Medium,Catch some salmon in Lumbridge,,fishing:30,true,,
+Medium,Craft a coif in the Lumbridge cow pen,,crafting:38,true,,
+Medium,Chop some willow logs in Draynor Village,,woodcutting:30,true,,
+Medium,Pickpocket Martin the Master Gardener,,thieving:38,true,,
+Medium,Get a Slayer task from Chaeldar,Lost City,combat:70,true,,
+Medium,Catch an essence or eclectic impling in Puro-Puro,Lost City,hunter:42,true,,
+Medium,Craft some lava runes at the fire altar in Al Kharid,,runecrafting:23,true,,
+Hard,Cast Bones to Peaches in Al Kharid Palace,,magic:60,,,
+Hard,Squeeze past the jutting wall on your way to the cosmic altar,Lost City,agility:46,true,,
+Hard,Craft 56 cosmic runes simultaneously,Lost City,runecrafting:59,,,
+Hard,Travel from Lumbridge to Edgeville on a waka canoe,,woodcutting:57,true,,
+Hard,Collect at least 100 Tears of Guthix in one visit,Tears of Guthix,,true,,
+Hard,Take the train from Dorgesh-Kaan to Keldagrim,Another Slice of H.A.M.,,true,,
+Hard,Purchase some Barrows gloves from the Culinaromancer's Chest,Recipe for Disaster,,,,
+Hard,Pick some belladonna from the farming patch at Draynor Manor,,farming:63,,,
+Hard,Light your mining helmet in the Lumbridge Castle basement,,firemaking:65,,,
+Hard,Recharge your prayer at Duel Arena with Smite activated,,prayer:52,,,
+Hard,Craft and enchant an amulet of power in Lumbridge,,crafting:70|magic:57,true,,
+Elite,Steal from a Dorgesh-Kaan rich chest,Death to the Dorgeshuun,thieving:78,,,
+Elite,Pickpocket Movario on the Dorgesh-Kaan Agility Course,Death to the Dorgeshuun|Temple of Ikov,agility:70|ranged:70|strength:70,,,
+Elite,Chop some magic logs at the Mage Training Arena,,woodcutting:75,,,
+Elite,Smith an adamant platebody down in Draynor Sewer,,smithing:88,,,
+Elite,Craft 140 or more water runes at once,,runecrafting:76,,,
+Elite,Perform the Quest point cape emote in the Wise Old Man's house,All quests,,,

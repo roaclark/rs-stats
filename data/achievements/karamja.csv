@@ -1,45 +1,45 @@
-difficulty,name,quests,skills,complete
-Easy,Pick 5 bananas from the plantation located east of the volcano,,,true
-Easy,Use the rope swing to travel to the Moss Giant Island north-west of Karamja,,agility:10,true
-Easy,Mine some gold from the rocks on the north-west peninsula of Karamja,,mining:40,true
-Easy,Travel to Port Sarim via the dock east of Musa Point,,,true
-Easy,Travel to Ardougne via the port near Brimhaven,,,true
-Easy,Explore Cairn Isle to the west of Karamja,,agility:15,true
-Easy,Use the fishing spots north of the banana plantation,,,true
-Easy,Collect 5 seaweed from anywhere on Karamja,,,truetrue
-Easy,Attempt the TzHaar Fight Pits or Fight Cave,,,true
-Easy,Kill a jogre in the Pothole Dungeon,,,true
-Medium,Claim a ticket from the Agility arena in Brimhaven,,,true
-Medium,Discover hidden wall in the dungeon below the volcano,Dragon Slayer I,,true
-Medium,Visit the Isle of Crandor via the dungeon below the volcano,Dragon Slayer I,,true
-Medium,Use Vigroy and Hajedy's cart service,Shilo Village,,true
-Medium,Earn 100% favour in the Tai Bwo Wannai Cleanup minigame,Jungle Potion,woodcutting:10,true
-Medium,Cook a Spider on stick,,cooking:16,true
-Medium,Charter the Lady of the Waves from south of Cairn Isle to Port Khazard,Shilo Village,,true
-Medium,Cut a log from a teak tree,Jungle Potion,woodcutting:35,true
-Medium,Cut a log from a mahogany tree,Jungle Potion,woodcutting:50,true
-Medium,Catch a karambwan,Tai Bwo Wannai Trio,fishing:65,true
-Medium,Exchange gems with Safta Doc in the house with an anvil in the northern part of Tai Bwo Wannai for a machete,Jungle Potion,,true
-Medium,Use the gnome glider to travel to Karamja,The Grand Tree,,true
-Medium,Grow a healthy fruit tree in the patch near Brimhaven,,farming:27,true
-Medium,Trap a Horned Graahk,,hunter:41,true
-Medium,Chop the vines to gain deeper access to Brimhaven Dungeon,,woodcutting:10,true
-Medium,Cross the lava using the stepping stones within Brimhaven Dungeon,,agility:12,true
-Medium,Climb the stairs within Brimhaven Dungeon,,woodcutting:10,true
-Medium,Charter a ship from the shipyard in the far east of Karamja,The Grand Tree,,true
-Medium,Mine a red topaz from a gem rock,Shilo Village,mining:40,true
-Hard,Become the champion of the Fight Pit,,,
-Hard,Kill a Ket-Zek in the Fight Caves,,,
-Hard,Eat an oomlie wrap,,,true
-Hard,Craft some nature runes,,runecrafting:44,true
-Hard,Cook a raw karambwan thoroughly,Tai Bwo Wannai Trio,cooking:30,true
-Hard,Kill a deathwing in the dungeon under the Kharazi Jungle,Legends' Quest,woodcutting:15|strength:50|agility:50|thieving:50|mining:52,true
-Hard,Use the crossbow shortcut south of the volcano,,agility:53|ranged:42|strength:21,
-Hard,Collect 5 palm leaves,Legends' Quest,woodcutting:15,true
-Hard,Be assigned a Slayer task by Duradel in Shilo Village,Shilo Village,combat:100|slayer:50,
-Hard,Kill a metal dragon in Brimhaven Dungeon,,,true
-Elite,Craft 56 nature runes at once,,runecrafting:91,
-Elite,Equip a fire cape or infernal cape in the Tzhaar city,,,
-Elite,Check the health of a palm tree in Brimhaven,,farming:68,
-Elite,Create an antivenom potion whilst standing in the horse shoe mine,,herblore:87,
-Elite,Check the health of your Calquat tree patch,,farming:72,
+difficulty,name,quests,skills,complete,cost,enemy lvl
+Easy,Pick 5 bananas from the plantation located east of the volcano,,,true,,
+Easy,Use the rope swing to travel to the Moss Giant Island north-west of Karamja,,agility:10,true,,
+Easy,Mine some gold from the rocks on the north-west peninsula of Karamja,,mining:40,true,,
+Easy,Travel to Port Sarim via the dock east of Musa Point,,,true,,
+Easy,Travel to Ardougne via the port near Brimhaven,,,true,,
+Easy,Explore Cairn Isle to the west of Karamja,,agility:15,true,,
+Easy,Use the fishing spots north of the banana plantation,,,true,,
+Easy,Collect 5 seaweed from anywhere on Karamja,,,truetrue,,
+Easy,Attempt the TzHaar Fight Pits or Fight Cave,,,true,,
+Easy,Kill a jogre in the Pothole Dungeon,,,true,,
+Medium,Claim a ticket from the Agility arena in Brimhaven,,,true,,
+Medium,Discover hidden wall in the dungeon below the volcano,Dragon Slayer I,,true,,
+Medium,Visit the Isle of Crandor via the dungeon below the volcano,Dragon Slayer I,,true,,
+Medium,Use Vigroy and Hajedy's cart service,Shilo Village,,true,,
+Medium,Earn 100% favour in the Tai Bwo Wannai Cleanup minigame,Jungle Potion,woodcutting:10,true,,
+Medium,Cook a Spider on stick,,cooking:16,true,,
+Medium,Charter the Lady of the Waves from south of Cairn Isle to Port Khazard,Shilo Village,,true,,
+Medium,Cut a log from a teak tree,Jungle Potion,woodcutting:35,true,,
+Medium,Cut a log from a mahogany tree,Jungle Potion,woodcutting:50,true,,
+Medium,Catch a karambwan,Tai Bwo Wannai Trio,fishing:65,true,,
+Medium,Exchange gems with Safta Doc in the house with an anvil in the northern part of Tai Bwo Wannai for a machete,Jungle Potion,,true,,
+Medium,Use the gnome glider to travel to Karamja,The Grand Tree,,true,,
+Medium,Grow a healthy fruit tree in the patch near Brimhaven,,farming:27,true,,
+Medium,Trap a Horned Graahk,,hunter:41,true,,
+Medium,Chop the vines to gain deeper access to Brimhaven Dungeon,,woodcutting:10,true,,
+Medium,Cross the lava using the stepping stones within Brimhaven Dungeon,,agility:12,true,,
+Medium,Climb the stairs within Brimhaven Dungeon,,woodcutting:10,true,,
+Medium,Charter a ship from the shipyard in the far east of Karamja,The Grand Tree,,true,,
+Medium,Mine a red topaz from a gem rock,Shilo Village,mining:40,true,,
+Hard,Become the champion of the Fight Pit,,,,,
+Hard,Kill a Ket-Zek in the Fight Caves,,,,,
+Hard,Eat an oomlie wrap,,,true,,
+Hard,Craft some nature runes,,runecrafting:44,true,,
+Hard,Cook a raw karambwan thoroughly,Tai Bwo Wannai Trio,cooking:30,true,,
+Hard,Kill a deathwing in the dungeon under the Kharazi Jungle,Legends' Quest,woodcutting:15|strength:50|agility:50|thieving:50|mining:52,true,,
+Hard,Use the crossbow shortcut south of the volcano,,agility:53|ranged:42|strength:21,,,
+Hard,Collect 5 palm leaves,Legends' Quest,woodcutting:15,true,,
+Hard,Be assigned a Slayer task by Duradel in Shilo Village,Shilo Village,combat:100|slayer:50,,,
+Hard,Kill a metal dragon in Brimhaven Dungeon,,,true,,
+Elite,Craft 56 nature runes at once,,runecrafting:91,,,
+Elite,Equip a fire cape or infernal cape in the Tzhaar city,,,,,
+Elite,Check the health of a palm tree in Brimhaven,,farming:68,,,
+Elite,Create an antivenom potion whilst standing in the horse shoe mine,,herblore:87,,,
+Elite,Check the health of your Calquat tree patch,,farming:72,,
