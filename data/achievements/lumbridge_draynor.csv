@@ -30,7 +30,7 @@ Hard,Travel from Lumbridge to Edgeville on a waka canoe,,woodcutting:57,true,,
 Hard,Collect at least 100 Tears of Guthix in one visit,Tears of Guthix,,true,,
 Hard,Take the train from Dorgesh-Kaan to Keldagrim,Another Slice of H.A.M.,,true,,
 Hard,Purchase some Barrows gloves from the Culinaromancer's Chest,Recipe for Disaster,,,130000,
-Hard,Pick some belladonna from the farming patch at Draynor Manor,,farming:63,,,
+Hard,Pick some belladonna from the farming patch at Draynor Manor,,farming:63,,,true
 Hard,Light your mining helmet in the Lumbridge Castle basement,,firemaking:65,,,
 Hard,Recharge your prayer at Duel Arena with Smite activated,,prayer:52,,,
 Hard,Craft and enchant an amulet of power in Lumbridge,,crafting:70|magic:57,true,,
