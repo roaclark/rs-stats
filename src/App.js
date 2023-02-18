@@ -11,6 +11,7 @@ import {
 import Stat from "./Stat.js";
 import Quests from "./Quests.js";
 import Achievements from "./Achievements.js";
+import Combat from "./Combat.js";
 import Summary from "./Summary.js";
 import Toggle from "./Toggle.js";
 import { useServer } from "./hooks.js";
@@ -94,6 +95,9 @@ const TabData = ({
           selectedArea={area}
         />
       </Hidable>
+      <Hidable show={"combat" === selected}>
+        <Combat statsData={statsData} getLevel={getLevel} />
+      </Hidable>
     </>
   );
 };
@@ -112,6 +116,7 @@ const AppInner = ({ experienceData, skillsData, statsData, members }) => {
         <NavLabel to="/">Overview</NavLabel>
         <NavLabel to="/quests">Quests</NavLabel>
         {members && <NavLabel to="/achievements">Achievements</NavLabel>}
+        <NavLabel to="/combat">Combat</NavLabel>
       </NavHeader>
       <Divider />
       <NavHeader>
