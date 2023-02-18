@@ -1,3 +1,6 @@
+import React from "react";
+import styled from "styled-components";
+
 const prayerStrengthMultiplier = {
   burstOfStrength: 1.05,
   superhumanStrength: 1.1,
@@ -34,8 +37,8 @@ const calculateDamageInfo = ({
   attackTime,
   meleeStrengthBonus,
   equipmentAttackBonus,
-  enemyDefense,
-  enemyStyleDefenseBonus,
+  enemyDefence,
+  enemyStyleDefenceBonus,
   strengthBoost = 0,
   attackBoost = 0,
   combatStyle = "defence",
@@ -68,11 +71,11 @@ const calculateDamageInfo = ({
   );
   const attackRoll = Math.floor(effectiveAttack * (equipmentAttackBonus + 64));
 
-  const defenseRoll = (enemyDefense + 9) * (enemyStyleDefenseBonus + 64);
+  const defenceRoll = (enemyDefence + 9) * (enemyStyleDefenceBonus + 64);
   const hitChance =
-    attackRoll > defenseRoll
-      ? 1 - (defenseRoll + 2.0) / (2 * (attackRoll + 1))
-      : attackRoll / (2.0 * defenseRoll + 1);
+    attackRoll > defenceRoll
+      ? 1 - (defenceRoll + 2.0) / (2 * (attackRoll + 1))
+      : attackRoll / (2.0 * defenceRoll + 1);
 
   const damagePerHit = (maxHit * hitChance) / 2.0;
   const dps = damagePerHit / attackTime;
@@ -85,25 +88,78 @@ const calculateDamageInfo = ({
   };
 };
 
+const StyledSelect = styled.select`
+  background: transparent;
+  font-size: 20px;
+  border-radius: 3px;
+  padding: 3px;
+  color: white;
+`;
+
+const DamageStat = styled.div`
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  padding: 16px;
+`;
+
 const Combat = ({ statsData, getLevel }) => {
+  const [combatStyle, setCombatStyle] = React.useState("defence");
+
   const { dps, maxHit, damagePerHit, hitChance } = calculateDamageInfo({
     strengthLevel: getLevel(statsData["strength"]),
     attackLevel: getLevel(statsData["attack"]),
     attackTime: 2.4,
     meleeStrengthBonus: 72,
     equipmentAttackBonus: 75,
-    enemyDefense: 25,
-    enemyStyleDefenseBonus: 73,
-    combatStyle: "defence",
+    enemyDefence: 25,
+    enemyStyleDefenceBonus: 73,
+    combatStyle,
   });
 
   return (
     <>
       <h1>Combat calculator</h1>
-      <p>Max hit: {maxHit}</p>
-      <p>Hit chance: {hitChance.toFixed(2)}</p>
-      <p>Damage per hit: {damagePerHit.toFixed(2)}</p>
-      <p>DPS: {dps.toFixed(2)}</p>
+      <div style={{ display: "flex" }}>
+        <DamageStat>
+          <span>Max hit</span>
+          <span>{maxHit}</span>
+        </DamageStat>
+        <DamageStat>
+          <span>Hit chance</span>
+          <span>{hitChance.toFixed(2)}</span>
+        </DamageStat>
+        <DamageStat>
+          <span>Damage per hit</span>
+          <span>{damagePerHit.toFixed(2)}</span>
+        </DamageStat>
+        <DamageStat>
+          <span>DPS</span>
+          <span>{dps.toFixed(2)}</span>
+        </DamageStat>
+      </div>
+      <div style={{ marginTop: "20px" }}>
+        {/*
+          TODO collect:
+          Weapon: melee bonus, attack bonus, attack time
+          Other equip: melee bonus, attack bonus
+          Enemy: defence, style defences
+          Stat boosts: attack, strength
+          prayers
+          void set
+        */}
+        <StyledSelect
+          value={combatStyle}
+          onChange={(e) => {
+            setCombatStyle(e.target.value);
+          }}
+        >
+          <option value="defence">Defence</option>
+          <option value="accurate">Accurate</option>
+          <option value="aggressive">Aggressive</option>
+          <option value="controlled">Controlled</option>
+        </StyledSelect>
+      </div>
     </>
   );
 };
