@@ -38,7 +38,7 @@ const calculateDamageInfo = ({
   meleeStrengthBonus,
   equipmentAttackBonus,
   enemyDefence,
-  enemyStyleDefenceBonus,
+  enemyTypeDefenceBonus,
   strengthBoost = 0,
   attackBoost = 0,
   combatStyle = "defence",
@@ -71,7 +71,7 @@ const calculateDamageInfo = ({
   );
   const attackRoll = Math.floor(effectiveAttack * (equipmentAttackBonus + 64));
 
-  const defenceRoll = (enemyDefence + 9) * (enemyStyleDefenceBonus + 64);
+  const defenceRoll = (enemyDefence + 9) * (enemyTypeDefenceBonus + 64);
   const hitChance =
     attackRoll > defenceRoll
       ? 1 - (defenceRoll + 2.0) / (2 * (attackRoll + 1))
@@ -103,8 +103,18 @@ const DamageStat = styled.div`
   padding: 16px;
 `;
 
+const EnemyStatCollection = ({ onChange }) => {
+  // TODO
+  return <div></div>;
+};
+
 const Combat = ({ statsData, getLevel }) => {
   const [combatStyle, setCombatStyle] = React.useState("defence");
+  const [combatType, setCombatType] = React.useState("stab");
+  const [enemyStats, setEnemyStats] = React.useState({
+    defence: 25,
+    typeDefenseBonuses: { stab: 73, slash: 73, crush: 73 },
+  });
 
   const { dps, maxHit, damagePerHit, hitChance } = calculateDamageInfo({
     strengthLevel: getLevel(statsData["strength"]),
@@ -112,8 +122,8 @@ const Combat = ({ statsData, getLevel }) => {
     attackTime: 2.4,
     meleeStrengthBonus: 72,
     equipmentAttackBonus: 75,
-    enemyDefence: 25,
-    enemyStyleDefenceBonus: 73,
+    enemyDefence: enemyStats.defence,
+    enemyTypeDefenceBonus: enemyStats.typeDefenseBonuses[combatType],
     combatStyle,
   });
 
@@ -143,22 +153,35 @@ const Combat = ({ statsData, getLevel }) => {
           TODO collect:
           Weapon: melee bonus, attack bonus, attack time
           Other equip: melee bonus, attack bonus
-          Enemy: defence, style defences
           Stat boosts: attack, strength
           prayers
           void set
         */}
-        <StyledSelect
-          value={combatStyle}
-          onChange={(e) => {
-            setCombatStyle(e.target.value);
-          }}
-        >
-          <option value="defence">Defence</option>
-          <option value="accurate">Accurate</option>
-          <option value="aggressive">Aggressive</option>
-          <option value="controlled">Controlled</option>
-        </StyledSelect>
+        <div style={{ display: "flex", gap: "16px", justifyContent: "center" }}>
+          <strong>Attack style</strong>
+          <StyledSelect
+            value={combatStyle}
+            onChange={(e) => {
+              setCombatStyle(e.target.value);
+            }}
+          >
+            <option value="defence">Defence</option>
+            <option value="accurate">Accurate</option>
+            <option value="aggressive">Aggressive</option>
+            <option value="controlled">Controlled</option>
+          </StyledSelect>
+          <StyledSelect
+            value={combatType}
+            onChange={(e) => {
+              setCombatType(e.target.value);
+            }}
+          >
+            <option value="stab">Stab</option>
+            <option value="slash">Slash</option>
+            <option value="crush">Crush</option>
+          </StyledSelect>
+        </div>
+        <EnemyStatCollection onChange={(v) => setEnemyStats(v)} />
       </div>
     </>
   );
