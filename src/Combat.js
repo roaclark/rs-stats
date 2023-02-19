@@ -108,6 +108,16 @@ const EnemyStatCollection = ({ onChange }) => {
   return <div></div>;
 };
 
+const WeaponStatCollection = ({ onChange }) => {
+  // TODO
+  return <div></div>;
+};
+
+const EquipmentStatCollection = ({ onChange }) => {
+  // TODO
+  return <div></div>;
+};
+
 const Combat = ({ statsData, getLevel }) => {
   const [combatStyle, setCombatStyle] = React.useState("defence");
   const [combatType, setCombatType] = React.useState("stab");
@@ -115,13 +125,24 @@ const Combat = ({ statsData, getLevel }) => {
     defence: 25,
     typeDefenseBonuses: { stab: 73, slash: 73, crush: 73 },
   });
+  const [weaponStats, setWeaponStats] = React.useState({
+    attackSpeed: 2.4,
+    strengthBonus: 63,
+    attackBonuses: { stab: 65, slash: 55, crush: -2 },
+  });
+  const [equipmentStats, setEquipmentStats] = React.useState({
+    strengthBonus: 9,
+    attackBonus: 10,
+  });
 
   const { dps, maxHit, damagePerHit, hitChance } = calculateDamageInfo({
     strengthLevel: getLevel(statsData["strength"]),
     attackLevel: getLevel(statsData["attack"]),
-    attackTime: 2.4,
-    meleeStrengthBonus: 72,
-    equipmentAttackBonus: 75,
+    attackTime: weaponStats.attackSpeed,
+    meleeStrengthBonus:
+      weaponStats.strengthBonus + equipmentStats.strengthBonus,
+    equipmentAttackBonus:
+      weaponStats.attackBonuses[combatType] + equipmentStats.attackBonus,
     enemyDefence: enemyStats.defence,
     enemyTypeDefenceBonus: enemyStats.typeDefenseBonuses[combatType],
     combatStyle,
@@ -151,8 +172,6 @@ const Combat = ({ statsData, getLevel }) => {
       <div style={{ marginTop: "20px" }}>
         {/*
           TODO collect:
-          Weapon: melee bonus, attack bonus, attack time
-          Other equip: melee bonus, attack bonus
           Stat boosts: attack, strength
           prayers
           void set
@@ -182,6 +201,8 @@ const Combat = ({ statsData, getLevel }) => {
           </StyledSelect>
         </div>
         <EnemyStatCollection onChange={(v) => setEnemyStats(v)} />
+        <WeaponStatCollection onChange={(v) => setWeaponStats(v)} />
+        <EquipmentStatCollection onChange={(v) => setEquipmentStats(v)} />
       </div>
     </>
   );
