@@ -132,7 +132,7 @@ const Combat = ({ statsData, getLevel }) => {
   });
   const [equipmentStats, setEquipmentStats] = React.useState({
     strengthBonus: 9,
-    attackBonus: 10,
+    attackBonuses: { stab: 10, slash: 6, crush: 6 },
   });
 
   const { dps, maxHit, damagePerHit, hitChance } = calculateDamageInfo({
@@ -142,7 +142,8 @@ const Combat = ({ statsData, getLevel }) => {
     meleeStrengthBonus:
       weaponStats.strengthBonus + equipmentStats.strengthBonus,
     equipmentAttackBonus:
-      weaponStats.attackBonuses[combatType] + equipmentStats.attackBonus,
+      weaponStats.attackBonuses[combatType] +
+      equipmentStats.attackBonuses[combatType],
     enemyDefence: enemyStats.defence,
     enemyTypeDefenceBonus: enemyStats.typeDefenseBonuses[combatType],
     combatStyle,
