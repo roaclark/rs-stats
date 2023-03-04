@@ -122,8 +122,8 @@ const Combat = ({ statsData, getLevel }) => {
   const [combatStyle, setCombatStyle] = React.useState("defence");
   const [combatType, setCombatType] = React.useState("stab");
   const [enemyStats, setEnemyStats] = React.useState({
-    defence: 25,
-    typeDefenseBonuses: { stab: 73, slash: 73, crush: 73 },
+    defence: 1,
+    typeDefenseBonuses: { stab: 0, slash: 0, crush: 0 },
   });
   const [weaponStats, setWeaponStats] = React.useState({
     attackSpeed: 2.4,
