@@ -20,7 +20,7 @@ Medium,Travel to the Feldip Hills by Gnome glider,The Grand Tree|One Small Favou
 Medium,Claim a Chompy bird hat from Rantz after registering at least 125 kills,Big Chompy Bird Hunting,fletching:5|ranged:30,true,,
 Medium,Travel from Eagles' Peak to the Feldip Hills by Eagle,Eagles' Peak,,true,,
 Medium,Make a Chocolate bomb at the Grand Tree,,cooking:42,true,,
-Medium,Complete a delivery for the Gnome Restaurant,,cooking:29,truetrue,,
+Medium,Complete a delivery for the Gnome Restaurant,,cooking:29,true,,
 Medium,Turn your crystal saw seed into a crystal saw,The Eyes of Glouphrie,,true,,
 Medium,Mine some gold ore underneath the Grand Tree,The Grand Tree,mining:40,true,,
 Hard,Kill an elf with a crystal bow,Roving Elves,ranged:70|agility:56,,,108
@@ -41,5 +41,5 @@ Elite,Kill the Thermonuclear smoke devil,,slayer:93,,,301
 Elite,Have Prissy Scilla protect your magic tree,,farming:75,,,
 Elite,Use the Elven overpass advanced cliffside shortcut,Underground Pass,agility:85,,,
 Elite,Equip any complete void set,,combat:40|attack:42|strength:42|defence:42|hitpoints:42|ranged:42|magic:42|prayer:22,,,
-Elite,Claim a Chompy bird hat from Rantz after registering at least 1000 kills,Big Chompy Bird Hunting,fletching:5|ranged:30,,,true
-Elite,Pickpocket an elf,Mourning's End Part I,thieving:85,,
+Elite,Claim a Chompy bird hat from Rantz after registering at least 1000 kills,Big Chompy Bird Hunting,fletching:5|ranged:30,true,,
+Elite,Pickpocket an elf,Mourning's End Part I,thieving:85,,,

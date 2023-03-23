@@ -5,7 +5,7 @@ Easy,Kill 5 Rock Crabs,,,true,,
 Easy,Craft a tiara from scratch in Rellekka,The Fremennik Trials,crafting:23|mining:20|smithing:20,true,,
 Easy,Browse the Stonemason's shop,The Giant Dwarf,,true,,
 Easy,Collect 5 snape grass on Waterbirth Island,The Fremennik Trials,,true,,
-Easy,Steal from the Keldagrim crafting or baker's stall,The Giant Dwarf,thieving:5,truetrue,,
+Easy,Steal from the Keldagrim crafting or baker's stall,The Giant Dwarf,thieving:5,true,,
 Easy,Fill a bucket with water at the Rellekka well,,,true,,
 Easy,Enter the Troll Stronghold,Troll Stronghold|Death Plateau,,true,,
 Easy,Chop and burn some oak logs in the Fremennik Province,,woodcutting:15|firemaking:15,true,,
@@ -32,4 +32,4 @@ Elite,Craft 56 astral runes at once,Lunar Diplomacy,runecrafting:82,,,
 Elite,Create a dragonstone amulet in the Neitiznot furnace,The Fremennik Isles,crafting:80,,,
 Elite,Complete a lap of the Rellekka Rooftop Course,,agility:80,,,
 Elite,Kill each of the God Wars Dungeon generals,Troll Stronghold,agility:70|strength:70|hitpoints:70|ranged:70,,,1001
-Elite,Slay a Spiritual mage within the God Wars Dungeon,Troll Stronghold,slayer:83,,121
+Elite,Slay a Spiritual mage within the God Wars Dungeon,Troll Stronghold,slayer:83,,,121
