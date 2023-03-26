@@ -1,44 +1,44 @@
-difficulty,name,quests,skills,complete,cost,enemy lvl
-Easy,Mine some iron ore at the Mount Karuulm mine,,mining:15,true,,
-Easy,Kill a Sand Crab,,,true,,
-Easy,Hand in a book at the Arceuus Library,,,true,,
-Easy,Steal from a Hosidius Fruit Stall,,thieving:25,true,,
-Easy,Browse the Warrens General Store,The Queen of Thieves,,true,,
-Easy,Take a boat to Land's End,,,true,,
-Easy,Pray at the altar on the top floor of the Kourend Castle,,,true,,
-Easy,Dig up some saltpetre. West of the Hosidius House Portal,,,true,,
-Easy,Enter your player-owned house from Hosidius,,construction:25,true,,
-Easy,Heal a wounded Shayzien soldier,,,true,,
-Easy,Create a strength potion in the The Deeper Lode pub in Lovakengj,Druidic Ritual,herblore:12,true,,
-Easy,Fish a Trout from the River Molch. Spot located south-east of Farming Guild,,fishing:20,true,,
-Medium,Travel to the fairy ring south of Mount Karuulm,Fairytale II - Cure a Queen,,true,,
-Medium,Kill a lizardman,,,true,,
-Medium,Use Kharedst's memoirs to teleport to all five cities in Great Kourend,The Depths of Despair|The Queen of Thieves|Tale of the Righteous|The Forsaken Tower|The Ascent of Arceuus,,true,,
-Medium,Mine some volcanic sulphur,,mining:42,true,,
-Medium,Enter the Farming Guild,,farming:45,true,,
-Medium,Switch to the Arceuus spellbook via Tyss,,,true,,
-Medium,Repair a crane within Port Piscarilius,,crafting:30,true,,
-Medium,Deliver some intelligence to Captain Ginea,,,true,,
-Medium,Catch a Bluegill on Lake Molch,,fishing:43|hunter:35,true,,
-Medium,Use the boulder leap shortcut in the Arceuus essence mine,,agility:49,true,,
-Medium,Subdue the Wintertodt,,firemaking:50,true,,
-Medium,Catch a chinchompa in the Kourend Woodland,Eagles' Peak,hunter:53,true,,
-Medium,Chop some mahogany logs north of the Farming Guild,,woodcutting:50,true,,
-Hard,Enter the Woodcutting Guild,,woodcutting:60,true,,
+difficulty,name,quests,skills,cost,enemy lvl,complete
+Easy,Mine some iron ore at the Mount Karuulm mine,,mining:15,,,true
+Easy,Kill a Sand Crab,,,,,true
+Easy,Hand in a book at the Arceuus Library,,,,,true
+Easy,Steal from a Hosidius Fruit Stall,,thieving:25,,,true
+Easy,Browse the Warrens General Store,The Queen of Thieves,,,,true
+Easy,Take a boat to Land's End,,,,,true
+Easy,Pray at the altar on the top floor of the Kourend Castle,,,,,true
+Easy,Dig up some saltpetre. West of the Hosidius House Portal,,,,,true
+Easy,Enter your player-owned house from Hosidius,,construction:25,,,true
+Easy,Heal a wounded Shayzien soldier,,,,,true
+Easy,Create a strength potion in the The Deeper Lode pub in Lovakengj,Druidic Ritual,herblore:12,,,true
+Easy,Fish a Trout from the River Molch. Spot located south-east of Farming Guild,,fishing:20,,,true
+Medium,Travel to the fairy ring south of Mount Karuulm,Fairytale II - Cure a Queen,,,,true
+Medium,Kill a lizardman,,,,,true
+Medium,Use Kharedst's memoirs to teleport to all five cities in Great Kourend,The Depths of Despair|The Queen of Thieves|Tale of the Righteous|The Forsaken Tower|The Ascent of Arceuus,,,,true
+Medium,Mine some volcanic sulphur,,mining:42,,,true
+Medium,Enter the Farming Guild,,farming:45,,,true
+Medium,Switch to the Arceuus spellbook via Tyss,,,,,true
+Medium,Repair a crane within Port Piscarilius,,crafting:30,,,true
+Medium,Deliver some intelligence to Captain Ginea,,,,,true
+Medium,Catch a Bluegill on Lake Molch,,fishing:43|hunter:35,,,true
+Medium,Use the boulder leap shortcut in the Arceuus essence mine,,agility:49,,,true
+Medium,Subdue the Wintertodt,,firemaking:50,,,true
+Medium,Catch a chinchompa in the Kourend Woodland,Eagles' Peak,hunter:53,,,true
+Medium,Chop some mahogany logs north of the Farming Guild,,woodcutting:50,,,true
+Hard,Enter the Woodcutting Guild,,woodcutting:60,,,true
 Hard,Smelt an adamantite bar in The Forsaken Tower,The Forsaken Tower,smithing:70,,,
-Hard,Kill a lizardman shaman in the Lizardman Temple,,,true,,
-Hard,Mine some Lovakite ore,,mining:65,true,,
+Hard,Kill a lizardman shaman in the Lizardman Temple,,,,,true
+Hard,Mine some Lovakite ore,,mining:65,,,true
 Hard,Plant some Logavano seeds at the Tithe Farm,,farming:74,,,
-Hard,Kill a zombie in the Shayzien Crypts,,,true,,
+Hard,Kill a zombie in the Shayzien Crypts,,,,,true
 Hard,Teleport to Xeric's Heart using Xeric's talisman,Architectural Alliance,,,,
-Hard,Deliver an artefact to Captain Khaled,,thieving:49,true,,
-Hard,Kill a wyrm in the Karuulm Slayer Dungeon,,slayer:62,,,99
+Hard,Deliver an artefact to Captain Khaled,,thieving:49,,,true
+Hard,Kill a wyrm in the Karuulm Slayer Dungeon,,slayer:62,,99,
 Hard,Cast Monster Examine on a mountain troll south of Mount Quidamortem,Dream Mentor,magic:66,,,
 Elite,Craft one or more blood runes,,runecrafting:77|mining:38|crafting:38,,,
 Elite,Chop some redwood logs,,woodcutting:90,,,
-Elite,Defeat Skotizo in the Catacombs of Kourend,,,,,321
+Elite,Defeat Skotizo in the Catacombs of Kourend,,,,321,
 Elite,Catch an anglerfish and cook it whilst in Great Kourend,,fishing:82|cooking:84,,,
-Elite,Kill a hydra in the Karuulm Slayer Dungeon,,slayer:95,,,194
-Elite,Create an Ape Atoll teleport tablet,,magic:90,,50000,
+Elite,Kill a hydra in the Karuulm Slayer Dungeon,,slayer:95,,194,
+Elite,Create an Ape Atoll teleport tablet,,magic:90,50000,,
 Elite,Complete a raid in the Chambers of Xeric,,,,,
 Elite,Create your own battlestaff from scratch within the Farming Guild,,farming:85|fletching:40,,,

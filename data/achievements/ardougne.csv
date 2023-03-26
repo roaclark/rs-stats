@@ -1,37 +1,37 @@
-difficulty,name,quests,skills,complete,cost,enemy lvl
-Easy,Have Wizard Cromperty teleport you to the Rune essence mine,Rune Mysteries,,true,,
-Easy,Steal a cake from the East Ardougne market stalls,,thieving:5,true,,
-Easy,Sell silk to the Silk trader in East Ardougne for 60 coins each,,,true,,
-Easy,Use the altar in East Ardougne's church,,,true,,
-Easy,Go out fishing on the Fishing Trawler,,fishing:15,true,,
-Easy,Enter the Combat Training Camp north of West Ardougne,Biohazard,,true,,
-Easy,Have Tindel Marchant identify a rusty sword for you,,,true,,
-Easy,Use the Ardougne lever to teleport to the Wilderness,,,true,,
-Easy,View Aleck's Hunter Emporium shop in Yanille,,,true,,
-Easy,Check what pets you have insured with Probita in East Ardougne,,,true,,
-Medium,Enter the unicorn pen in Ardougne Zoo using Fairy rings,Fairytale II - Cure a Queen,,true,,
-Medium,Grapple over Yanille's south wall and jump off,,agility:39|strength:38|ranged:21,true,,
-Medium,Harvest some strawberries from the Ardougne farming patch,,farming:31,true,,
-Medium,Cast the Ardougne Teleport spell,Plague City,magic:51,true,,
-Medium,Travel to Castle Wars by Hot Air Balloon,Enlightened Journey,firemaking:50,true,,
-Medium,Claim buckets of sand from Bert in Yanille,The Hand in the Sand,crafting:49,true,,
-Medium,Catch any fish on the Fishing Platform,Sea Slug,,true,,
-Medium,Pickpocket the master farmer north of East Ardougne,,thieving:38,true,,
-Medium,Collect some cave nightshade from the Skavid caves,Watchtower,,true,,
-Medium,Kill a swordchick in the Tower of Life,Tower of Life,,true,,
-Medium,Equip an Iban's upgraded staff or upgrade an Iban's staff,Underground Pass,magic:50|attack:50,true,,
-Medium,Visit the island east of the Necromancer Tower,Fairytale II - Cure a Queen,,true,,
-Hard,Recharge some jewellery at the Totem pole in the Legends' Guild,Legends' Quest,,true,,
-Hard,Enter the Magic Guild,,magic:66,true,,
+difficulty,name,quests,skills,cost,enemy lvl,complete
+Easy,Have Wizard Cromperty teleport you to the Rune essence mine,Rune Mysteries,,,,true
+Easy,Steal a cake from the East Ardougne market stalls,,thieving:5,,,true
+Easy,Sell silk to the Silk trader in East Ardougne for 60 coins each,,,,,true
+Easy,Use the altar in East Ardougne's church,,,,,true
+Easy,Go out fishing on the Fishing Trawler,,fishing:15,,,true
+Easy,Enter the Combat Training Camp north of West Ardougne,Biohazard,,,,true
+Easy,Have Tindel Marchant identify a rusty sword for you,,,,,true
+Easy,Use the Ardougne lever to teleport to the Wilderness,,,,,true
+Easy,View Aleck's Hunter Emporium shop in Yanille,,,,,true
+Easy,Check what pets you have insured with Probita in East Ardougne,,,,,true
+Medium,Enter the unicorn pen in Ardougne Zoo using Fairy rings,Fairytale II - Cure a Queen,,,,true
+Medium,Grapple over Yanille's south wall and jump off,,agility:39|strength:38|ranged:21,,,true
+Medium,Harvest some strawberries from the Ardougne farming patch,,farming:31,,,true
+Medium,Cast the Ardougne Teleport spell,Plague City,magic:51,,,true
+Medium,Travel to Castle Wars by Hot Air Balloon,Enlightened Journey,firemaking:50,,,true
+Medium,Claim buckets of sand from Bert in Yanille,The Hand in the Sand,crafting:49,,,true
+Medium,Catch any fish on the Fishing Platform,Sea Slug,,,,true
+Medium,Pickpocket the master farmer north of East Ardougne,,thieving:38,,,true
+Medium,Collect some cave nightshade from the Skavid caves,Watchtower,,,,true
+Medium,Kill a swordchick in the Tower of Life,Tower of Life,,,,true
+Medium,Equip an Iban's upgraded staff or upgrade an Iban's staff,Underground Pass,magic:50|attack:50,,,true
+Medium,Visit the island east of the Necromancer Tower,Fairytale II - Cure a Queen,,,,true
+Hard,Recharge some jewellery at the Totem pole in the Legends' Guild,Legends' Quest,,,,true
+Hard,Enter the Magic Guild,,magic:66,,,true
 Hard,Attempt to steal from a chest in Ardougne Castle,,thieving:72,,,
-Hard,Have a zookeeper put you in Ardougne Zoo's monkey cage,Monkey Madness I,,true,,
-Hard,Teleport to the Watchtower,Watchtower,magic:58,true,,
+Hard,Have a zookeeper put you in Ardougne Zoo's monkey cage,Monkey Madness I,,,,true
+Hard,Teleport to the Watchtower,Watchtower,magic:58,,,true
 Hard,Catch a Red Salamander,,hunter:59,,,
-Hard,Check the health of a palm tree near Tree Gnome Village,,farming:68,true,,
+Hard,Check the health of a palm tree near Tree Gnome Village,,farming:68,,,true
 Hard,Pick some poison ivy berries from the patch south of East Ardougne,,farming:70,,,
 Hard,Smith a Mithril platebody near Ardougne,,smithing:68,,,
-Hard,Enter your POH from Yanille,,construction:50,,25000,
-Hard,Smith a Dragon sq shield in West Ardougne,,smithing:60,,842507,
+Hard,Enter your POH from Yanille,,construction:50,25000,,
+Hard,Smith a Dragon sq shield in West Ardougne,,smithing:60,842507,,
 Hard,Craft some death runes at the Death altar,Mourning's End Part II,runecrafting:65,,,
 Elite,Catch a manta ray in the Fishing Trawler and cook it in Port Khazard,,fishing:81|cooking:91,,,
 Elite,Attempt to picklock the door to the basement of Yanille Agility dungeon,,thieving:82,,,

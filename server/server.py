@@ -97,7 +97,7 @@ def write_completed_quest(quest):
     f.write('\n' + quest)
 
 def parse_achievement(line):
-  difficulty, name, quests, skills, complete, cost, lvl = line
+  difficulty, name, quests, skills, cost, lvl, complete = line
   skill_reqs = dict((sk.split(':')[0], int(sk.split(':')[1])) for sk in skills.split('|')) if skills else {}
   return {
     'name': name,

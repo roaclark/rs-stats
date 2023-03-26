@@ -1,41 +1,41 @@
-difficulty,name,quests,skills,complete,cost,enemy lvl
-Easy,Cast Low Alchemy at the Fountain of Rune,,magic:21,true,,
-Easy,Enter the Wilderness from the Ardougne or Edgeville lever,,,true,,
-Easy,Pray at the Chaos Altar in level 38 Western Wilderness,,,true,,
-Easy,Enter the Chaos Runecrafting temple,,,true,,
-Easy,Kill a mammoth,,,true,,
-Easy,Kill an earth warrior in the Wilderness beneath Edgeville,,agility:15,true,,
-Easy,Restore some Prayer points at the Demonic Ruins,,,true,,
-Easy,Enter the King Black Dragon Lair,,,true,,
-Easy,Collect 5 red spider's eggs from the Wilderness,,,true,,
-Easy,Mine some iron ore in the Wilderness,,mining:15,true,,
-Easy,Have the Mage of Zamorak teleport you to the Abyss,Enter the Abyss,,true,,
-Easy,Equip any team cape in the Wilderness,,,true,,
-Medium,Mine some mithril ore in the Wilderness,,mining:55,true,,
-Medium,Chop some yew logs from an ent,,woodcutting:61,true,,
-Medium,Enter the Wilderness God Wars Dungeon,,strength:60,true,,
-Medium,Complete a lap of the Wilderness Agility Course,,agility:52,true,,
-Medium,Kill a green dragon,,,true,,
-Medium,Kill an ankou in the Wilderness,,,true,,
-Medium,Charge an earth orb,,magic:60,true,,
-Medium,Kill a bloodveld in the Wilderness God Wars Dungeon,,slayer:50,true,,
-Medium,Talk to the Emblem Trader in Edgeville about emblems,,,true,,
-Medium,Smith a Gold helmet in the Resource Area,Between a Rock...,smithing:50,true,,
-Medium,Open the muddy chest in the Lava Maze,,,true,,
+difficulty,name,quests,skills,cost,enemy lvl,complete
+Easy,Cast Low Alchemy at the Fountain of Rune,,magic:21,,,true
+Easy,Enter the Wilderness from the Ardougne or Edgeville lever,,,,,true
+Easy,Pray at the Chaos Altar in level 38 Western Wilderness,,,,,true
+Easy,Enter the Chaos Runecrafting temple,,,,,true
+Easy,Kill a mammoth,,,,,true
+Easy,Kill an earth warrior in the Wilderness beneath Edgeville,,agility:15,,,true
+Easy,Restore some Prayer points at the Demonic Ruins,,,,,true
+Easy,Enter the King Black Dragon Lair,,,,,true
+Easy,Collect 5 red spider's eggs from the Wilderness,,,,,true
+Easy,Mine some iron ore in the Wilderness,,mining:15,,,true
+Easy,Have the Mage of Zamorak teleport you to the Abyss,Enter the Abyss,,,,true
+Easy,Equip any team cape in the Wilderness,,,,,true
+Medium,Mine some mithril ore in the Wilderness,,mining:55,,,true
+Medium,Chop some yew logs from an ent,,woodcutting:61,,,true
+Medium,Enter the Wilderness God Wars Dungeon,,strength:60,,,true
+Medium,Complete a lap of the Wilderness Agility Course,,agility:52,,,true
+Medium,Kill a green dragon,,,,,true
+Medium,Kill an ankou in the Wilderness,,,,,true
+Medium,Charge an earth orb,,magic:60,,,true
+Medium,Kill a bloodveld in the Wilderness God Wars Dungeon,,slayer:50,,,true
+Medium,Talk to the Emblem Trader in Edgeville about emblems,,,,,true
+Medium,Smith a Gold helmet in the Resource Area,Between a Rock...,smithing:50,,,true
+Medium,Open the muddy chest in the Lava Maze,,,,,true
 Hard,Cast one of the 3 God spells against another player in the Wilderness,The Mage Arena,magic:60,,,
 Hard,Charge an air orb,,magic:66,,,
 Hard,Catch a black salamander,,hunter:67,,,
 Hard,Smith an adamant scimitar in the Resource Area,,smithing:75,,,
-Hard,Kill a lava dragon and bury the bones on Lava Dragon Isle,,,,,252
-Hard,Kill the Chaos Elemental,,,,,305
-Hard,Kill the Crazy archaeologist & Chaos Fanatic & Scorpia,,,,,225
+Hard,Kill a lava dragon and bury the bones on Lava Dragon Isle,,,,252,
+Hard,Kill the Chaos Elemental,,,,305,
+Hard,Kill the Crazy archaeologist & Chaos Fanatic & Scorpia,,,,225,
 Hard,Take the Agility Shortcut from Trollheim into the Wilderness,Death Plateau,agility:64,,,
-Hard,Kill a spiritual warrior in the Wilderness God Wars Dungeon,,slayer:68,,,115
-Hard,Fish some raw lava eel in the Wilderness,,fishing:53,true,,
-Elite,Kill Callisto & Venenatis & Vet'ion,,,,,470
+Hard,Kill a spiritual warrior in the Wilderness God Wars Dungeon,,slayer:68,,115,
+Hard,Fish some raw lava eel in the Wilderness,,fishing:53,,,true
+Elite,Kill Callisto & Venenatis & Vet'ion,,,,470,
 Elite,Teleport to Ghorrock,Desert Treasure,magic:96,,,
 Elite,Fish and cook a dark crab in the Resource Area,,fishing:85|cooking:90,,,
 Elite,Smith a rune scimitar from scratch in the Resource Area,,mining:85|smithing:90,,,
 Elite,Steal from the Chest in Rogues' Castle,,thieving:84,,,
-Elite,Slay a spiritual mage inside the Wilderness God Wars Dungeon,,slayer:83|strength:60,,,121
+Elite,Slay a spiritual mage inside the Wilderness God Wars Dungeon,,slayer:83|strength:60,,121,
 Elite,Cut and burn some magic logs in the Resource Area,,woodcutting:75|firemaking:75,,,

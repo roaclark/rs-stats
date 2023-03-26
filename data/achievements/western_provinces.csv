@@ -1,45 +1,45 @@
-difficulty,name,quests,skills,complete,cost,enemy lvl
-Easy,Catch a copper longtail,,hunter:9,true,,
-Easy,Complete a novice game of Pest Control,,combat:40,true,,
-Easy,Mine some iron ore near Piscatoris,,mining:15,true,,
-Easy,Complete a lap of the Gnome Agility Course,,,true,,
-Easy,Score a goal in a Gnome Ball match,,,true,,
-Easy,Claim any Chompy bird hat from Rantz,Big Chompy Bird Hunting,fletching:5|ranged:30,true,,
-Easy,Teleport to Pest Control using the Minigame teleports,,combat:40,true,,
-Easy,Collect a swamp toad at the Gnome Stronghold,,,true,,
-Easy,Have Brimstail teleport you to the Essence mine,Rune Mysteries,,true,,
-Easy,Fletch an oak shortbow in the Gnome Stronghold,,fletching:20,true,,
-Easy,Kill a terrorbird in the terrorbird enclosure,,,true,,
-Medium,Take the agility shortcut from the Grand Tree to Otto's Grotto,Tree Gnome Village|The Grand Tree,agility:37,true,,
-Medium,Travel to the Tree Gnome Stronghold by Spirit tree,Tree Gnome Village,,true,,
-Medium,Trap a Spined larupia,,hunter:31,true,,
-Medium,Fish some bass on Ape Atoll,Monkey Madness I,fishing:46,true,,
-Medium,Chop and burn some teak logs on Ape Atoll,Monkey Madness I,woodcutting:35|firemaking:35,true,,
-Medium,Complete an intermediate game of Pest Control,,combat:70,true,,
-Medium,Travel to the Feldip Hills by Gnome glider,The Grand Tree|One Small Favour,,true,,
-Medium,Claim a Chompy bird hat from Rantz after registering at least 125 kills,Big Chompy Bird Hunting,fletching:5|ranged:30,true,,
-Medium,Travel from Eagles' Peak to the Feldip Hills by Eagle,Eagles' Peak,,true,,
-Medium,Make a Chocolate bomb at the Grand Tree,,cooking:42,true,,
-Medium,Complete a delivery for the Gnome Restaurant,,cooking:29,true,,
-Medium,Turn your crystal saw seed into a crystal saw,The Eyes of Glouphrie,,true,,
-Medium,Mine some gold ore underneath the Grand Tree,The Grand Tree,mining:40,true,,
-Hard,Kill an elf with a crystal bow,Roving Elves,ranged:70|agility:56,,,108
-Hard,Catch and cook a monkfish in Piscatoris,Swan Song,fishing:62|cooking:62,true,,
+difficulty,name,quests,skills,cost,enemy lvl,complete
+Easy,Catch a copper longtail,,hunter:9,,,true
+Easy,Complete a novice game of Pest Control,,combat:40,,,true
+Easy,Mine some iron ore near Piscatoris,,mining:15,,,true
+Easy,Complete a lap of the Gnome Agility Course,,,,,true
+Easy,Score a goal in a Gnome Ball match,,,,,true
+Easy,Claim any Chompy bird hat from Rantz,Big Chompy Bird Hunting,fletching:5|ranged:30,,,true
+Easy,Teleport to Pest Control using the Minigame teleports,,combat:40,,,true
+Easy,Collect a swamp toad at the Gnome Stronghold,,,,,true
+Easy,Have Brimstail teleport you to the Essence mine,Rune Mysteries,,,,true
+Easy,Fletch an oak shortbow in the Gnome Stronghold,,fletching:20,,,true
+Easy,Kill a terrorbird in the terrorbird enclosure,,,,,true
+Medium,Take the agility shortcut from the Grand Tree to Otto's Grotto,Tree Gnome Village|The Grand Tree,agility:37,,,true
+Medium,Travel to the Tree Gnome Stronghold by Spirit tree,Tree Gnome Village,,,,true
+Medium,Trap a Spined larupia,,hunter:31,,,true
+Medium,Fish some bass on Ape Atoll,Monkey Madness I,fishing:46,,,true
+Medium,Chop and burn some teak logs on Ape Atoll,Monkey Madness I,woodcutting:35|firemaking:35,,,true
+Medium,Complete an intermediate game of Pest Control,,combat:70,,,true
+Medium,Travel to the Feldip Hills by Gnome glider,The Grand Tree|One Small Favour,,,,true
+Medium,Claim a Chompy bird hat from Rantz after registering at least 125 kills,Big Chompy Bird Hunting,fletching:5|ranged:30,,,true
+Medium,Travel from Eagles' Peak to the Feldip Hills by Eagle,Eagles' Peak,,,,true
+Medium,Make a Chocolate bomb at the Grand Tree,,cooking:42,,,true
+Medium,Complete a delivery for the Gnome Restaurant,,cooking:29,,,true
+Medium,Turn your crystal saw seed into a crystal saw,The Eyes of Glouphrie,,,,true
+Medium,Mine some gold ore underneath the Grand Tree,The Grand Tree,mining:40,,,true
+Hard,Kill an elf with a crystal bow,Roving Elves,ranged:70|agility:56,,108,
+Hard,Catch and cook a monkfish in Piscatoris,Swan Song,fishing:62|cooking:62,,,true
 Hard,Complete a veteran game of Pest Control,,combat:100,,,
 Hard,Catch a dashing kebbit,,hunter:69,,,
-Hard,Complete a lap of the Ape Atoll Agility Course,Monkey Madness I,agility:48,true,,
-Hard,Chop and burn some mahogany logs on Ape Atoll,Monkey Madness I,woodcutting:50|firemaking:50,true,,
+Hard,Complete a lap of the Ape Atoll Agility Course,Monkey Madness I,agility:48,,,true
+Hard,Chop and burn some mahogany logs on Ape Atoll,Monkey Madness I,woodcutting:50|firemaking:50,,,true
 Hard,Mine some adamantite ore in Tirannwn,Regicide,mining:70,,,
 Hard,Check the health of your palm tree in Lletya,Mourning's End Part I,farming:68,,,
-Hard,Claim a Chompy bird hat from Rantz after registering at least 300 kills,Big Chompy Bird Hunting,fletching:5|ranged:30,true,,
-Hard,Build an Isafdar painting in your POH Quest Hall,Roving Elves,construction:65,,25000,
-Hard,Kill Zulrah,Regicide,,,,725
+Hard,Claim a Chompy bird hat from Rantz after registering at least 300 kills,Big Chompy Bird Hunting,fletching:5|ranged:30,,,true
+Hard,Build an Isafdar painting in your POH Quest Hall,Roving Elves,construction:65,25000,,
+Hard,Kill Zulrah,Regicide,,,725,
 Hard,Teleport to Ape Atoll,Recipe for Disaster/Freeing King Awowogei,magic:64,,,
 Hard,Pickpocket a gnome,Tree Gnome Village,thieving:75,,,
 Elite,Fletch a magic longbow in Tirannwn,Mourning's End Part I,fletching:85,,,
-Elite,Kill the Thermonuclear smoke devil,,slayer:93,,,301
+Elite,Kill the Thermonuclear smoke devil,,slayer:93,,301,
 Elite,Have Prissy Scilla protect your magic tree,,farming:75,,,
 Elite,Use the Elven overpass advanced cliffside shortcut,Underground Pass,agility:85,,,
 Elite,Equip any complete void set,,combat:40|attack:42|strength:42|defence:42|hitpoints:42|ranged:42|magic:42|prayer:22,,,
-Elite,Claim a Chompy bird hat from Rantz after registering at least 1000 kills,Big Chompy Bird Hunting,fletching:5|ranged:30,true,,
+Elite,Claim a Chompy bird hat from Rantz after registering at least 1000 kills,Big Chompy Bird Hunting,fletching:5|ranged:30,,,true
 Elite,Pickpocket an elf,Mourning's End Part I,thieving:85,,,
