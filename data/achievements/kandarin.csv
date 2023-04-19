@@ -20,7 +20,7 @@ Medium,String a maple shortbow in Seers' Village bank,,fletching:50,,,true
 Medium,Pick some limpwurt root from the farming patch in Catherby,,farming:26,,,true
 Medium,Create a mind helmet,Elemental Workshop II,,,,true
 Medium,Kill a fire giant in the Waterfall Dungeon,Waterfall Quest,,,,true
-Medium,Complete a wave of Barbarian Assault,,,,,
+Medium,Complete a wave of Barbarian Assault,,,,,true
 Medium,Steal from the chest in Hemenster,,thieving:47,,,true
 Medium,Travel to McGrubor's Wood by Fairy ring,Fairytale II - Cure a Queen,,,,true
 Medium,Mine some coal near the coal trucks,,mining:30,,,true
@@ -32,7 +32,7 @@ Hard,Charge a water orb,,magic:56,,,true
 Hard,Burn some maple logs with a bow in Seers' Village,,firemaking:65,,,
 Hard,Kill a shadow hound in the Shadow Dungeon,Desert Treasure,thieving:53,,,true
 Hard,Kill a Mithril dragon,,,,304,
-Hard,Purchase and equip a granite body from Barbarian Assault,,strength:50|defence:50,,,
+Hard,Purchase and equip a granite body from Barbarian Assault,,strength:50|defence:50,,,true
 Hard,Have the Seers estate agent decorate your house with Fancy Stone,,construction:50,25000,,
 Hard,Smith an adamant spear at Otto's Grotto,,smithing:75,,,
 Elite,Read the blackboard at Barbarian Assault after reaching level 5 in every role,,,,,

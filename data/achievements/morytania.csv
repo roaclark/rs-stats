@@ -23,7 +23,7 @@ Medium,Use an ectophial to return to Port Phasmatys,Ghosts Ahoy,,,,true
 Medium,Mix a Guthix balance potion while in Morytania,In Aid of the Myreque,herblore:22,,,true
 Hard,Enter the Kharyrll portal in your POH through a Portal Chamber,Desert Treasure,magic:66|construction:50,100000,,
 Hard,Climb the advanced spike chain within Slayer Tower,,agility:71,,,
-Hard,Harvest some watermelon from the allotment patch on Harmony Island,The Great Brain Robbery,farming:47,,,
+Hard,Harvest some watermelon from the allotment patch on Harmony Island,The Great Brain Robbery,farming:47,,,true
 Hard,Chop and burn some mahogany logs on Mos Le'Harmless,Cabin Fever,woodcutting:50|firemaking:50,,,true
 Hard,Complete a temple trek with a hard companion,In Aid of the Myreque|Darkness of Hallowvale,,,,
 Hard,Kill a cave horror,Cabin Fever,slayer:58,,80,
