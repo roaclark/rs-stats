@@ -29,11 +29,11 @@ Hard,Complete a lap of the Seers' Village Rooftop Course,,agility:60,,,true
 Hard,Create a yew longbow from scratch around Seers' Village,,fletching:70|woodcutting:60|crafting:10,,,
 Hard,Enter the Seers' Village courthouse with Piety turned on,King's Ransom,prayer:70|defence:70,,,
 Hard,Charge a water orb,,magic:56,,,true
-Hard,Burn some maple logs with a bow in Seers' Village,,firemaking:65,,,
+Hard,Burn some maple logs with a bow in Seers' Village,,firemaking:65,,,true
 Hard,Kill a shadow hound in the Shadow Dungeon,Desert Treasure,thieving:53,,,true
 Hard,Kill a Mithril dragon,,,,304,
 Hard,Purchase and equip a granite body from Barbarian Assault,,strength:50|defence:50,,,true
-Hard,Have the Seers estate agent decorate your house with Fancy Stone,,construction:50,25000,,
+Hard,Have the Seers estate agent decorate your house with Fancy Stone,,construction:50,25000,,true
 Hard,Smith an adamant spear at Otto's Grotto,,smithing:75,,,
 Elite,Read the blackboard at Barbarian Assault after reaching level 5 in every role,,,,,
 Elite,Pick some dwarf weed from the herb patch at Catherby,,farming:79,,,
