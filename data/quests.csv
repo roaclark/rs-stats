@@ -1,4 +1,3 @@
-name,skill,agility,attack,construction,crafting,cooking,defence,firemaking,fishing,fletching,farming,herblore,hitpoints,hunter,magic,mining,prayer,ranged,runecrafting,slayer,smithing,strength,thieving,woodcutting,combat,enemy_lvl,quest_points,pre_reqs
 A Kingdom Divided,Experienced,54,,,38,,,,,,,50,,,35,42,,,,,,,52,52,,239,,The Depths of Despair|The Queen of Thieves|The Ascent of Arceuus|The Forsaken Tower|Tale of the Righteous
 A Night at the Theatre,Master,,,,,,,,,,,,,,,,,,,,,,,,90,302,,A Taste of Hope
 A Porcine of Interest,Novice,,,,,,,,,,,,,,,,,,,,,,,,,37,,
@@ -9,6 +8,7 @@ Alfred Grimhand's Barcrawl,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Animal Magnetism,Intermediate,,,,16,,,,,,,,,,,,,30,,18,,,,35,,,,The Restless Ghost|Ernest the Chicken|Priest in Peril
 Another Slice of H.A.M.,Intermediate,23,15,,12,,,16,,,,10,,,33,17,25,,,,,,25,,,64,,Death to the Dorgeshuun|The Giant Dwarf|The Dig Site
 Architectural Alliance,Miniquest,,,,30,,,,15,,,,,15,,42,,,,,45,,,,,,,
+At First Light,Intermediate,,,27,,,,,,,,30,,46,,,,,,,,,,,,,,Children of the Sun|Eagles' Peak
 Bear Your Soul,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Below Ice Mountain,Novice,,,,,,,,,,,,,,,,,,,,,,,,25,16,,
 Beneath Cursed Sands,Master,62,,,55,,,55,,,,,,,,,,,,,,,,,,379,,Contact!
@@ -18,6 +18,7 @@ Biohazard,Novice,,,,,,,,,,,,,,,,,,,,,,,,,13,,Plague City
 Black Knights' Fortress,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,12,
 Bone Voyage,Intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,The Dig Site
 Cabin Fever,Experienced,42,,,45,30,,,50,5,40,8,,,,,47,40,,52,50,,,,,150,,Pirate's Treasure|Rum Deal|Priest in Peril
+Children of the Sun,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Client of Kourend,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Clock Tower,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Cold War,Intermediate,30,,34,30,,,,,,,,,10,,,,,,,,,15,,,51,,
@@ -29,6 +30,7 @@ Daddy's Home,Miniquest,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Darkness of Hallowvale,Intermediate,26,,5,32,,,,,,,,,,33,20,,,,,,40,22,,,169,,In Aid of the Myreque
 Death Plateau,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Death to the Dorgeshuun,Intermediate,23,,,,,,,,,,,,,,17,,,,,,,23,,,50,,The Lost Tribe
+Defender of Varrock,Experienced,,,,,,,,,,,,,52,,,,,,,55,,,,65,85,,Shield of Arrav|Temple of Ikov|Below Ice Mountain|Family Crest|Garden of Tranquillity|What Lies Below|Romeo & Juliet|Demon Slayer
 Demon Slayer,Novice,,,,,,,,,,,,,,,,,,,,,,,,,27,,
 Desert Treasure II,Grandmaster,,,60,,,,75,,,,62,,,75,,,,60,,,,70,,100,999,,Desert Treasure|Secrets of the North|Enakhra's Lament|Temple of the Eye|The Garden of Death|Below Ice Mountain|His Faithful Servants
 Desert Treasure,Master,15,,,,,,50,,10,,10,,,50,,,40,,10,20,,53,,,174,,The Dig Site|Temple of Ikov|The Tourist Trap|Troll Stronghold|Priest in Peril|Waterfall Quest
@@ -93,10 +95,12 @@ Mourning's End Part I,Master,56,,,10,30,,,,5,,,,,,,,60,,,,,50,,,11,,Big Chompy B
 Mourning's End Part II,Master,56,,,10,30,,,,5,,,,,,,,60,,,,,50,,,,,Mourning's End Part I
 Murder Mystery,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 My Arm's Big Adventure,Intermediate,15,,,,,,,,,29,31,,,,,,,,,,,30,10,,172,,Eadgar's Ruse|The Feud|Jungle Potion
+name,skill,agility,attack,construction,crafting,cooking,defence,firemaking,fishing,fletching,farming,herblore,hitpoints,hunter,magic,mining,prayer,ranged,runecrafting,slayer,smithing,strength,thieving,woodcutting,combat,enemy_lvl,quest_points,pre_reqs
 Nature Spirit,Novice,,,,,,,,,,,,,,,,,,,,,,,,,30,,Priest in Peril|The Restless Ghost
 Observatory Quest,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Olaf's Quest,Intermediate,,,,,,,40,,,,,,,,,,,,,,,,50,,100,,The Fremennik Trials
 One Small Favour,Experienced,36,,,25,,,,,,,18,,,,,,,,,30,,,,,93,,Rune Mysteries|Druidic Ritual|Shilo Village
+Perilous Moons,Master,,,10,,,,,20,,,,,20,,,,,20,48,,,,,75,329,,Twilight's Promise
 Pirate's Treasure,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Plague City,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Priest in Peril,Novice,,,,,,,,,,,,,,,,,,,,,,,,,30,,
@@ -163,8 +167,10 @@ The Knight's Sword,Intermediate,,,,,,,,,,,,,,,10,,,,,,,,,,,,
 The Lost Tribe,Intermediate,13,,,,,,,,,,,,,,17,,,,,,,13,,,,,Goblin Diplomacy|Rune Mysteries
 The Mage Arena II,Miniquest,,,,,,,,,,,,,,75,,,,,,,,,,,348,,
 The Mage Arena,Miniquest,,,,,,,,,,,,,,60,,,,,,,,,,,112,,
+The Path of Glouphrie,Experienced,45,,,,,,,,,,,,,,,,47,,56,,60,,,,138,,The Eyes of Glouphrie|Waterfall Quest|Tree Gnome Village
 The Queen of Thieves,Novice,,,,,,,,,,,,,,,,,,,,,,20,,,,,Client of Kourend
 The Restless Ghost,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
+The Ribbiting Tale of a Lily Pad Labour Dispute,Novice,,,,,,,,,,,,,,,,,,,,,,,15,,,,Children of the Sun
 The Slug Menace,Intermediate,13,,,30,,,30,,,,,,,,17,,,30,30,,,30,,,62,,Wanted!|Sea Slug
 The Tourist Trap,Intermediate,,,,,,,,,10,,,,,,,,,,,20,,,,,47,,
 Throne of Miscellania,Experienced,,,,31,53,,,53,,10,35,,,,50,,,,,,,,45,,111,,Heroes' Quest|The Fremennik Trials
@@ -173,12 +179,14 @@ Tree Gnome Village,Intermediate,,,,,,,,,,,,,,,,,,,,,,,,,112,,
 Tribal Totem,Intermediate,,,,,,,,,,,,,,,,,,,,,,21,,,,,
 Troll Romance,Experienced,28,,,,,,,,,,,,,,,,,,,,,,,,113,,Troll Stronghold
 Troll Stronghold,Experienced,15,,,,,,,,,,,,,,,,,,,,,,,,113,,Death Plateau
+Twilight's Promise,Intermediate,,,,,,,,,,,,,,,,,,,,,,,,40,81,,Children of the Sun
 Underground Pass,Experienced,,,,,,,,,,,,,,,,,25,,,,,,,,91,,Biohazard
 Vampyre Slayer,Novice,,,,,,,,,,,,,,,,,,,,,,,,,34,,Rune Mysteries|Goblin Diplomacy
 Wanted!,Intermediate,13,,,,,,,,,,,,,,17,,,,,,,13,,,33,32,Recruitment Drive|Sea Slug
 Watchtower,Intermediate,25,,,,,,,,,,14,,,15,40,,,,,,,15,,,68,,
 Waterfall Quest,Intermediate,,,,,,,,,,,,,,,,,,,,,,,,,,,
 What Lies Below,Intermediate,,,,,,,,,,,,,,,,,,35,,,,,,,47,,Rune Mysteries
+While Guthix Sleeps,Grandmaster,66,,,,,40,,,,65,65,,62,67,,,,,,,,72,,95,450,180,Defender of Varrock|The Path of Glouphrie|Fight Arena|Dream Mentor|The Hand in the Sand|Wanted!|Temple of the Eye|Tears of Guthix|Nature Spirit|A Tail of Two Cats
 Witch's House,Intermediate,,,,,,,,,,,,,,,,,,,,,,,,,53,,
 Witch's Potion,Novice,,,,,,,,,,,,,,,,,,,,,,,,,1,,
 X Marks the Spot,Novice,,,,,,,,,,,,,,,,,,,,,,,,,,,
