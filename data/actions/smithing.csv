@@ -1,11 +1,12 @@
 action,exp,level,members,cost
-Smelt bronze,6.2,1,true,139
+Smelt bronze,6.2,1,,139
 Smelt blurite,8,8,true,
 Smelt iron,12.5,15,,94
 Smelt elemental,7.5,20,true,780
 Smelt silver,13.6,20,,40
 Smelt steel,17.5,30,,437
-Smelt gold,22.5,40,,141
+Smelt gold,22.5,40,,189
+Smelt gold (gauntlets),56.2,40,true,189
 Smelt lovakite,20,45,true,390
 Smelt mithril,30,50,,867
 Smelt adamantite,37.5,70,,2094
