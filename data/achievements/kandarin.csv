@@ -24,14 +24,14 @@ Medium,Complete a wave of Barbarian Assault,,,,,true
 Medium,Steal from the chest in Hemenster,,thieving:47,,,true
 Medium,Travel to McGrubor's Wood by Fairy ring,Fairytale II - Cure a Queen,,,,true
 Medium,Mine some coal near the coal trucks,,mining:30,,,true
-Hard,Catch a leaping sturgeon,,fishing:70|agility:45|strength:45,,,
+Hard,Catch a leaping sturgeon,,fishing:70|agility:45|strength:45,,,true
 Hard,Complete a lap of the Seers' Village Rooftop Course,,agility:60,,,true
-Hard,Create a yew longbow from scratch around Seers' Village,,fletching:70|woodcutting:60|crafting:10,,,
+Hard,Create a yew longbow from scratch around Seers' Village,,fletching:70|woodcutting:60|crafting:10,,,true
 Hard,Enter the Seers' Village courthouse with Piety turned on,King's Ransom,prayer:70|defence:70,,,
 Hard,Charge a water orb,,magic:56,,,true
 Hard,Burn some maple logs with a bow in Seers' Village,,firemaking:65,,,true
 Hard,Kill a shadow hound in the Shadow Dungeon,Desert Treasure,thieving:53,,,true
-Hard,Kill a Mithril dragon,,,,304,
+Hard,Kill a Mithril dragon,,,,304,true
 Hard,Purchase and equip a granite body from Barbarian Assault,,strength:50|defence:50,,,true
 Hard,Have the Seers estate agent decorate your house with Fancy Stone,,construction:50,25000,,true
 Hard,Smith an adamant spear at Otto's Grotto,,smithing:75,,,

@@ -35,7 +35,7 @@ Hard,Light your mining helmet in the Lumbridge Castle basement,,firemaking:65,,,
 Hard,Recharge your prayer at Duel Arena with Smite activated,,prayer:52,,,true
 Hard,Craft and enchant an amulet of power in Lumbridge,,crafting:70|magic:57,,,true
 Elite,Steal from a Dorgesh-Kaan rich chest,Death to the Dorgeshuun,thieving:78,,,
-Elite,Pickpocket Movario on the Dorgesh-Kaan Agility Course,Death to the Dorgeshuun|Temple of Ikov,agility:70|ranged:70|strength:70,,,
+Elite,Pickpocket Movario on the Dorgesh-Kaan Agility Course,Death to the Dorgeshuun|Temple of Ikov,agility:70|ranged:70|strength:70,,,truetrue
 Elite,Chop some magic logs at the Mage Training Arena,,woodcutting:75,,,
 Elite,Smith an adamant platebody down in Draynor Sewer,,smithing:88,,,
 Elite,Craft 140 or more water runes at once,,runecrafting:76,,,

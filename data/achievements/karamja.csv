@@ -34,7 +34,7 @@ Hard,Eat an oomlie wrap,,,,,true
 Hard,Craft some nature runes,,runecrafting:44,,,true
 Hard,Cook a raw karambwan thoroughly,Tai Bwo Wannai Trio,cooking:30,,,true
 Hard,Kill a deathwing in the dungeon under the Kharazi Jungle,Legends' Quest,woodcutting:15|strength:50|agility:50|thieving:50|mining:52,,,true
-Hard,Use the crossbow shortcut south of the volcano,,agility:53|ranged:42|strength:21,,,
+Hard,Use the crossbow shortcut south of the volcano,,agility:53|ranged:42|strength:21,,,true
 Hard,Collect 5 palm leaves,Legends' Quest,woodcutting:15,,,true
 Hard,Be assigned a Slayer task by Duradel in Shilo Village,Shilo Village,combat:100|slayer:50,,,true
 Hard,Kill a metal dragon in Brimhaven Dungeon,,,,,true
@@ -42,4 +42,4 @@ Elite,Craft 56 nature runes at once,,runecrafting:91,,,
 Elite,Equip a fire cape or infernal cape in the Tzhaar city,,,,,
 Elite,Check the health of a palm tree in Brimhaven,,farming:68,,,true
 Elite,Create an antivenom potion whilst standing in the horse shoe mine,,herblore:87,,,
-Elite,Check the health of your Calquat tree patch,,farming:72,,,
+Elite,Check the health of your Calquat tree patch,,farming:72,,,true

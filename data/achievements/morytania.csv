@@ -25,11 +25,11 @@ Hard,Enter the Kharyrll portal in your POH through a Portal Chamber,Desert Treas
 Hard,Climb the advanced spike chain within Slayer Tower,,agility:71,,,true
 Hard,Harvest some watermelon from the allotment patch on Harmony Island,The Great Brain Robbery,farming:47,,,true
 Hard,Chop and burn some mahogany logs on Mos Le'Harmless,Cabin Fever,woodcutting:50|firemaking:50,,,true
-Hard,Complete a temple trek with a hard companion,In Aid of the Myreque|Darkness of Hallowvale,,,,
+Hard,Complete a temple trek with a hard companion,In Aid of the Myreque|Darkness of Hallowvale,,,,true
 Hard,Kill a cave horror,Cabin Fever,slayer:58,,80,true
 Hard,Harvest some Bittercap mushrooms from the patch in Canifis,,farming:53,,,true
 Hard,Pray at the Altar of Nature in the Nature Grotto with Piety activated,Nature Spirit|King's Ransom,prayer:70|defence:70,,,
-Hard,Use the shortcut to get to the bridge over the Salve,,agility:65,,,
+Hard,Use the shortcut to get to the bridge over the Salve,,agility:65,,,true
 Hard,Mine some mithril ore in the Abandoned Mine,Haunted Mine,mining:55,,,true
 Elite,Catch a shark in Burgh de Rott with your bare hands,In Aid of the Myreque,fishing:96|strength:76,,,
 Elite,Cremate any Shade remains on a Magic or Redwood pyre,Shades of Mort'ton,firemaking:80,,,

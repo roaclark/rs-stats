@@ -22,12 +22,12 @@ Medium,Teleport to Enakhra's Temple with the Camulet,Enakhra's Lament,,,,true
 Medium,Visit the genie,Spirits of the Elid,,,,true
 Medium,Teleport to Pollnivneach with a redirected teleport to house tablet,,construction:20,,,true
 Medium,Chop some teak logs near Uzer,,woodcutting:35,,,true
-Hard,Knock out and pickpocket a Menaphite Thug,The Feud,thieving:65,,,
+Hard,Knock out and pickpocket a Menaphite Thug,The Feud,thieving:65,,,true
 Hard,Mine some granite,,mining:45,,,true
 Hard,Refill your waterskins in the Desert using Lunar spells,Dream Mentor,magic:68,,,
 Hard,Kill the Kalphite Queen,,,,333,
 Hard,Complete a lap of the Pollnivneach Rooftop Course,,agility:70,,,true
-Hard,Slay a Dust devil in the desert cave with a Slayer helmet equipped,Desert Treasure,slayer:65|defence:10|crafting:55,,93,
+Hard,Slay a Dust devil in the desert cave with a Slayer helmet equipped,Desert Treasure,slayer:65|defence:10|crafting:55,,93,true
 Hard,Activate Ancient Magicks at the altar in the Jaldraocht Pyramid,Desert Treasure,,,,true
 Hard,Defeat a locust rider with Keris,Contact!,attack:50,,98,true
 Hard,Burn some yew logs on the Nardah Mayor's balcony,,firemaking:60,,,true
